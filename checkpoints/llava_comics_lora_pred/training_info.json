@@ -1,0 +1,15 @@
+{
+  "model": "llava-hf/llava-onevision-qwen2-7b-ov-hf",
+  "train_examples": 10000,
+  "epochs": 1,
+  "num_gpus": 1,
+  "batch_per_gpu": 4,
+  "effective_batch_size": 16,
+  "learning_rate": 2e-05,
+  "lora_r": 16,
+  "lora_alpha": 32,
+  "context_panels": 5,
+  "max_image_size": 672,
+  "train_time_minutes": 192.22300928036373,
+  "timestamp": "2025-12-16T19:53:14.901428"
+}
