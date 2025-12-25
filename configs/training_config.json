@@ -1,0 +1,99 @@
+{
+    "model": {
+        "base_model_id": "llava-hf/llava-onevision-qwen2-7b-ov-hf",
+        "torch_dtype": "float16",
+        "load_in_4bit": false,
+        "use_flash_attention_2": true
+    },
+    
+    "lora": {
+        "r": 16,
+        "lora_alpha": 32,
+        "lora_dropout": 0.05,
+        "target_modules": [
+            "q_proj",
+            "k_proj", 
+            "v_proj",
+            "o_proj",
+            "gate_proj",
+            "up_proj",
+            "down_proj"
+        ],
+        "bias": "none",
+        "task_type": "CAUSAL_LM"
+    },
+    
+    "training": {
+        "presets": {
+            "quick": {
+                "num_train_examples": 1000,
+                "num_val_examples": 200,
+                "num_epochs": 1,
+                "batch_size": 2,
+                "gradient_accumulation_steps": 4,
+                "time_limit": "04:00:00",
+                "description": "Quick test run (~30 min)"
+            },
+            "medium": {
+                "num_train_examples": 15000,
+                "num_val_examples": 1000,
+                "num_epochs": 1,
+                "batch_size": 4,
+                "gradient_accumulation_steps": 4,
+                "time_limit": "10:00:00",
+                "description": "Medium run (~2-3 hours)"
+            },
+            "full": {
+                "num_train_examples": -1,
+                "num_val_examples": 5000,
+                "num_epochs": 3,
+                "batch_size": 2,
+                "gradient_accumulation_steps": 4,
+                "time_limit": "24:00:00",
+                "description": "Full training (8+ hours)"
+            }
+        },
+        "default_preset": "medium",
+        "learning_rate": 2e-5,
+        "warmup_steps": 100,
+        "weight_decay": 0.01,
+        "max_grad_norm": 1.0,
+        "logging_steps": 10,
+        "save_steps": 500,
+        "eval_steps": 500
+    },
+    
+    "data": {
+        "context_panels": 5,
+        "max_image_size": 672,
+        "max_text_length": 400,
+        "train_val_test_split": [0.70, 0.15, 0.15],
+        "random_seed": 42
+    },
+    
+    "evaluation": {
+        "num_test_examples": 100,
+        "max_new_tokens": 200,
+        "temperature": 0.7,
+        "top_p": 0.9,
+        "metrics": ["bleu", "rouge", "bertscore"]
+    },
+    
+    "paths": {
+        "project_dir": "/scratch/bftl/hsekar/comics_project",
+        "data_dir": "data/processed",
+        "checkpoints_dir": "checkpoints",
+        "outputs_dir": "outputs",
+        "logs_dir": "logs",
+        "model_cache": "model_cache"
+    },
+    
+    "hpc": {
+        "partition": "gpuH200",
+        "nodes": 1,
+        "gpus_per_node": 1,
+        "cpus_per_task": 16,
+        "memory": "128G",
+        "account": "bftl-delta-gpu"
+    }
+}
