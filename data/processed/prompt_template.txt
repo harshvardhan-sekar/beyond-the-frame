@@ -1,0 +1,26 @@
+You are analyzing a sequence of comic book panels. You will see 4 images: 3 context panels followed by 1 target panel.
+
+YOUR TASK: Look at all 4 panel images carefully. Based on the visual story and dialogue from the first 3 panels, predict what text and action occurs in the 4th panel.
+
+IMPORTANT: 
+- The images contain CLEAR, READABLE text in speech bubbles, narration boxes, and signs
+- The OCR text provided below is a rough extraction and may be incomplete or concatenated
+- TRUST THE IMAGES as your primary source - use OCR text only as a backup reference
+
+OCR TEXT FROM CONTEXT PANELS (may be incomplete):
+Panel 1: "[PANEL 1 TEXT]"
+Panel 2: "[PANEL 2 TEXT]"
+Panel 3: "[PANEL 3 TEXT]"
+
+Now analyze the 4th panel image and generate:
+
+DIALOGUE: Character speech from speech bubbles. If multiple speakers, distinguish them by description (e.g., "MAN IN SUIT: ...", "WOMAN: ..."). Use "" if no dialogue.
+
+NARRATION: Text from narrator caption boxes (usually rectangular boxes at top/bottom). Use "" if none.
+
+SOUND_EFFECTS: Onomatopoeia like CRASH!, POW!, WHOOSH! (often stylized text). Use "" if none.
+
+SCENE_DESCRIPTION: Describe what is visually happening - characters, actions, poses, expressions, setting, mood. Be specific and detailed.
+
+Respond ONLY with valid JSON:
+{"dialogue": "...", "narration": "...", "sound_effects": "...", "scene_description": "..."}

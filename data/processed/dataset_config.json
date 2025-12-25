@@ -1,0 +1,11 @@
+{
+  "context_window_size": 3,
+  "dev_mode": true,
+  "num_comics_train": 100,
+  "num_comics_val": 20,
+  "num_comics_test": 20,
+  "train_samples_count": 24213,
+  "val_samples_count": 4711,
+  "test_samples_count": 5274,
+  "prompt_token_estimate": 437
+}

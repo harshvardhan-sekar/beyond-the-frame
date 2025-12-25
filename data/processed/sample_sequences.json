@@ -1,0 +1,848 @@
+{
+  "train_sample": [
+    {
+      "comic_no": "0",
+      "story_idx": 0,
+      "context": [
+        {
+          "comic_no": 0,
+          "page_no": 2,
+          "panel_no": 0,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/0/2_0.jpg",
+          "text": "CK HIM ,PLAS! CK HIM WN! PLASTIC MAN"
+        },
+        {
+          "comic_no": 0,
+          "page_no": 2,
+          "panel_no": 1,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/0/2_1.jpg",
+          "text": "PLASTICMAN IN HIS CAREER AS AS CRIME-FIGHTER, PLASTIC MAN, FEARLESS AGENT OF THE F.B.I., HAS ENCOUNTERED EVERY VARIETY OF LAW-BREAKER: THE GRIFTER, THE GRAFTER, THE SMUGGLER AND THE TRAITOR! BUT NEVER BEFORE HAS HE COPED WITH THE LIKES OF THE FABULOUS WEIGHTLESS WIGGINS... THE MAN WHO BROKE THE AW OF GRAVITY! I DON'T UNDERSTAND THIS, WOOZY! HE JUST WON'T FALL DOWN!"
+        },
+        {
+          "comic_no": 0,
+          "page_no": 3,
+          "panel_no": 0,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/0/3_0.jpg",
+          "text": "NOW IF I PUT THIS HERE... AND THIS ONE HERE..."
+        },
+        {
+          "comic_no": 0,
+          "page_no": 3,
+          "panel_no": 1,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/0/3_1.jpg",
+          "text": "AND ADJUST THIS SPRING..."
+        },
+        {
+          "comic_no": 0,
+          "page_no": 3,
+          "panel_no": 2,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/0/3_2.jpg",
+          "text": "THAT DOES IT! IT'S FINISHED AND READY FOR THE FINAL TEST!"
+        }
+      ],
+      "target": {
+        "comic_no": 0,
+        "page_no": 3,
+        "panel_no": 3,
+        "image_path": "/scratch/bftl/hsekar/comics_project/data/images/0/3_3.jpg",
+        "text": "I'VE BEEN WORKING ON IT FOR DAYS! I MUST GET A BREATH OF AIR AND CLEAR MY HEAD BEFORE I BEGIN MY TEST!"
+      },
+      "target_text": "I'VE BEEN WORKING ON IT FOR DAYS! I MUST GET A BREATH OF AIR AND CLEAR MY HEAD BEFORE I BEGIN MY TEST!",
+      "context_texts": [
+        "CK HIM ,PLAS! CK HIM WN! PLASTIC MAN",
+        "PLASTICMAN IN HIS CAREER AS AS CRIME-FIGHTER, PLASTIC MAN, FEARLESS AGENT OF THE F.B.I., HAS ENCOUNTERED EVERY VARIETY OF LAW-BREAKER: THE GRIFTER, THE GRAFTER, THE SMUGGLER AND THE TRAITOR! BUT NEVER BEFORE HAS HE COPED WITH THE LIKES OF THE FABULOUS WEIGHTLESS WIGGINS... THE MAN WHO BROKE THE AW OF GRAVITY! I DON'T UNDERSTAND THIS, WOOZY! HE JUST WON'T FALL DOWN!",
+        "NOW IF I PUT THIS HERE... AND THIS ONE HERE...",
+        "AND ADJUST THIS SPRING...",
+        "THAT DOES IT! IT'S FINISHED AND READY FOR THE FINAL TEST!"
+      ]
+    },
+    {
+      "comic_no": "0",
+      "story_idx": 0,
+      "context": [
+        {
+          "comic_no": 0,
+          "page_no": 2,
+          "panel_no": 1,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/0/2_1.jpg",
+          "text": "PLASTICMAN IN HIS CAREER AS AS CRIME-FIGHTER, PLASTIC MAN, FEARLESS AGENT OF THE F.B.I., HAS ENCOUNTERED EVERY VARIETY OF LAW-BREAKER: THE GRIFTER, THE GRAFTER, THE SMUGGLER AND THE TRAITOR! BUT NEVER BEFORE HAS HE COPED WITH THE LIKES OF THE FABULOUS WEIGHTLESS WIGGINS... THE MAN WHO BROKE THE AW OF GRAVITY! I DON'T UNDERSTAND THIS, WOOZY! HE JUST WON'T FALL DOWN!"
+        },
+        {
+          "comic_no": 0,
+          "page_no": 3,
+          "panel_no": 0,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/0/3_0.jpg",
+          "text": "NOW IF I PUT THIS HERE... AND THIS ONE HERE..."
+        },
+        {
+          "comic_no": 0,
+          "page_no": 3,
+          "panel_no": 1,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/0/3_1.jpg",
+          "text": "AND ADJUST THIS SPRING..."
+        },
+        {
+          "comic_no": 0,
+          "page_no": 3,
+          "panel_no": 2,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/0/3_2.jpg",
+          "text": "THAT DOES IT! IT'S FINISHED AND READY FOR THE FINAL TEST!"
+        },
+        {
+          "comic_no": 0,
+          "page_no": 3,
+          "panel_no": 3,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/0/3_3.jpg",
+          "text": "I'VE BEEN WORKING ON IT FOR DAYS! I MUST GET A BREATH OF AIR AND CLEAR MY HEAD BEFORE I BEGIN MY TEST!"
+        }
+      ],
+      "target": {
+        "comic_no": 0,
+        "page_no": 3,
+        "panel_no": 4,
+        "image_path": "/scratch/bftl/hsekar/comics_project/data/images/0/3_4.jpg",
+        "text": "AH, I FEEL BETTER ALREADY! NOW FOR A BRISK WALK TO CALM MY JANGLED NERVES!"
+      },
+      "target_text": "AH, I FEEL BETTER ALREADY! NOW FOR A BRISK WALK TO CALM MY JANGLED NERVES!",
+      "context_texts": [
+        "PLASTICMAN IN HIS CAREER AS AS CRIME-FIGHTER, PLASTIC MAN, FEARLESS AGENT OF THE F.B.I., HAS ENCOUNTERED EVERY VARIETY OF LAW-BREAKER: THE GRIFTER, THE GRAFTER, THE SMUGGLER AND THE TRAITOR! BUT NEVER BEFORE HAS HE COPED WITH THE LIKES OF THE FABULOUS WEIGHTLESS WIGGINS... THE MAN WHO BROKE THE AW OF GRAVITY! I DON'T UNDERSTAND THIS, WOOZY! HE JUST WON'T FALL DOWN!",
+        "NOW IF I PUT THIS HERE... AND THIS ONE HERE...",
+        "AND ADJUST THIS SPRING...",
+        "THAT DOES IT! IT'S FINISHED AND READY FOR THE FINAL TEST!",
+        "I'VE BEEN WORKING ON IT FOR DAYS! I MUST GET A BREATH OF AIR AND CLEAR MY HEAD BEFORE I BEGIN MY TEST!"
+      ]
+    },
+    {
+      "comic_no": "0",
+      "story_idx": 0,
+      "context": [
+        {
+          "comic_no": 0,
+          "page_no": 3,
+          "panel_no": 0,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/0/3_0.jpg",
+          "text": "NOW IF I PUT THIS HERE... AND THIS ONE HERE..."
+        },
+        {
+          "comic_no": 0,
+          "page_no": 3,
+          "panel_no": 1,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/0/3_1.jpg",
+          "text": "AND ADJUST THIS SPRING..."
+        },
+        {
+          "comic_no": 0,
+          "page_no": 3,
+          "panel_no": 2,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/0/3_2.jpg",
+          "text": "THAT DOES IT! IT'S FINISHED AND READY FOR THE FINAL TEST!"
+        },
+        {
+          "comic_no": 0,
+          "page_no": 3,
+          "panel_no": 3,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/0/3_3.jpg",
+          "text": "I'VE BEEN WORKING ON IT FOR DAYS! I MUST GET A BREATH OF AIR AND CLEAR MY HEAD BEFORE I BEGIN MY TEST!"
+        },
+        {
+          "comic_no": 0,
+          "page_no": 3,
+          "panel_no": 4,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/0/3_4.jpg",
+          "text": "AH, I FEEL BETTER ALREADY! NOW FOR A BRISK WALK TO CALM MY JANGLED NERVES!"
+        }
+      ],
+      "target": {
+        "comic_no": 0,
+        "page_no": 3,
+        "panel_no": 5,
+        "image_path": "/scratch/bftl/hsekar/comics_project/data/images/0/3_5.jpg",
+        "text": "And WEIGHTLESS WIGGINS, THUG AND PROFESSIONAL SECOND STORY MAN, WHO IS LURKING NEAR GIMMICK'S HOUSE... NOW THERE GOES A VERY THOUGHTFUL FELLOW! HE LEAVES HIS DOOR WIDE OPEN LIKE HE'S PRACTICALLY BEGGING ME TO BURGLE HIS JOINT!"
+      },
+      "target_text": "And WEIGHTLESS WIGGINS, THUG AND PROFESSIONAL SECOND STORY MAN, WHO IS LURKING NEAR GIMMICK'S HOUSE... NOW THERE GOES A VERY THOUGHTFUL FELLOW! HE LEAVES HIS DOOR WIDE OPEN LIKE HE'S PRACTICALLY BEGGING ME TO BURGLE HIS JOINT!",
+      "context_texts": [
+        "NOW IF I PUT THIS HERE... AND THIS ONE HERE...",
+        "AND ADJUST THIS SPRING...",
+        "THAT DOES IT! IT'S FINISHED AND READY FOR THE FINAL TEST!",
+        "I'VE BEEN WORKING ON IT FOR DAYS! I MUST GET A BREATH OF AIR AND CLEAR MY HEAD BEFORE I BEGIN MY TEST!",
+        "AH, I FEEL BETTER ALREADY! NOW FOR A BRISK WALK TO CALM MY JANGLED NERVES!"
+      ]
+    },
+    {
+      "comic_no": "0",
+      "story_idx": 0,
+      "context": [
+        {
+          "comic_no": 0,
+          "page_no": 3,
+          "panel_no": 1,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/0/3_1.jpg",
+          "text": "AND ADJUST THIS SPRING..."
+        },
+        {
+          "comic_no": 0,
+          "page_no": 3,
+          "panel_no": 2,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/0/3_2.jpg",
+          "text": "THAT DOES IT! IT'S FINISHED AND READY FOR THE FINAL TEST!"
+        },
+        {
+          "comic_no": 0,
+          "page_no": 3,
+          "panel_no": 3,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/0/3_3.jpg",
+          "text": "I'VE BEEN WORKING ON IT FOR DAYS! I MUST GET A BREATH OF AIR AND CLEAR MY HEAD BEFORE I BEGIN MY TEST!"
+        },
+        {
+          "comic_no": 0,
+          "page_no": 3,
+          "panel_no": 4,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/0/3_4.jpg",
+          "text": "AH, I FEEL BETTER ALREADY! NOW FOR A BRISK WALK TO CALM MY JANGLED NERVES!"
+        },
+        {
+          "comic_no": 0,
+          "page_no": 3,
+          "panel_no": 5,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/0/3_5.jpg",
+          "text": "And WEIGHTLESS WIGGINS, THUG AND PROFESSIONAL SECOND STORY MAN, WHO IS LURKING NEAR GIMMICK'S HOUSE... NOW THERE GOES A VERY THOUGHTFUL FELLOW! HE LEAVES HIS DOOR WIDE OPEN LIKE HE'S PRACTICALLY BEGGING ME TO BURGLE HIS JOINT!"
+        }
+      ],
+      "target": {
+        "comic_no": 0,
+        "page_no": 3,
+        "panel_no": 6,
+        "image_path": "/scratch/bftl/hsekar/comics_project/data/images/0/3_6.jpg",
+        "text": "AND I'M JUST TOO GLAD TO OBLIGE! WELL! WELL! IF IT ISN'T PROFESSOR GIMMICK!"
+      },
+      "target_text": "AND I'M JUST TOO GLAD TO OBLIGE! WELL! WELL! IF IT ISN'T PROFESSOR GIMMICK!",
+      "context_texts": [
+        "AND ADJUST THIS SPRING...",
+        "THAT DOES IT! IT'S FINISHED AND READY FOR THE FINAL TEST!",
+        "I'VE BEEN WORKING ON IT FOR DAYS! I MUST GET A BREATH OF AIR AND CLEAR MY HEAD BEFORE I BEGIN MY TEST!",
+        "AH, I FEEL BETTER ALREADY! NOW FOR A BRISK WALK TO CALM MY JANGLED NERVES!",
+        "And WEIGHTLESS WIGGINS, THUG AND PROFESSIONAL SECOND STORY MAN, WHO IS LURKING NEAR GIMMICK'S HOUSE... NOW THERE GOES A VERY THOUGHTFUL FELLOW! HE LEAVES HIS DOOR WIDE OPEN LIKE HE'S PRACTICALLY BEGGING ME TO BURGLE HIS JOINT!"
+      ]
+    },
+    {
+      "comic_no": "0",
+      "story_idx": 0,
+      "context": [
+        {
+          "comic_no": 0,
+          "page_no": 3,
+          "panel_no": 2,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/0/3_2.jpg",
+          "text": "THAT DOES IT! IT'S FINISHED AND READY FOR THE FINAL TEST!"
+        },
+        {
+          "comic_no": 0,
+          "page_no": 3,
+          "panel_no": 3,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/0/3_3.jpg",
+          "text": "I'VE BEEN WORKING ON IT FOR DAYS! I MUST GET A BREATH OF AIR AND CLEAR MY HEAD BEFORE I BEGIN MY TEST!"
+        },
+        {
+          "comic_no": 0,
+          "page_no": 3,
+          "panel_no": 4,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/0/3_4.jpg",
+          "text": "AH, I FEEL BETTER ALREADY! NOW FOR A BRISK WALK TO CALM MY JANGLED NERVES!"
+        },
+        {
+          "comic_no": 0,
+          "page_no": 3,
+          "panel_no": 5,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/0/3_5.jpg",
+          "text": "And WEIGHTLESS WIGGINS, THUG AND PROFESSIONAL SECOND STORY MAN, WHO IS LURKING NEAR GIMMICK'S HOUSE... NOW THERE GOES A VERY THOUGHTFUL FELLOW! HE LEAVES HIS DOOR WIDE OPEN LIKE HE'S PRACTICALLY BEGGING ME TO BURGLE HIS JOINT!"
+        },
+        {
+          "comic_no": 0,
+          "page_no": 3,
+          "panel_no": 6,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/0/3_6.jpg",
+          "text": "AND I'M JUST TOO GLAD TO OBLIGE! WELL! WELL! IF IT ISN'T PROFESSOR GIMMICK!"
+        }
+      ],
+      "target": {
+        "comic_no": 0,
+        "page_no": 4,
+        "panel_no": 0,
+        "image_path": "/scratch/bftl/hsekar/comics_project/data/images/0/4_0.jpg",
+        "text": "PLASTIC MAN, YOU HAVE ARRIVED AT A STRATEGIC TIME! NOW YOU CAN WITNESS A WORLD-SHAKING DISCOVERY! HMM! TELL ME MORE ABOUT IT!"
+      },
+      "target_text": "PLASTIC MAN, YOU HAVE ARRIVED AT A STRATEGIC TIME! NOW YOU CAN WITNESS A WORLD-SHAKING DISCOVERY! HMM! TELL ME MORE ABOUT IT!",
+      "context_texts": [
+        "THAT DOES IT! IT'S FINISHED AND READY FOR THE FINAL TEST!",
+        "I'VE BEEN WORKING ON IT FOR DAYS! I MUST GET A BREATH OF AIR AND CLEAR MY HEAD BEFORE I BEGIN MY TEST!",
+        "AH, I FEEL BETTER ALREADY! NOW FOR A BRISK WALK TO CALM MY JANGLED NERVES!",
+        "And WEIGHTLESS WIGGINS, THUG AND PROFESSIONAL SECOND STORY MAN, WHO IS LURKING NEAR GIMMICK'S HOUSE... NOW THERE GOES A VERY THOUGHTFUL FELLOW! HE LEAVES HIS DOOR WIDE OPEN LIKE HE'S PRACTICALLY BEGGING ME TO BURGLE HIS JOINT!",
+        "AND I'M JUST TOO GLAD TO OBLIGE! WELL! WELL! IF IT ISN'T PROFESSOR GIMMICK!"
+      ]
+    }
+  ],
+  "val_sample": [
+    {
+      "comic_no": "4",
+      "story_idx": 0,
+      "context": [
+        {
+          "comic_no": 4,
+          "page_no": 2,
+          "panel_no": 0,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/4/2_0.jpg",
+          "text": "MOST DANGEROUS OF ALL HE MURDERED FOR MONEY, COLDLY MEASURING EACH VICTIM IN TERMS OF DOLLARS AND CENTS. KILLING WAS HIS CAREER! TO THE AUTHORITIES, FAMI- LIAR WITH EVERY TYPE OF DEATH AND DISASTER, THIS MAN WAS A SYMBOL OF THE MONEY-MURDERER... THE"
+        },
+        {
+          "comic_no": 4,
+          "page_no": 2,
+          "panel_no": 1,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/4/2_1.jpg",
+          "text": "WE MUST MEASURE DOLLARS CAREER LIAR WAS DISASTER OF THE MOST"
+        },
+        {
+          "comic_no": 4,
+          "page_no": 2,
+          "panel_no": 2,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/4/2_2.jpg",
+          "text": "HE MURDERED FOR MONEY, COLDLY MEASURING EACH VICTIM IN TERMS OF DOLLARS AND CENTS. KILLING WAS HIS CAREER! TO THE AUTHORITIES, FAMI- LIAR WITH EVERY TYPE OF DEATH AND DISASTER, THIS MAN WAS A SYMBOL OF THE MONEY-MURDERER... THE MOST DANGEROUS OF ALL!"
+        },
+        {
+          "comic_no": 4,
+          "page_no": 2,
+          "panel_no": 3,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/4/2_3.jpg",
+          "text": "...AND SO YOU YOUNG MEN WILL SOON BE FULL FLEDGED OFFICERS OF THE LAW. NOW, HAVE YOU ANY QUESTIONS? WELL, SIR, YOU'VE TOLD US THE REASONS PEOPLE COMMIT MURDER.. GREED, PASSION, HATRED AND SO FORTH.... BUT I'D LIKE TO ASK ONE MORE THING. WHICH TYPE OF KILLER DO YOU CONSIDER THE MOST DANGEROUS?"
+        },
+        {
+          "comic_no": 4,
+          "page_no": 2,
+          "panel_no": 4,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/4/2_4.jpg",
+          "text": "THAT'S EASY, AT LEAST FROM A PROFESSIONAL VIEWPOINT. THE HARDEST TO CATCH ARE THE MONEY MURDERERS... THOSE WHO MAKE KILLING A BUSINESS. YOU SEE, THEY'RE COMPLETELY UNKNOWN TO THE VICTIM WHICH MAKES TRACING THEM DIFFICULT. THEN TOO, SINCE PASSION IS NOT INVOLVED, THEY OFTEN KILL CLEVERLY, KEEPING A CLEAR HEAD AND AVOIDING MISTAKES. BUT BELIEVE ME... THEY ALL MAKE SOME MISTAKES, AND ARE CAUGHT EVENTUALLY!"
+        }
+      ],
+      "target": {
+        "comic_no": 4,
+        "page_no": 3,
+        "panel_no": 0,
+        "image_path": "/scratch/bftl/hsekar/comics_project/data/images/4/3_0.jpg",
+        "text": "LET ME ILLUSTRATE FROM A CASE I WORKED ON YEARS AGO. WE FIRST HEARD OF THIS KILLER THROUGH THE DISAPPEARANCE OF A YOUNG GIRL. HE PROBABLY HAD KILLED BEFORE THIS, BUT WE DO NOT KNOW. ANYWAY, THIS GIRL CAME TO THE CITY WITH HER SISTER. THEY CAME FROM A WEALTHY FARM FAMILY, LOOKING FOR CAREERS.... HERE WHER MOD OF"
+      },
+      "target_text": "LET ME ILLUSTRATE FROM A CASE I WORKED ON YEARS AGO. WE FIRST HEARD OF THIS KILLER THROUGH THE DISAPPEARANCE OF A YOUNG GIRL. HE PROBABLY HAD KILLED BEFORE THIS, BUT WE DO NOT KNOW. ANYWAY, THIS GIRL CAME TO THE CITY WITH HER SISTER. THEY CAME FROM A WEALTHY FARM FAMILY, LOOKING FOR CAREERS.... HERE WHER MOD OF",
+      "context_texts": [
+        "MOST DANGEROUS OF ALL HE MURDERED FOR MONEY, COLDLY MEASURING EACH VICTIM IN TERMS OF DOLLARS AND CENTS. KILLING WAS HIS CAREER! TO THE AUTHORITIES, FAMI- LIAR WITH EVERY TYPE OF DEATH AND DISASTER, THIS MAN WAS A SYMBOL OF THE MONEY-MURDERER... THE",
+        "WE MUST MEASURE DOLLARS CAREER LIAR WAS DISASTER OF THE MOST",
+        "HE MURDERED FOR MONEY, COLDLY MEASURING EACH VICTIM IN TERMS OF DOLLARS AND CENTS. KILLING WAS HIS CAREER! TO THE AUTHORITIES, FAMI- LIAR WITH EVERY TYPE OF DEATH AND DISASTER, THIS MAN WAS A SYMBOL OF THE MONEY-MURDERER... THE MOST DANGEROUS OF ALL!",
+        "...AND SO YOU YOUNG MEN WILL SOON BE FULL FLEDGED OFFICERS OF THE LAW. NOW, HAVE YOU ANY QUESTIONS? WELL, SIR, YOU'VE TOLD US THE REASONS PEOPLE COMMIT MURDER.. GREED, PASSION, HATRED AND SO FORTH.... BUT I'D LIKE TO ASK ONE MORE THING. WHICH TYPE OF KILLER DO YOU CONSIDER THE MOST DANGEROUS?",
+        "THAT'S EASY, AT LEAST FROM A PROFESSIONAL VIEWPOINT. THE HARDEST TO CATCH ARE THE MONEY MURDERERS... THOSE WHO MAKE KILLING A BUSINESS. YOU SEE, THEY'RE COMPLETELY UNKNOWN TO THE VICTIM WHICH MAKES TRACING THEM DIFFICULT. THEN TOO, SINCE PASSION IS NOT INVOLVED, THEY OFTEN KILL CLEVERLY, KEEPING A CLEAR HEAD AND AVOIDING MISTAKES. BUT BELIEVE ME... THEY ALL MAKE SOME MISTAKES, AND ARE CAUGHT EVENTUALLY!"
+      ]
+    },
+    {
+      "comic_no": "4",
+      "story_idx": 0,
+      "context": [
+        {
+          "comic_no": 4,
+          "page_no": 2,
+          "panel_no": 1,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/4/2_1.jpg",
+          "text": "WE MUST MEASURE DOLLARS CAREER LIAR WAS DISASTER OF THE MOST"
+        },
+        {
+          "comic_no": 4,
+          "page_no": 2,
+          "panel_no": 2,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/4/2_2.jpg",
+          "text": "HE MURDERED FOR MONEY, COLDLY MEASURING EACH VICTIM IN TERMS OF DOLLARS AND CENTS. KILLING WAS HIS CAREER! TO THE AUTHORITIES, FAMI- LIAR WITH EVERY TYPE OF DEATH AND DISASTER, THIS MAN WAS A SYMBOL OF THE MONEY-MURDERER... THE MOST DANGEROUS OF ALL!"
+        },
+        {
+          "comic_no": 4,
+          "page_no": 2,
+          "panel_no": 3,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/4/2_3.jpg",
+          "text": "...AND SO YOU YOUNG MEN WILL SOON BE FULL FLEDGED OFFICERS OF THE LAW. NOW, HAVE YOU ANY QUESTIONS? WELL, SIR, YOU'VE TOLD US THE REASONS PEOPLE COMMIT MURDER.. GREED, PASSION, HATRED AND SO FORTH.... BUT I'D LIKE TO ASK ONE MORE THING. WHICH TYPE OF KILLER DO YOU CONSIDER THE MOST DANGEROUS?"
+        },
+        {
+          "comic_no": 4,
+          "page_no": 2,
+          "panel_no": 4,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/4/2_4.jpg",
+          "text": "THAT'S EASY, AT LEAST FROM A PROFESSIONAL VIEWPOINT. THE HARDEST TO CATCH ARE THE MONEY MURDERERS... THOSE WHO MAKE KILLING A BUSINESS. YOU SEE, THEY'RE COMPLETELY UNKNOWN TO THE VICTIM WHICH MAKES TRACING THEM DIFFICULT. THEN TOO, SINCE PASSION IS NOT INVOLVED, THEY OFTEN KILL CLEVERLY, KEEPING A CLEAR HEAD AND AVOIDING MISTAKES. BUT BELIEVE ME... THEY ALL MAKE SOME MISTAKES, AND ARE CAUGHT EVENTUALLY!"
+        },
+        {
+          "comic_no": 4,
+          "page_no": 3,
+          "panel_no": 0,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/4/3_0.jpg",
+          "text": "LET ME ILLUSTRATE FROM A CASE I WORKED ON YEARS AGO. WE FIRST HEARD OF THIS KILLER THROUGH THE DISAPPEARANCE OF A YOUNG GIRL. HE PROBABLY HAD KILLED BEFORE THIS, BUT WE DO NOT KNOW. ANYWAY, THIS GIRL CAME TO THE CITY WITH HER SISTER. THEY CAME FROM A WEALTHY FARM FAMILY, LOOKING FOR CAREERS.... HERE WHER MOD OF"
+        }
+      ],
+      "target": {
+        "comic_no": 4,
+        "page_no": 3,
+        "panel_no": 1,
+        "image_path": "/scratch/bftl/hsekar/comics_project/data/images/4/3_1.jpg",
+        "text": "HIS, SGIRL THEY Y HERE IT IS... THIS IS WHERE THE CONWAY MODEL AGENCY OFFICES ARE LOCATED. OH, JEAN, WOULDN'T IT BE EXCITING IF HE HIRED US?"
+      },
+      "target_text": "HIS, SGIRL THEY Y HERE IT IS... THIS IS WHERE THE CONWAY MODEL AGENCY OFFICES ARE LOCATED. OH, JEAN, WOULDN'T IT BE EXCITING IF HE HIRED US?",
+      "context_texts": [
+        "WE MUST MEASURE DOLLARS CAREER LIAR WAS DISASTER OF THE MOST",
+        "HE MURDERED FOR MONEY, COLDLY MEASURING EACH VICTIM IN TERMS OF DOLLARS AND CENTS. KILLING WAS HIS CAREER! TO THE AUTHORITIES, FAMI- LIAR WITH EVERY TYPE OF DEATH AND DISASTER, THIS MAN WAS A SYMBOL OF THE MONEY-MURDERER... THE MOST DANGEROUS OF ALL!",
+        "...AND SO YOU YOUNG MEN WILL SOON BE FULL FLEDGED OFFICERS OF THE LAW. NOW, HAVE YOU ANY QUESTIONS? WELL, SIR, YOU'VE TOLD US THE REASONS PEOPLE COMMIT MURDER.. GREED, PASSION, HATRED AND SO FORTH.... BUT I'D LIKE TO ASK ONE MORE THING. WHICH TYPE OF KILLER DO YOU CONSIDER THE MOST DANGEROUS?",
+        "THAT'S EASY, AT LEAST FROM A PROFESSIONAL VIEWPOINT. THE HARDEST TO CATCH ARE THE MONEY MURDERERS... THOSE WHO MAKE KILLING A BUSINESS. YOU SEE, THEY'RE COMPLETELY UNKNOWN TO THE VICTIM WHICH MAKES TRACING THEM DIFFICULT. THEN TOO, SINCE PASSION IS NOT INVOLVED, THEY OFTEN KILL CLEVERLY, KEEPING A CLEAR HEAD AND AVOIDING MISTAKES. BUT BELIEVE ME... THEY ALL MAKE SOME MISTAKES, AND ARE CAUGHT EVENTUALLY!",
+        "LET ME ILLUSTRATE FROM A CASE I WORKED ON YEARS AGO. WE FIRST HEARD OF THIS KILLER THROUGH THE DISAPPEARANCE OF A YOUNG GIRL. HE PROBABLY HAD KILLED BEFORE THIS, BUT WE DO NOT KNOW. ANYWAY, THIS GIRL CAME TO THE CITY WITH HER SISTER. THEY CAME FROM A WEALTHY FARM FAMILY, LOOKING FOR CAREERS.... HERE WHER MOD OF"
+      ]
+    },
+    {
+      "comic_no": "4",
+      "story_idx": 0,
+      "context": [
+        {
+          "comic_no": 4,
+          "page_no": 2,
+          "panel_no": 2,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/4/2_2.jpg",
+          "text": "HE MURDERED FOR MONEY, COLDLY MEASURING EACH VICTIM IN TERMS OF DOLLARS AND CENTS. KILLING WAS HIS CAREER! TO THE AUTHORITIES, FAMI- LIAR WITH EVERY TYPE OF DEATH AND DISASTER, THIS MAN WAS A SYMBOL OF THE MONEY-MURDERER... THE MOST DANGEROUS OF ALL!"
+        },
+        {
+          "comic_no": 4,
+          "page_no": 2,
+          "panel_no": 3,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/4/2_3.jpg",
+          "text": "...AND SO YOU YOUNG MEN WILL SOON BE FULL FLEDGED OFFICERS OF THE LAW. NOW, HAVE YOU ANY QUESTIONS? WELL, SIR, YOU'VE TOLD US THE REASONS PEOPLE COMMIT MURDER.. GREED, PASSION, HATRED AND SO FORTH.... BUT I'D LIKE TO ASK ONE MORE THING. WHICH TYPE OF KILLER DO YOU CONSIDER THE MOST DANGEROUS?"
+        },
+        {
+          "comic_no": 4,
+          "page_no": 2,
+          "panel_no": 4,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/4/2_4.jpg",
+          "text": "THAT'S EASY, AT LEAST FROM A PROFESSIONAL VIEWPOINT. THE HARDEST TO CATCH ARE THE MONEY MURDERERS... THOSE WHO MAKE KILLING A BUSINESS. YOU SEE, THEY'RE COMPLETELY UNKNOWN TO THE VICTIM WHICH MAKES TRACING THEM DIFFICULT. THEN TOO, SINCE PASSION IS NOT INVOLVED, THEY OFTEN KILL CLEVERLY, KEEPING A CLEAR HEAD AND AVOIDING MISTAKES. BUT BELIEVE ME... THEY ALL MAKE SOME MISTAKES, AND ARE CAUGHT EVENTUALLY!"
+        },
+        {
+          "comic_no": 4,
+          "page_no": 3,
+          "panel_no": 0,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/4/3_0.jpg",
+          "text": "LET ME ILLUSTRATE FROM A CASE I WORKED ON YEARS AGO. WE FIRST HEARD OF THIS KILLER THROUGH THE DISAPPEARANCE OF A YOUNG GIRL. HE PROBABLY HAD KILLED BEFORE THIS, BUT WE DO NOT KNOW. ANYWAY, THIS GIRL CAME TO THE CITY WITH HER SISTER. THEY CAME FROM A WEALTHY FARM FAMILY, LOOKING FOR CAREERS.... HERE WHER MOD OF"
+        },
+        {
+          "comic_no": 4,
+          "page_no": 3,
+          "panel_no": 1,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/4/3_1.jpg",
+          "text": "HIS, SGIRL THEY Y HERE IT IS... THIS IS WHERE THE CONWAY MODEL AGENCY OFFICES ARE LOCATED. OH, JEAN, WOULDN'T IT BE EXCITING IF HE HIRED US?"
+        }
+      ],
+      "target": {
+        "comic_no": 4,
+        "page_no": 3,
+        "panel_no": 2,
+        "image_path": "/scratch/bftl/hsekar/comics_project/data/images/4/3_2.jpg",
+        "text": "OUR KILLER ENTERED THE PICTURE ON THEIR FIRST DAY IN TOWN... WELL, JANET...ALL WE CAN DO IS HOPE THAT MR.CONWAY LIKES US! EXCUSE ME! I COULDN'T HELP OVERHEARING YOUR CONVERSATION, MISS...."
+      },
+      "target_text": "OUR KILLER ENTERED THE PICTURE ON THEIR FIRST DAY IN TOWN... WELL, JANET...ALL WE CAN DO IS HOPE THAT MR.CONWAY LIKES US! EXCUSE ME! I COULDN'T HELP OVERHEARING YOUR CONVERSATION, MISS....",
+      "context_texts": [
+        "HE MURDERED FOR MONEY, COLDLY MEASURING EACH VICTIM IN TERMS OF DOLLARS AND CENTS. KILLING WAS HIS CAREER! TO THE AUTHORITIES, FAMI- LIAR WITH EVERY TYPE OF DEATH AND DISASTER, THIS MAN WAS A SYMBOL OF THE MONEY-MURDERER... THE MOST DANGEROUS OF ALL!",
+        "...AND SO YOU YOUNG MEN WILL SOON BE FULL FLEDGED OFFICERS OF THE LAW. NOW, HAVE YOU ANY QUESTIONS? WELL, SIR, YOU'VE TOLD US THE REASONS PEOPLE COMMIT MURDER.. GREED, PASSION, HATRED AND SO FORTH.... BUT I'D LIKE TO ASK ONE MORE THING. WHICH TYPE OF KILLER DO YOU CONSIDER THE MOST DANGEROUS?",
+        "THAT'S EASY, AT LEAST FROM A PROFESSIONAL VIEWPOINT. THE HARDEST TO CATCH ARE THE MONEY MURDERERS... THOSE WHO MAKE KILLING A BUSINESS. YOU SEE, THEY'RE COMPLETELY UNKNOWN TO THE VICTIM WHICH MAKES TRACING THEM DIFFICULT. THEN TOO, SINCE PASSION IS NOT INVOLVED, THEY OFTEN KILL CLEVERLY, KEEPING A CLEAR HEAD AND AVOIDING MISTAKES. BUT BELIEVE ME... THEY ALL MAKE SOME MISTAKES, AND ARE CAUGHT EVENTUALLY!",
+        "LET ME ILLUSTRATE FROM A CASE I WORKED ON YEARS AGO. WE FIRST HEARD OF THIS KILLER THROUGH THE DISAPPEARANCE OF A YOUNG GIRL. HE PROBABLY HAD KILLED BEFORE THIS, BUT WE DO NOT KNOW. ANYWAY, THIS GIRL CAME TO THE CITY WITH HER SISTER. THEY CAME FROM A WEALTHY FARM FAMILY, LOOKING FOR CAREERS.... HERE WHER MOD OF",
+        "HIS, SGIRL THEY Y HERE IT IS... THIS IS WHERE THE CONWAY MODEL AGENCY OFFICES ARE LOCATED. OH, JEAN, WOULDN'T IT BE EXCITING IF HE HIRED US?"
+      ]
+    },
+    {
+      "comic_no": "4",
+      "story_idx": 0,
+      "context": [
+        {
+          "comic_no": 4,
+          "page_no": 2,
+          "panel_no": 3,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/4/2_3.jpg",
+          "text": "...AND SO YOU YOUNG MEN WILL SOON BE FULL FLEDGED OFFICERS OF THE LAW. NOW, HAVE YOU ANY QUESTIONS? WELL, SIR, YOU'VE TOLD US THE REASONS PEOPLE COMMIT MURDER.. GREED, PASSION, HATRED AND SO FORTH.... BUT I'D LIKE TO ASK ONE MORE THING. WHICH TYPE OF KILLER DO YOU CONSIDER THE MOST DANGEROUS?"
+        },
+        {
+          "comic_no": 4,
+          "page_no": 2,
+          "panel_no": 4,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/4/2_4.jpg",
+          "text": "THAT'S EASY, AT LEAST FROM A PROFESSIONAL VIEWPOINT. THE HARDEST TO CATCH ARE THE MONEY MURDERERS... THOSE WHO MAKE KILLING A BUSINESS. YOU SEE, THEY'RE COMPLETELY UNKNOWN TO THE VICTIM WHICH MAKES TRACING THEM DIFFICULT. THEN TOO, SINCE PASSION IS NOT INVOLVED, THEY OFTEN KILL CLEVERLY, KEEPING A CLEAR HEAD AND AVOIDING MISTAKES. BUT BELIEVE ME... THEY ALL MAKE SOME MISTAKES, AND ARE CAUGHT EVENTUALLY!"
+        },
+        {
+          "comic_no": 4,
+          "page_no": 3,
+          "panel_no": 0,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/4/3_0.jpg",
+          "text": "LET ME ILLUSTRATE FROM A CASE I WORKED ON YEARS AGO. WE FIRST HEARD OF THIS KILLER THROUGH THE DISAPPEARANCE OF A YOUNG GIRL. HE PROBABLY HAD KILLED BEFORE THIS, BUT WE DO NOT KNOW. ANYWAY, THIS GIRL CAME TO THE CITY WITH HER SISTER. THEY CAME FROM A WEALTHY FARM FAMILY, LOOKING FOR CAREERS.... HERE WHER MOD OF"
+        },
+        {
+          "comic_no": 4,
+          "page_no": 3,
+          "panel_no": 1,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/4/3_1.jpg",
+          "text": "HIS, SGIRL THEY Y HERE IT IS... THIS IS WHERE THE CONWAY MODEL AGENCY OFFICES ARE LOCATED. OH, JEAN, WOULDN'T IT BE EXCITING IF HE HIRED US?"
+        },
+        {
+          "comic_no": 4,
+          "page_no": 3,
+          "panel_no": 2,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/4/3_2.jpg",
+          "text": "OUR KILLER ENTERED THE PICTURE ON THEIR FIRST DAY IN TOWN... WELL, JANET...ALL WE CAN DO IS HOPE THAT MR.CONWAY LIKES US! EXCUSE ME! I COULDN'T HELP OVERHEARING YOUR CONVERSATION, MISS...."
+        }
+      ],
+      "target": {
+        "comic_no": 4,
+        "page_no": 3,
+        "panel_no": 3,
+        "image_path": "/scratch/bftl/hsekar/comics_project/data/images/4/3_3.jpg",
+        "text": "I HAPPEN TO BE ONE OF CONWAY'S ASSISTANTS, AND... WELL, I LIKE YOUR LOOKS. PERHAPS I CAN HELP YOU GET THOSE JOBS! OH MY GOOD NESS! I MEAN... WHY THAT WOULD BE WONDERFUL!"
+      },
+      "target_text": "I HAPPEN TO BE ONE OF CONWAY'S ASSISTANTS, AND... WELL, I LIKE YOUR LOOKS. PERHAPS I CAN HELP YOU GET THOSE JOBS! OH MY GOOD NESS! I MEAN... WHY THAT WOULD BE WONDERFUL!",
+      "context_texts": [
+        "...AND SO YOU YOUNG MEN WILL SOON BE FULL FLEDGED OFFICERS OF THE LAW. NOW, HAVE YOU ANY QUESTIONS? WELL, SIR, YOU'VE TOLD US THE REASONS PEOPLE COMMIT MURDER.. GREED, PASSION, HATRED AND SO FORTH.... BUT I'D LIKE TO ASK ONE MORE THING. WHICH TYPE OF KILLER DO YOU CONSIDER THE MOST DANGEROUS?",
+        "THAT'S EASY, AT LEAST FROM A PROFESSIONAL VIEWPOINT. THE HARDEST TO CATCH ARE THE MONEY MURDERERS... THOSE WHO MAKE KILLING A BUSINESS. YOU SEE, THEY'RE COMPLETELY UNKNOWN TO THE VICTIM WHICH MAKES TRACING THEM DIFFICULT. THEN TOO, SINCE PASSION IS NOT INVOLVED, THEY OFTEN KILL CLEVERLY, KEEPING A CLEAR HEAD AND AVOIDING MISTAKES. BUT BELIEVE ME... THEY ALL MAKE SOME MISTAKES, AND ARE CAUGHT EVENTUALLY!",
+        "LET ME ILLUSTRATE FROM A CASE I WORKED ON YEARS AGO. WE FIRST HEARD OF THIS KILLER THROUGH THE DISAPPEARANCE OF A YOUNG GIRL. HE PROBABLY HAD KILLED BEFORE THIS, BUT WE DO NOT KNOW. ANYWAY, THIS GIRL CAME TO THE CITY WITH HER SISTER. THEY CAME FROM A WEALTHY FARM FAMILY, LOOKING FOR CAREERS.... HERE WHER MOD OF",
+        "HIS, SGIRL THEY Y HERE IT IS... THIS IS WHERE THE CONWAY MODEL AGENCY OFFICES ARE LOCATED. OH, JEAN, WOULDN'T IT BE EXCITING IF HE HIRED US?",
+        "OUR KILLER ENTERED THE PICTURE ON THEIR FIRST DAY IN TOWN... WELL, JANET...ALL WE CAN DO IS HOPE THAT MR.CONWAY LIKES US! EXCUSE ME! I COULDN'T HELP OVERHEARING YOUR CONVERSATION, MISS...."
+      ]
+    },
+    {
+      "comic_no": "4",
+      "story_idx": 0,
+      "context": [
+        {
+          "comic_no": 4,
+          "page_no": 2,
+          "panel_no": 4,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/4/2_4.jpg",
+          "text": "THAT'S EASY, AT LEAST FROM A PROFESSIONAL VIEWPOINT. THE HARDEST TO CATCH ARE THE MONEY MURDERERS... THOSE WHO MAKE KILLING A BUSINESS. YOU SEE, THEY'RE COMPLETELY UNKNOWN TO THE VICTIM WHICH MAKES TRACING THEM DIFFICULT. THEN TOO, SINCE PASSION IS NOT INVOLVED, THEY OFTEN KILL CLEVERLY, KEEPING A CLEAR HEAD AND AVOIDING MISTAKES. BUT BELIEVE ME... THEY ALL MAKE SOME MISTAKES, AND ARE CAUGHT EVENTUALLY!"
+        },
+        {
+          "comic_no": 4,
+          "page_no": 3,
+          "panel_no": 0,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/4/3_0.jpg",
+          "text": "LET ME ILLUSTRATE FROM A CASE I WORKED ON YEARS AGO. WE FIRST HEARD OF THIS KILLER THROUGH THE DISAPPEARANCE OF A YOUNG GIRL. HE PROBABLY HAD KILLED BEFORE THIS, BUT WE DO NOT KNOW. ANYWAY, THIS GIRL CAME TO THE CITY WITH HER SISTER. THEY CAME FROM A WEALTHY FARM FAMILY, LOOKING FOR CAREERS.... HERE WHER MOD OF"
+        },
+        {
+          "comic_no": 4,
+          "page_no": 3,
+          "panel_no": 1,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/4/3_1.jpg",
+          "text": "HIS, SGIRL THEY Y HERE IT IS... THIS IS WHERE THE CONWAY MODEL AGENCY OFFICES ARE LOCATED. OH, JEAN, WOULDN'T IT BE EXCITING IF HE HIRED US?"
+        },
+        {
+          "comic_no": 4,
+          "page_no": 3,
+          "panel_no": 2,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/4/3_2.jpg",
+          "text": "OUR KILLER ENTERED THE PICTURE ON THEIR FIRST DAY IN TOWN... WELL, JANET...ALL WE CAN DO IS HOPE THAT MR.CONWAY LIKES US! EXCUSE ME! I COULDN'T HELP OVERHEARING YOUR CONVERSATION, MISS...."
+        },
+        {
+          "comic_no": 4,
+          "page_no": 3,
+          "panel_no": 3,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/4/3_3.jpg",
+          "text": "I HAPPEN TO BE ONE OF CONWAY'S ASSISTANTS, AND... WELL, I LIKE YOUR LOOKS. PERHAPS I CAN HELP YOU GET THOSE JOBS! OH MY GOOD NESS! I MEAN... WHY THAT WOULD BE WONDERFUL!"
+        }
+      ],
+      "target": {
+        "comic_no": 4,
+        "page_no": 3,
+        "panel_no": 4,
+        "image_path": "/scratch/bftl/hsekar/comics_project/data/images/4/3_4.jpg",
+        "text": "THE TWO GIRLS FELL FOR THE HANDSOME STRANGER'S APPROACH... AND SO YOU SEE THE WAY TO IMPRESS MR. CONWAY IS TO MEET HIM OUTSIDE THE OFFICE. I HAPPEN TO BE HAVING DINNER WITH HIM TONIGHT. NOW, IF I WERE TO TAKE YOU, JANET, AND THEN ANOTHER NIGHT ARRANGE A SIMILAR DATE WITH JEAN... WELL, SHALL I CALL FOR YOU ABOUT EIGHT? OH, ANI THA YC SO M CONWAY MODEL"
+      },
+      "target_text": "THE TWO GIRLS FELL FOR THE HANDSOME STRANGER'S APPROACH... AND SO YOU SEE THE WAY TO IMPRESS MR. CONWAY IS TO MEET HIM OUTSIDE THE OFFICE. I HAPPEN TO BE HAVING DINNER WITH HIM TONIGHT. NOW, IF I WERE TO TAKE YOU, JANET, AND THEN ANOTHER NIGHT ARRANGE A SIMILAR DATE WITH JEAN... WELL, SHALL I CALL FOR YOU ABOUT EIGHT? OH, ANI THA YC SO M CONWAY MODEL",
+      "context_texts": [
+        "THAT'S EASY, AT LEAST FROM A PROFESSIONAL VIEWPOINT. THE HARDEST TO CATCH ARE THE MONEY MURDERERS... THOSE WHO MAKE KILLING A BUSINESS. YOU SEE, THEY'RE COMPLETELY UNKNOWN TO THE VICTIM WHICH MAKES TRACING THEM DIFFICULT. THEN TOO, SINCE PASSION IS NOT INVOLVED, THEY OFTEN KILL CLEVERLY, KEEPING A CLEAR HEAD AND AVOIDING MISTAKES. BUT BELIEVE ME... THEY ALL MAKE SOME MISTAKES, AND ARE CAUGHT EVENTUALLY!",
+        "LET ME ILLUSTRATE FROM A CASE I WORKED ON YEARS AGO. WE FIRST HEARD OF THIS KILLER THROUGH THE DISAPPEARANCE OF A YOUNG GIRL. HE PROBABLY HAD KILLED BEFORE THIS, BUT WE DO NOT KNOW. ANYWAY, THIS GIRL CAME TO THE CITY WITH HER SISTER. THEY CAME FROM A WEALTHY FARM FAMILY, LOOKING FOR CAREERS.... HERE WHER MOD OF",
+        "HIS, SGIRL THEY Y HERE IT IS... THIS IS WHERE THE CONWAY MODEL AGENCY OFFICES ARE LOCATED. OH, JEAN, WOULDN'T IT BE EXCITING IF HE HIRED US?",
+        "OUR KILLER ENTERED THE PICTURE ON THEIR FIRST DAY IN TOWN... WELL, JANET...ALL WE CAN DO IS HOPE THAT MR.CONWAY LIKES US! EXCUSE ME! I COULDN'T HELP OVERHEARING YOUR CONVERSATION, MISS....",
+        "I HAPPEN TO BE ONE OF CONWAY'S ASSISTANTS, AND... WELL, I LIKE YOUR LOOKS. PERHAPS I CAN HELP YOU GET THOSE JOBS! OH MY GOOD NESS! I MEAN... WHY THAT WOULD BE WONDERFUL!"
+      ]
+    }
+  ],
+  "test_sample": [
+    {
+      "comic_no": "1",
+      "story_idx": 10,
+      "context": [
+        {
+          "comic_no": 1,
+          "page_no": 47,
+          "panel_no": 0,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/1/47_0.jpg",
+          "text": ""
+        },
+        {
+          "comic_no": 1,
+          "page_no": 47,
+          "panel_no": 1,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/1/47_1.jpg",
+          "text": "IN 1962 WITH A ROCKET LAND ING ON THE MOON. IN 1977, MAN SET FOOT ON MARS. A CENTURY LATER ON ALPHA CENTAURI, THE NEAREST STAF BY 3750, MANY STAR CLUSTERS HAD BEEN EXPLORED, THEIR PLANETARY SYSTEMS JOINED WITH EARTH FEDERATION. TO POLICE THIS VAST AREA OF BILLIONS OF MILES OF EMPTY SPACE-TO GUARD THE TREAS- URE-LADEN CARGO SPACERS, THE STAR PATROL WAS BORN. DAVE KENTON WAS A STAR PATROL MAN, HIS HAND WAS ADEPT WITH SWORD AND GUN-HE WAS READY TO DIE IN ORDER TO SMASH THE POWER OF..... THE CORSAIRS FROM THE COALSACK!"
+        },
+        {
+          "comic_no": 1,
+          "page_no": 47,
+          "panel_no": 2,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/1/47_2.jpg",
+          "text": "SACK SINCE 1950, HAVE BEEN RAIDINS THE TREASURE-HEAVY SPACERS... HEAVE OVER, BOYS! WE'RE ALMOST ABOVE HER!"
+        },
+        {
+          "comic_no": 1,
+          "page_no": 47,
+          "panel_no": 3,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/1/47_3.jpg",
+          "text": "THE SCREAMS AND MOANS OF THEIR VICTIMS SOUNDED FOR A TIME ABOVE THE WHIRR OF THE PIRATES' BEAM-GUNS- AND THEN SILENCE FELL, AND THE LOOTING BEGAN... SURRENDER NOW- AND YOU LIVE! FIGHT- AND DIE!"
+        },
+        {
+          "comic_no": 1,
+          "page_no": 48,
+          "panel_no": 0,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/1/48_0.jpg",
+          "text": "ON THE TINY PLANET OF FLAYAL-HUNDREDS OF LIGHT YEARS FROM THE EARTH-YOUNG STAR PATROLMAN DAVE KENTON RECEIVES WORD OF THE SPACE DISASTER... THE COALSACK PIRATES-AGAIN! GOT THE ANNUAL METAL RUN FROM DEBEB! THREE BILLIONS CREDITS WORTH OF GOLD AND PLATINUM- GONE!"
+        }
+      ],
+      "target": {
+        "comic_no": 1,
+        "page_no": 48,
+        "panel_no": 1,
+        "image_path": "/scratch/bftl/hsekar/comics_project/data/images/1/48_1.jpg",
+        "text": "JUST GOT MY ORDERS, SWEETHEART! I'M ROCKET- TING UP TONIGHT! SEALED ORDERS-TO GET THOSE PIRATES! ONE MAN- AGAINST A FLEET OF SPACE ROVERS?"
+      },
+      "target_text": "JUST GOT MY ORDERS, SWEETHEART! I'M ROCKET- TING UP TONIGHT! SEALED ORDERS-TO GET THOSE PIRATES! ONE MAN- AGAINST A FLEET OF SPACE ROVERS?",
+      "context_texts": [
+        "",
+        "IN 1962 WITH A ROCKET LAND ING ON THE MOON. IN 1977, MAN SET FOOT ON MARS. A CENTURY LATER ON ALPHA CENTAURI, THE NEAREST STAF BY 3750, MANY STAR CLUSTERS HAD BEEN EXPLORED, THEIR PLANETARY SYSTEMS JOINED WITH EARTH FEDERATION. TO POLICE THIS VAST AREA OF BILLIONS OF MILES OF EMPTY SPACE-TO GUARD THE TREAS- URE-LADEN CARGO SPACERS, THE STAR PATROL WAS BORN. DAVE KENTON WAS A STAR PATROL MAN, HIS HAND WAS ADEPT WITH SWORD AND GUN-HE WAS READY TO DIE IN ORDER TO SMASH THE POWER OF..... THE CORSAIRS FROM THE COALSACK!",
+        "SACK SINCE 1950, HAVE BEEN RAIDINS THE TREASURE-HEAVY SPACERS... HEAVE OVER, BOYS! WE'RE ALMOST ABOVE HER!",
+        "THE SCREAMS AND MOANS OF THEIR VICTIMS SOUNDED FOR A TIME ABOVE THE WHIRR OF THE PIRATES' BEAM-GUNS- AND THEN SILENCE FELL, AND THE LOOTING BEGAN... SURRENDER NOW- AND YOU LIVE! FIGHT- AND DIE!",
+        "ON THE TINY PLANET OF FLAYAL-HUNDREDS OF LIGHT YEARS FROM THE EARTH-YOUNG STAR PATROLMAN DAVE KENTON RECEIVES WORD OF THE SPACE DISASTER... THE COALSACK PIRATES-AGAIN! GOT THE ANNUAL METAL RUN FROM DEBEB! THREE BILLIONS CREDITS WORTH OF GOLD AND PLATINUM- GONE!"
+      ]
+    },
+    {
+      "comic_no": "1",
+      "story_idx": 10,
+      "context": [
+        {
+          "comic_no": 1,
+          "page_no": 47,
+          "panel_no": 1,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/1/47_1.jpg",
+          "text": "IN 1962 WITH A ROCKET LAND ING ON THE MOON. IN 1977, MAN SET FOOT ON MARS. A CENTURY LATER ON ALPHA CENTAURI, THE NEAREST STAF BY 3750, MANY STAR CLUSTERS HAD BEEN EXPLORED, THEIR PLANETARY SYSTEMS JOINED WITH EARTH FEDERATION. TO POLICE THIS VAST AREA OF BILLIONS OF MILES OF EMPTY SPACE-TO GUARD THE TREAS- URE-LADEN CARGO SPACERS, THE STAR PATROL WAS BORN. DAVE KENTON WAS A STAR PATROL MAN, HIS HAND WAS ADEPT WITH SWORD AND GUN-HE WAS READY TO DIE IN ORDER TO SMASH THE POWER OF..... THE CORSAIRS FROM THE COALSACK!"
+        },
+        {
+          "comic_no": 1,
+          "page_no": 47,
+          "panel_no": 2,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/1/47_2.jpg",
+          "text": "SACK SINCE 1950, HAVE BEEN RAIDINS THE TREASURE-HEAVY SPACERS... HEAVE OVER, BOYS! WE'RE ALMOST ABOVE HER!"
+        },
+        {
+          "comic_no": 1,
+          "page_no": 47,
+          "panel_no": 3,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/1/47_3.jpg",
+          "text": "THE SCREAMS AND MOANS OF THEIR VICTIMS SOUNDED FOR A TIME ABOVE THE WHIRR OF THE PIRATES' BEAM-GUNS- AND THEN SILENCE FELL, AND THE LOOTING BEGAN... SURRENDER NOW- AND YOU LIVE! FIGHT- AND DIE!"
+        },
+        {
+          "comic_no": 1,
+          "page_no": 48,
+          "panel_no": 0,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/1/48_0.jpg",
+          "text": "ON THE TINY PLANET OF FLAYAL-HUNDREDS OF LIGHT YEARS FROM THE EARTH-YOUNG STAR PATROLMAN DAVE KENTON RECEIVES WORD OF THE SPACE DISASTER... THE COALSACK PIRATES-AGAIN! GOT THE ANNUAL METAL RUN FROM DEBEB! THREE BILLIONS CREDITS WORTH OF GOLD AND PLATINUM- GONE!"
+        },
+        {
+          "comic_no": 1,
+          "page_no": 48,
+          "panel_no": 1,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/1/48_1.jpg",
+          "text": "JUST GOT MY ORDERS, SWEETHEART! I'M ROCKET- TING UP TONIGHT! SEALED ORDERS-TO GET THOSE PIRATES! ONE MAN- AGAINST A FLEET OF SPACE ROVERS?"
+        }
+      ],
+      "target": {
+        "comic_no": 1,
+        "page_no": 48,
+        "panel_no": 2,
+        "image_path": "/scratch/bftl/hsekar/comics_project/data/images/1/48_2.jpg",
+        "text": "EDITOR'S NOTE: A LIGHT YEAR ANCE LIGHT WILL TRAVEL IN ONE AT 186,225 MILES PER SECOND THE HIGHER-UPS THINK ONE PAT- ROLMAN MIGHT GO -WHERE ONE MILLION COULDN'T! SOUNDS LIKE A GOOD IDEA TO ME. NOW-LIFT YOUR ARMS- SLOWLY..."
+      },
+      "target_text": "EDITOR'S NOTE: A LIGHT YEAR ANCE LIGHT WILL TRAVEL IN ONE AT 186,225 MILES PER SECOND THE HIGHER-UPS THINK ONE PAT- ROLMAN MIGHT GO -WHERE ONE MILLION COULDN'T! SOUNDS LIKE A GOOD IDEA TO ME. NOW-LIFT YOUR ARMS- SLOWLY...",
+      "context_texts": [
+        "IN 1962 WITH A ROCKET LAND ING ON THE MOON. IN 1977, MAN SET FOOT ON MARS. A CENTURY LATER ON ALPHA CENTAURI, THE NEAREST STAF BY 3750, MANY STAR CLUSTERS HAD BEEN EXPLORED, THEIR PLANETARY SYSTEMS JOINED WITH EARTH FEDERATION. TO POLICE THIS VAST AREA OF BILLIONS OF MILES OF EMPTY SPACE-TO GUARD THE TREAS- URE-LADEN CARGO SPACERS, THE STAR PATROL WAS BORN. DAVE KENTON WAS A STAR PATROL MAN, HIS HAND WAS ADEPT WITH SWORD AND GUN-HE WAS READY TO DIE IN ORDER TO SMASH THE POWER OF..... THE CORSAIRS FROM THE COALSACK!",
+        "SACK SINCE 1950, HAVE BEEN RAIDINS THE TREASURE-HEAVY SPACERS... HEAVE OVER, BOYS! WE'RE ALMOST ABOVE HER!",
+        "THE SCREAMS AND MOANS OF THEIR VICTIMS SOUNDED FOR A TIME ABOVE THE WHIRR OF THE PIRATES' BEAM-GUNS- AND THEN SILENCE FELL, AND THE LOOTING BEGAN... SURRENDER NOW- AND YOU LIVE! FIGHT- AND DIE!",
+        "ON THE TINY PLANET OF FLAYAL-HUNDREDS OF LIGHT YEARS FROM THE EARTH-YOUNG STAR PATROLMAN DAVE KENTON RECEIVES WORD OF THE SPACE DISASTER... THE COALSACK PIRATES-AGAIN! GOT THE ANNUAL METAL RUN FROM DEBEB! THREE BILLIONS CREDITS WORTH OF GOLD AND PLATINUM- GONE!",
+        "JUST GOT MY ORDERS, SWEETHEART! I'M ROCKET- TING UP TONIGHT! SEALED ORDERS-TO GET THOSE PIRATES! ONE MAN- AGAINST A FLEET OF SPACE ROVERS?"
+      ]
+    },
+    {
+      "comic_no": "1",
+      "story_idx": 10,
+      "context": [
+        {
+          "comic_no": 1,
+          "page_no": 47,
+          "panel_no": 2,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/1/47_2.jpg",
+          "text": "SACK SINCE 1950, HAVE BEEN RAIDINS THE TREASURE-HEAVY SPACERS... HEAVE OVER, BOYS! WE'RE ALMOST ABOVE HER!"
+        },
+        {
+          "comic_no": 1,
+          "page_no": 47,
+          "panel_no": 3,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/1/47_3.jpg",
+          "text": "THE SCREAMS AND MOANS OF THEIR VICTIMS SOUNDED FOR A TIME ABOVE THE WHIRR OF THE PIRATES' BEAM-GUNS- AND THEN SILENCE FELL, AND THE LOOTING BEGAN... SURRENDER NOW- AND YOU LIVE! FIGHT- AND DIE!"
+        },
+        {
+          "comic_no": 1,
+          "page_no": 48,
+          "panel_no": 0,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/1/48_0.jpg",
+          "text": "ON THE TINY PLANET OF FLAYAL-HUNDREDS OF LIGHT YEARS FROM THE EARTH-YOUNG STAR PATROLMAN DAVE KENTON RECEIVES WORD OF THE SPACE DISASTER... THE COALSACK PIRATES-AGAIN! GOT THE ANNUAL METAL RUN FROM DEBEB! THREE BILLIONS CREDITS WORTH OF GOLD AND PLATINUM- GONE!"
+        },
+        {
+          "comic_no": 1,
+          "page_no": 48,
+          "panel_no": 1,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/1/48_1.jpg",
+          "text": "JUST GOT MY ORDERS, SWEETHEART! I'M ROCKET- TING UP TONIGHT! SEALED ORDERS-TO GET THOSE PIRATES! ONE MAN- AGAINST A FLEET OF SPACE ROVERS?"
+        },
+        {
+          "comic_no": 1,
+          "page_no": 48,
+          "panel_no": 2,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/1/48_2.jpg",
+          "text": "EDITOR'S NOTE: A LIGHT YEAR ANCE LIGHT WILL TRAVEL IN ONE AT 186,225 MILES PER SECOND THE HIGHER-UPS THINK ONE PAT- ROLMAN MIGHT GO -WHERE ONE MILLION COULDN'T! SOUNDS LIKE A GOOD IDEA TO ME. NOW-LIFT YOUR ARMS- SLOWLY..."
+        }
+      ],
+      "target": {
+        "comic_no": 1,
+        "page_no": 48,
+        "panel_no": 3,
+        "image_path": "/scratch/bftl/hsekar/comics_project/data/images/1/48_3.jpg",
+        "text": "YOU-YOU'RE NO BELL- HOP! NOT EXACT- LY- SWEET- HEART! GET OVER THERE IN THE CORNER! TURN AROUND, FACE TO THE WALL. I WANT -YOUR PASSPORT!"
+      },
+      "target_text": "YOU-YOU'RE NO BELL- HOP! NOT EXACT- LY- SWEET- HEART! GET OVER THERE IN THE CORNER! TURN AROUND, FACE TO THE WALL. I WANT -YOUR PASSPORT!",
+      "context_texts": [
+        "SACK SINCE 1950, HAVE BEEN RAIDINS THE TREASURE-HEAVY SPACERS... HEAVE OVER, BOYS! WE'RE ALMOST ABOVE HER!",
+        "THE SCREAMS AND MOANS OF THEIR VICTIMS SOUNDED FOR A TIME ABOVE THE WHIRR OF THE PIRATES' BEAM-GUNS- AND THEN SILENCE FELL, AND THE LOOTING BEGAN... SURRENDER NOW- AND YOU LIVE! FIGHT- AND DIE!",
+        "ON THE TINY PLANET OF FLAYAL-HUNDREDS OF LIGHT YEARS FROM THE EARTH-YOUNG STAR PATROLMAN DAVE KENTON RECEIVES WORD OF THE SPACE DISASTER... THE COALSACK PIRATES-AGAIN! GOT THE ANNUAL METAL RUN FROM DEBEB! THREE BILLIONS CREDITS WORTH OF GOLD AND PLATINUM- GONE!",
+        "JUST GOT MY ORDERS, SWEETHEART! I'M ROCKET- TING UP TONIGHT! SEALED ORDERS-TO GET THOSE PIRATES! ONE MAN- AGAINST A FLEET OF SPACE ROVERS?",
+        "EDITOR'S NOTE: A LIGHT YEAR ANCE LIGHT WILL TRAVEL IN ONE AT 186,225 MILES PER SECOND THE HIGHER-UPS THINK ONE PAT- ROLMAN MIGHT GO -WHERE ONE MILLION COULDN'T! SOUNDS LIKE A GOOD IDEA TO ME. NOW-LIFT YOUR ARMS- SLOWLY..."
+      ]
+    },
+    {
+      "comic_no": "1",
+      "story_idx": 10,
+      "context": [
+        {
+          "comic_no": 1,
+          "page_no": 47,
+          "panel_no": 3,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/1/47_3.jpg",
+          "text": "THE SCREAMS AND MOANS OF THEIR VICTIMS SOUNDED FOR A TIME ABOVE THE WHIRR OF THE PIRATES' BEAM-GUNS- AND THEN SILENCE FELL, AND THE LOOTING BEGAN... SURRENDER NOW- AND YOU LIVE! FIGHT- AND DIE!"
+        },
+        {
+          "comic_no": 1,
+          "page_no": 48,
+          "panel_no": 0,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/1/48_0.jpg",
+          "text": "ON THE TINY PLANET OF FLAYAL-HUNDREDS OF LIGHT YEARS FROM THE EARTH-YOUNG STAR PATROLMAN DAVE KENTON RECEIVES WORD OF THE SPACE DISASTER... THE COALSACK PIRATES-AGAIN! GOT THE ANNUAL METAL RUN FROM DEBEB! THREE BILLIONS CREDITS WORTH OF GOLD AND PLATINUM- GONE!"
+        },
+        {
+          "comic_no": 1,
+          "page_no": 48,
+          "panel_no": 1,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/1/48_1.jpg",
+          "text": "JUST GOT MY ORDERS, SWEETHEART! I'M ROCKET- TING UP TONIGHT! SEALED ORDERS-TO GET THOSE PIRATES! ONE MAN- AGAINST A FLEET OF SPACE ROVERS?"
+        },
+        {
+          "comic_no": 1,
+          "page_no": 48,
+          "panel_no": 2,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/1/48_2.jpg",
+          "text": "EDITOR'S NOTE: A LIGHT YEAR ANCE LIGHT WILL TRAVEL IN ONE AT 186,225 MILES PER SECOND THE HIGHER-UPS THINK ONE PAT- ROLMAN MIGHT GO -WHERE ONE MILLION COULDN'T! SOUNDS LIKE A GOOD IDEA TO ME. NOW-LIFT YOUR ARMS- SLOWLY..."
+        },
+        {
+          "comic_no": 1,
+          "page_no": 48,
+          "panel_no": 3,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/1/48_3.jpg",
+          "text": "YOU-YOU'RE NO BELL- HOP! NOT EXACT- LY- SWEET- HEART! GET OVER THERE IN THE CORNER! TURN AROUND, FACE TO THE WALL. I WANT -YOUR PASSPORT!"
+        }
+      ],
+      "target": {
+        "comic_no": 1,
+        "page_no": 48,
+        "panel_no": 4,
+        "image_path": "/scratch/bftl/hsekar/comics_project/data/images/1/48_4.jpg",
+        "text": "NOBODY TAKES- I DIDN'T WANT TO SHOOT- BUT I'LL HAVE TO.. TRAVEL IN A ROCKET SHIP OFF PATROLMAN KENTON, I OUGHT TO"
+      },
+      "target_text": "NOBODY TAKES- I DIDN'T WANT TO SHOOT- BUT I'LL HAVE TO.. TRAVEL IN A ROCKET SHIP OFF PATROLMAN KENTON, I OUGHT TO",
+      "context_texts": [
+        "THE SCREAMS AND MOANS OF THEIR VICTIMS SOUNDED FOR A TIME ABOVE THE WHIRR OF THE PIRATES' BEAM-GUNS- AND THEN SILENCE FELL, AND THE LOOTING BEGAN... SURRENDER NOW- AND YOU LIVE! FIGHT- AND DIE!",
+        "ON THE TINY PLANET OF FLAYAL-HUNDREDS OF LIGHT YEARS FROM THE EARTH-YOUNG STAR PATROLMAN DAVE KENTON RECEIVES WORD OF THE SPACE DISASTER... THE COALSACK PIRATES-AGAIN! GOT THE ANNUAL METAL RUN FROM DEBEB! THREE BILLIONS CREDITS WORTH OF GOLD AND PLATINUM- GONE!",
+        "JUST GOT MY ORDERS, SWEETHEART! I'M ROCKET- TING UP TONIGHT! SEALED ORDERS-TO GET THOSE PIRATES! ONE MAN- AGAINST A FLEET OF SPACE ROVERS?",
+        "EDITOR'S NOTE: A LIGHT YEAR ANCE LIGHT WILL TRAVEL IN ONE AT 186,225 MILES PER SECOND THE HIGHER-UPS THINK ONE PAT- ROLMAN MIGHT GO -WHERE ONE MILLION COULDN'T! SOUNDS LIKE A GOOD IDEA TO ME. NOW-LIFT YOUR ARMS- SLOWLY...",
+        "YOU-YOU'RE NO BELL- HOP! NOT EXACT- LY- SWEET- HEART! GET OVER THERE IN THE CORNER! TURN AROUND, FACE TO THE WALL. I WANT -YOUR PASSPORT!"
+      ]
+    },
+    {
+      "comic_no": "1",
+      "story_idx": 10,
+      "context": [
+        {
+          "comic_no": 1,
+          "page_no": 48,
+          "panel_no": 0,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/1/48_0.jpg",
+          "text": "ON THE TINY PLANET OF FLAYAL-HUNDREDS OF LIGHT YEARS FROM THE EARTH-YOUNG STAR PATROLMAN DAVE KENTON RECEIVES WORD OF THE SPACE DISASTER... THE COALSACK PIRATES-AGAIN! GOT THE ANNUAL METAL RUN FROM DEBEB! THREE BILLIONS CREDITS WORTH OF GOLD AND PLATINUM- GONE!"
+        },
+        {
+          "comic_no": 1,
+          "page_no": 48,
+          "panel_no": 1,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/1/48_1.jpg",
+          "text": "JUST GOT MY ORDERS, SWEETHEART! I'M ROCKET- TING UP TONIGHT! SEALED ORDERS-TO GET THOSE PIRATES! ONE MAN- AGAINST A FLEET OF SPACE ROVERS?"
+        },
+        {
+          "comic_no": 1,
+          "page_no": 48,
+          "panel_no": 2,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/1/48_2.jpg",
+          "text": "EDITOR'S NOTE: A LIGHT YEAR ANCE LIGHT WILL TRAVEL IN ONE AT 186,225 MILES PER SECOND THE HIGHER-UPS THINK ONE PAT- ROLMAN MIGHT GO -WHERE ONE MILLION COULDN'T! SOUNDS LIKE A GOOD IDEA TO ME. NOW-LIFT YOUR ARMS- SLOWLY..."
+        },
+        {
+          "comic_no": 1,
+          "page_no": 48,
+          "panel_no": 3,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/1/48_3.jpg",
+          "text": "YOU-YOU'RE NO BELL- HOP! NOT EXACT- LY- SWEET- HEART! GET OVER THERE IN THE CORNER! TURN AROUND, FACE TO THE WALL. I WANT -YOUR PASSPORT!"
+        },
+        {
+          "comic_no": 1,
+          "page_no": 48,
+          "panel_no": 4,
+          "image_path": "/scratch/bftl/hsekar/comics_project/data/images/1/48_4.jpg",
+          "text": "NOBODY TAKES- I DIDN'T WANT TO SHOOT- BUT I'LL HAVE TO.. TRAVEL IN A ROCKET SHIP OFF PATROLMAN KENTON, I OUGHT TO"
+        }
+      ],
+      "target": {
+        "comic_no": 1,
+        "page_no": 48,
+        "panel_no": 5,
+        "image_path": "/scratch/bftl/hsekar/comics_project/data/images/1/48_5.jpg",
+        "text": "I'M SORRY, PATROLMAN! THAT POWDER PELLET WILL LET YOU SLEEP... FOR A GOOD TWELVE HOURS! BUT YOU'LL BE ALL RIGHT..."
+      },
+      "target_text": "I'M SORRY, PATROLMAN! THAT POWDER PELLET WILL LET YOU SLEEP... FOR A GOOD TWELVE HOURS! BUT YOU'LL BE ALL RIGHT...",
+      "context_texts": [
+        "ON THE TINY PLANET OF FLAYAL-HUNDREDS OF LIGHT YEARS FROM THE EARTH-YOUNG STAR PATROLMAN DAVE KENTON RECEIVES WORD OF THE SPACE DISASTER... THE COALSACK PIRATES-AGAIN! GOT THE ANNUAL METAL RUN FROM DEBEB! THREE BILLIONS CREDITS WORTH OF GOLD AND PLATINUM- GONE!",
+        "JUST GOT MY ORDERS, SWEETHEART! I'M ROCKET- TING UP TONIGHT! SEALED ORDERS-TO GET THOSE PIRATES! ONE MAN- AGAINST A FLEET OF SPACE ROVERS?",
+        "EDITOR'S NOTE: A LIGHT YEAR ANCE LIGHT WILL TRAVEL IN ONE AT 186,225 MILES PER SECOND THE HIGHER-UPS THINK ONE PAT- ROLMAN MIGHT GO -WHERE ONE MILLION COULDN'T! SOUNDS LIKE A GOOD IDEA TO ME. NOW-LIFT YOUR ARMS- SLOWLY...",
+        "YOU-YOU'RE NO BELL- HOP! NOT EXACT- LY- SWEET- HEART! GET OVER THERE IN THE CORNER! TURN AROUND, FACE TO THE WALL. I WANT -YOUR PASSPORT!",
+        "NOBODY TAKES- I DIDN'T WANT TO SHOOT- BUT I'LL HAVE TO.. TRAVEL IN A ROCKET SHIP OFF PATROLMAN KENTON, I OUGHT TO"
+      ]
+    }
+  ]
+}
