@@ -5,7 +5,8 @@
 # =============================================================================
 # LARGE MODEL FILES (Critical - these are HUGE!)
 # =============================================================================
-checkpoints/
+# checkpoints/ - allowing LoRA adapters
+checkpoints/**/checkpoint-*/
 model_cache/
 *.safetensors
 *.bin
@@ -77,8 +78,10 @@ env/
 # =============================================================================
 # JUPYTER NOTEBOOKS
 # =============================================================================
-.ipynb_checkpoints/
-*/.ipynb_checkpoints/
+.ipynb_# checkpoints/ - allowing LoRA adapters
+checkpoints/**/checkpoint-*/
+*/.ipynb_# checkpoints/ - allowing LoRA adapters
+checkpoints/**/checkpoint-*/
 *.ipynb_checkpoints
 
 # =============================================================================
