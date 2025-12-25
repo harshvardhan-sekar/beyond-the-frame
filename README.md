@@ -18,7 +18,7 @@
 
 ---
 
-> **📂 Full Resources**: For all dataset images, training logs, model checkpoints, and evaluation outputs, see the **[Google Drive](https://drive.google.com/drive/u/0/folders/16-UYPPj3PAF7dpPvwn8dcFX0X9votU0t)**
+> **📂 Full Resources**: NOTE: Several files are >25 MB. Hence, For Gemini OCR extraction, intermediate data pre-processing steps, dataset images, training logs, model checkpoints, evaluation outputs, and slide deck, see the **[Google Drive](https://drive.google.com/drive/u/0/folders/16-UYPPj3PAF7dpPvwn8dcFX0X9votU0t)**
 
 ---
 
