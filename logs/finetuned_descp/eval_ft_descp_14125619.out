@@ -1,0 +1,43 @@
+===========================================
+EVALUATING FINE-TUNED MODEL (DESCP) (H200)
+===========================================
+Job ID: 14125619
+Node: gpue03
+Started: Tue Dec 16 20:09:18 CST 2025
+===========================================
+name, memory.total [MiB]
+NVIDIA H200, 143771 MiB
+======================================================================
+EVALUATING FINE-TUNED MODEL (DESCP)
+======================================================================
+
+PyTorch: 2.5.1+cu121
+CUDA available: True
+GPU: NVIDIA H200
+GPU Memory: 150.1 GB
+
+Loading test data...
+Loaded 54,530 test sequences
+Selected 1000 for evaluation
+
+Loading processor...
+Loading base model...
+Loading LoRA adapter from /scratch/bftl/hsekar/comics_project/checkpoints/lora_adapter_descp_v2...
+Model loaded. GPU memory: 6.0 GB
+
+Running evaluation on 1000 examples...
+
+======================================================================
+EVALUATION COMPLETE
+======================================================================
+Total time: 4301.7s (4.30s per example)
+Successful: 1000/1000
+Scene descriptions: 1000/1000
+
+Saved: /scratch/bftl/hsekar/comics_project/outputs/finetuned_descp/results_latest.pkl
+Saved: /scratch/bftl/hsekar/comics_project/outputs/finetuned_descp/results_20251216_212129.pkl
+
+======================================================================
+DONE!
+======================================================================
+Finished: Tue Dec 16 21:21:30 CST 2025

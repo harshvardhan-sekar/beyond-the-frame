@@ -1,0 +1,43 @@
+===========================================
+EVALUATING FINE-TUNED MODEL (PRED) (H200)
+===========================================
+Job ID: 14125651
+Node: gpue06
+Started: Tue Dec 16 20:18:27 CST 2025
+===========================================
+name, memory.total [MiB]
+NVIDIA H200, 143771 MiB
+======================================================================
+EVALUATING FINE-TUNED MODEL (PRED)
+======================================================================
+
+PyTorch: 2.5.1+cu121
+CUDA available: True
+GPU: NVIDIA H200
+GPU Memory: 150.1 GB
+
+Loading test data...
+Loaded 54,530 test sequences
+Selected 1000 for evaluation
+
+Loading processor...
+Loading base model...
+Loading LoRA adapter from /scratch/bftl/hsekar/comics_project/checkpoints/llava_comics_lora_pred...
+Model loaded. GPU memory: 6.0 GB
+
+Running evaluation on 1000 examples...
+
+======================================================================
+EVALUATION COMPLETE
+======================================================================
+Total time: 6387.6s (6.39s per example)
+Successful: 1000/1000
+Scene descriptions: 1000/1000
+
+Saved: /scratch/bftl/hsekar/comics_project/outputs/finetuned_pred/results_latest.pkl
+Saved: /scratch/bftl/hsekar/comics_project/outputs/finetuned_pred/results_20251216_220534.pkl
+
+======================================================================
+DONE!
+======================================================================
+Finished: Tue Dec 16 22:05:35 CST 2025

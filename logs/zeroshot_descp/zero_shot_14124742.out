@@ -1,0 +1,49 @@
+===========================================
+COMICS ZERO-SHOT BASELINE (DESCP)
+===========================================
+Job ID: 14124742
+Node: gpuc02
+Started: Tue Dec 16 18:55:28 CST 2025
+===========================================
+
+GPU Info:
+name, memory.total [MiB]
+NVIDIA A100-SXM4-40GB, 40960 MiB
+
+======================================================================
+COMICS ZERO-SHOT BASELINE (DESCP)
+======================================================================
+
+PyTorch: 2.5.1+cu121
+CUDA available: True
+GPU: NVIDIA A100-SXM4-40GB
+GPU Memory: 42.4 GB
+
+Loading data...
+Loaded 54,530 sequences
+Selected 1000 for evaluation
+
+Loading model...
+Model loaded in 17.8s
+GPU memory used: 16.1 GB
+
+Running evaluation on 1000 examples...
+
+======================================================================
+RESULTS
+======================================================================
+Total time: 6024.7s (6.02s per example)
+Successful: 1000/1000
+Scene descriptions: 1000/1000 (100.0%)
+
+✅ Saved: /scratch/bftl/hsekar/comics_project/outputs/zero_shot_descp/results_latest.pkl
+✅ Saved: /scratch/bftl/hsekar/comics_project/outputs/zero_shot_descp/results_20251216_203635.pkl
+✅ Saved: /scratch/bftl/hsekar/comics_project/outputs/zero_shot_descp/results_20251216_203635.json
+
+======================================================================
+DONE!
+======================================================================
+
+===========================================
+Finished: Tue Dec 16 20:36:38 CST 2025
+===========================================

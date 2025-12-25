@@ -1,0 +1,49 @@
+===========================================
+COMICS ZERO-SHOT BASELINE (PRED) - H200
+===========================================
+Job ID: 14125727
+Node: gpue02
+Started: Tue Dec 16 20:51:01 CST 2025
+===========================================
+
+GPU Info:
+name, memory.total [MiB]
+NVIDIA H200, 143771 MiB
+
+======================================================================
+COMICS ZERO-SHOT BASELINE (PRED)
+======================================================================
+
+PyTorch: 2.5.1+cu121
+CUDA available: True
+GPU: NVIDIA H200
+GPU Memory: 150.1 GB
+
+Loading data...
+Loaded 54,530 sequences
+Selected 1000 for evaluation
+
+Loading model...
+Model loaded in 13.4s
+GPU memory used: 16.1 GB
+
+Running evaluation on 1000 examples...
+
+======================================================================
+RESULTS
+======================================================================
+Total time: 3053.4s (3.05s per example)
+Successful: 1000/1000
+Scene descriptions: 1000/1000 (100.0%)
+
+✅ Saved: /scratch/bftl/hsekar/comics_project/outputs/zero_shot_pred/results_latest.pkl
+✅ Saved: /scratch/bftl/hsekar/comics_project/outputs/zero_shot_pred/results_20251216_214217.pkl
+✅ Saved: /scratch/bftl/hsekar/comics_project/outputs/zero_shot_pred/results_20251216_214217.json
+
+======================================================================
+DONE!
+======================================================================
+
+===========================================
+Finished: Tue Dec 16 21:42:18 CST 2025
+===========================================
