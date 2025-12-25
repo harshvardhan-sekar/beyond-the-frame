@@ -1,0 +1,382 @@
+============================================================
+ZERO-SHOT EVALUATION SUMMARY
+============================================================
+
+Model: llava-hf/llama3-llava-next-8b-hf
+Mode: images_with_text
+Examples: 5
+Timestamp: 2025-12-04T02:47:16.808873
+
+============================================================
+
+============================================================
+Example 1 | Comic 1227
+============================================================
+
+GROUND TRUTH:
+AND HIDDEN BENEATH THE FIERY BRUSH... I TOLD YOU THAT WET TARPAULIN'D KEEP THE STUFF OFF US LONG ENOUGH. SHE'S REALLY PUTTING ON A SHOW. GET READY WITH THOSE SMOKE BOMBS. WE'RE IN THE STOCKADE- LISTEN!
+
+PREDICTION:
+deep
+
+Inference time: 3.19s
+
+============================================================
+Example 2 | Comic 199
+============================================================
+
+GROUND TRUTH:
+THE BOGVETCH HAS BEEN RESTORED BY HER TALISMAN TO YOUTH AND BEAUTY, BUT A TOUCH OF THE STONE HAS HAD AN OPPOSITE EFFECT ON THE EVIL MARSH QUEEN. FORGIVE ME, ΤΑΝΙΑ! — BE MERCIFUL! — I WILL DO ANYTHING — BUT DO NOT LEAVE ME LIKE THIS. YOU DARE TO ASK MERCY OF ME, DAGMAR?
+
+PREDICTION:
+You
+You
+After
+after
+You
+You
+You
+You
+T
+You
+You
+You
+You
+You
+After
+You
+You
+You
+You
+You
+You
+You
+B
+You
+The
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+Queen
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+F
+You
+You
+You
+you
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+What
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+T
+You
+You
+You
+You
+THE
+You
+You
+You
+You
+You
+You
+You
+A
+You
+You
+You
+You
+You
+You
+T
+You
+You
+You
+You
+You
+R
+A
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+Y
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+U
+You
+You
+You
+A
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+Woman
+You
+You
+You
+
+Inference time: 13.52s
+
+============================================================
+Example 3 | Comic 54
+============================================================
+
+GROUND TRUTH:
+--- AT ONCE, THEY ASSUME THEIR OWN DUTIE YOU TAKE THE MOTOR, AND I'LL MAN THE PERISCOPE. WE CAN RUN THIS IF THE JAPS CAN! O.K., SKIPPER! IT'S FULL SPEED AHE ... LET'S GET TO SER QUICK!
+
+PREDICTION:
+well
+well
+Well
+ C
+ Well
+C
+Y
+C
+F
+FE
+ F
+CO
+ well
+C
+well
+HEAD
+ A
+c well
+ A
+ Well
+C
+ C
+C
+T
+C
+C
+C
+well
+eh
+the
+F
+C
+ C
+C
+a
+
+Inference time: 3.68s
+
+============================================================
+Example 4 | Comic 1396
+============================================================
+
+GROUND TRUTH:
+[Empty]
+
+PREDICTION:
+T
+C
+L
+V
+B
+C
+F
+M
+C
+H
+K
+B
+H
+C
+B
+Flood: "I
+L
+T
+E
+R
+F
+L
+L
+C
+C
+M
+T
+B
+T
+C
+H: "G
+P
+C
+R
+C
+C
+F
+C
+B: "H
+C: "F: "H: "U
+C
+F: "H: "A
+C: "H: "H: "A
+C
+C
+C
+H: "H: "H: "H: "A
+C
+F: "C: "H: "H: "H: "H: "A
+C: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "H: "
+
+Inference time: 12.85s
+
+============================================================
+Example 5 | Comic 508
+============================================================
+
+GROUND TRUTH:
+WE CAN'T JUST WALK INTO THE CONCENTRA TION CAMP AND TAKE MY FATHER' THAT'S EXACTLY WHAT WE WILL DO'
+
+PREDICTION:
+The
+a
+the
+you
+sh
+
+Inference time: 2.03s
+

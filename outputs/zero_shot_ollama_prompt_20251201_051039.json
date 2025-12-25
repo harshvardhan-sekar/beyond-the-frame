@@ -1,0 +1,126 @@
+{
+  "config": {
+    "test_mode": true,
+    "num_samples": 10,
+    "model_id": "llava-hf/llava-1.5-7b-hf",
+    "prompt": "You are reading a comic book.\nI will show you the previous panels as images.\nBased on them, write the dialogue and narration that should appear in the NEXT panel of the story.\nKeep it concise and in a natural comic-book style."
+  },
+  "timing": {
+    "total_job_time_seconds": 38.10483956336975,
+    "model_load_time_seconds": 11.859097242355347,
+    "inference_time_seconds": 25.944342851638794,
+    "num_samples": 10,
+    "avg_time_per_sample_seconds": 2.5939815998077393,
+    "min_time_per_sample_seconds": 0.4489583969116211,
+    "max_time_per_sample_seconds": 7.706673860549927,
+    "per_sample_times": [
+      3.1372296810150146,
+      2.6160099506378174,
+      2.0512266159057617,
+      2.2358317375183105,
+      2.9041082859039307,
+      3.9258384704589844,
+      7.706673860549927,
+      0.4489583969116211,
+      0.4548814296722412,
+      0.4590575695037842
+    ]
+  },
+  "extrapolation_estimates": {
+    "500_samples": 1308.849897146225,
+    "1000_samples": 2605.8406970500946,
+    "5000_samples": 12981.767096281052
+  },
+  "results": [
+    {
+      "sample_idx": 0,
+      "comic_no": "10",
+      "page_no": "1",
+      "panel_no": "1",
+      "ground_truth": "",
+      "prediction": "The next panel shows a man holding a gun, with a woman nearby. The man is pointing the gun at the woman, who is looking at him with concern. The man says, \"You're going to die!\" as he pulls the trigger.",
+      "inference_time_seconds": 3.1372296810150146
+    },
+    {
+      "sample_idx": 1,
+      "comic_no": "10",
+      "page_no": "2",
+      "panel_no": "0",
+      "ground_truth": "JUNGLE COMICS Jungle LES NO. 157 MARCH DEATH AT C A ANNIV KAANGA: TIGER GIRL: WAMBI IN THRILLING JUNGLE ADVENTURES",
+      "prediction": "In the next panel, the woman is seen holding a gun, while the man is holding a knife. They are both pointing their weapons at the elephant, which is in the middle of the scene. The woman says, \"I'll take care of this beast,\" while the man replies, \"I'll make sure it's dead.\" The tension between the two characters is evident as they prepare to face the elephant.",
+      "inference_time_seconds": 2.6160099506378174
+    },
+    {
+      "sample_idx": 2,
+      "comic_no": "10",
+      "page_no": "2",
+      "panel_no": "1",
+      "ground_truth": "JET ACES JET ACES 'DEATH-DATE AT 40,000' A NEW CAPT. WINGS THRILLER BLAZING BATTLE ACTION",
+      "prediction": "In the next panel, the woman is seen holding a gun, ready to shoot the man. She says, \"I'm sorry, but I have to shoot you.\" The man, who is wearing a uniform, responds, \"I understand. It's a war zone.\" The scene captures the tension and danger of the situation.",
+      "inference_time_seconds": 2.0512266159057617
+    },
+    {
+      "sample_idx": 3,
+      "comic_no": "10",
+      "page_no": "2",
+      "panel_no": "2",
+      "ground_truth": "LAZING ATTLE CTION JUMBOY COMICS WAS SHE WOMAN WERE BEAST CULT CLAWMEN A GALLERY THRILLER! AP",
+      "prediction": "In the next panel, the woman is seen holding a gun, and the man is seen holding a knife. The woman says, \"I'll take care of him,\" while the man replies, \"I'll make sure he never bothers us again.\" The scene is set in a jungle, with a leopard nearby, adding to the tense atmosphere.",
+      "inference_time_seconds": 2.2358317375183105
+    },
+    {
+      "sample_idx": 4,
+      "comic_no": "10",
+      "page_no": "2",
+      "panel_no": "3",
+      "ground_truth": "MAN O' MARS JOHN HUNTER AND THE MAPSMEN ALL LONG BON INDIAN SPY INDI",
+      "prediction": "The woman is being held down by the man.\n\nMan: \"I'm sorry, but I have to do this.\"\n\nWoman: \"What are you doing?!\"\n\nMan: \"I have to save the world. I can't let you stop me.\"\n\nWoman: \"But you're hurting me!\"\n\nMan: \"I'm sorry, but it's for the greater good.\"\n\nThe woman is struggling against the man's grip.",
+      "inference_time_seconds": 2.9041082859039307
+    },
+    {
+      "sample_idx": 5,
+      "comic_no": "10",
+      "page_no": "2",
+      "panel_no": "4",
+      "ground_truth": "OF THE COMICS! All New Picture Stories of Long Bow INDIAN BOY SPRING 10\u00a2 GHOST COMICS GHOST comms G SLOW, LEST DU AWAKEN HE SLEEPERS THE CRYPT THE ARAPAH\u041e\u0415 GOES FREE! WARRIORS FOR WAMPUM",
+      "prediction": "The woman is lying on the ground, and the man is standing over her. The man is holding a gun, and the woman is looking up at him.\n\nNEXT PANEL:\n\nThe man: \"You're not getting away from me that easily.\"\n\nThe woman: \"I'm not trying to escape. I just want to know why you're doing this.\"\n\nThe man: \"You should know better than to mess with people like me.\"\n\nThe woman: \"I'm not afraid of you. What do you want from me?\"\n\nThe man: \"I want the information you have. Give it to me, or you'll regret it.\"",
+      "inference_time_seconds": 3.9258384704589844
+    },
+    {
+      "sample_idx": 6,
+      "comic_no": "10",
+      "page_no": "3",
+      "panel_no": "0",
+      "ground_truth": "THE SLEEPERS in the CRYPT IN HIS FEAR, HE SAW THEM, CRYSTAL-CLEAR... THOSE SPECTRE- SHAPES WAITING IN THE MISTS OF TWEEDSMERE CASTLE...HIS GREAT AUNT, WHO HOVERS ON THE GRAVE'S BRINK, TAUNT- ING, BECKONING HIM TO COME HOME...",
+      "prediction": "The Sleepers in the Crypt\n\nThe Sleepers in the Crypt\n\nThe Sleepers in the Crypt\n\nThe Sleepers in the Crypt\n\nThe Sleepers in the Crypt\n\nThe Sleepers in the Crypt\n\nThe Sleepers in the Crypt\n\nThe Sleepers in the Crypt\n\nThe Sleepers in the Crypt\n\nThe Sleepers in the Crypt\n\nThe Sleepers in the Crypt\n\nThe Sleepers in the Crypt\n\nThe Sleepers in the Crypt\n\nThe Sleepers in the Crypt\n\nThe Sleepers in the Crypt\n\nThe Sleepers in the Crypt\n\nThe Sleepers in the Crypt\n\nThe Sleepers in the Crypt\n\nThe Sleepers in the Crypt\n\nThe Sleepers in the Crypt\n\nThe Sleepers in the Crypt\n\nThe Sleepers in the Crypt\n\nThe Sleepers in the Crypt\n\nThe Sleepers in the Crypt\n\nThe Sleepers in the Crypt\n\nThe Sleepers in the Crypt\n\nThe Sleepers in the Crypt\n\nThe Sleepers in the Crypt\n\nThe Sleepers in the Crypt\n\nThe Sleepers in the Crypt",
+      "inference_time_seconds": 7.706673860549927
+    },
+    {
+      "sample_idx": 7,
+      "comic_no": "10",
+      "page_no": "3",
+      "panel_no": "1",
+      "ground_truth": "NOW HE COULD HEAR HER... LISTEN--CAN'T YOU HEAR HER? SHE'S COME AFTER ME! I HEAR NO ONE, JEFFERY-- HAVE YOU GONE MAD?",
+      "prediction": "The man is holding a gun.",
+      "inference_time_seconds": 0.4489583969116211
+    },
+    {
+      "sample_idx": 8,
+      "comic_no": "10",
+      "page_no": "3",
+      "panel_no": "2",
+      "ground_truth": "SHUT UP! CAN'T YOU HEAR THAT CANE TAPPING? SHE ALWAYS CARRIED A CANE!",
+      "prediction": "The man is holding a cane.",
+      "inference_time_seconds": 0.4548814296722412
+    },
+    {
+      "sample_idx": 9,
+      "comic_no": "10",
+      "page_no": "3",
+      "panel_no": "3",
+      "ground_truth": "HELP THE BLIND--HELP THE BLIND... ONLY A BLIND MAN--A TRICK TO TORTURE ME! BUT SHE'S BEHIND IT-- I KNOW SHE IS!",
+      "prediction": "The man is holding a cane.",
+      "inference_time_seconds": 0.4590575695037842
+    }
+  ]
+}

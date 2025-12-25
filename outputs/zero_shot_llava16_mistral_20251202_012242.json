@@ -1,0 +1,180 @@
+{
+  "config": {
+    "test_mode": true,
+    "num_samples": 10,
+    "context_window": 5,
+    "model_id": "llava-hf/llava-v1.6-mistral-7b-hf",
+    "prompt": "You are reading a comic book.\nI will show you the previous panels as images.\nBased on them, write the dialogue and narration that should appear in the NEXT panel of the story.\nKeep it concise and in a natural comic-book style."
+  },
+  "timing": {
+    "total_job_time_seconds": 115.21361494064331,
+    "model_load_time_seconds": 19.878121614456177,
+    "inference_time_seconds": 76.40823745727539,
+    "num_samples": 10,
+    "avg_time_per_sample_seconds": 7.6403971195220945,
+    "min_time_per_sample_seconds": 2.6737403869628906,
+    "max_time_per_sample_seconds": 11.24876093864441
+  },
+  "results": [
+    {
+      "sample_idx": 0,
+      "comic_no": 524,
+      "page_no": 1,
+      "panel_no": 3,
+      "ground_truth": "",
+      "prediction": "Next Panel:\n\n(Sammy Kane stands confidently amidst the chaos)\nSammy: \"Alright, team! Let's get this popcorn stand going!\"\n\n(Narration)\nWonder Woman: (exasperated) \"Sammy, we're not selling popcorn here!\"\nSammy: (smirking) \"Well, I figured if we can survive a war with an army of monsters, we could handle a little competition.\"\n\n(Captain Marvel emerges from behind Wonder Woman, flexing his muscles)\nCaptain Marvel: \"We have more important matters to attend to than a snack stand, Sammy.\"\n\n(Narration)\nGeneral: (shouting over the din) \"And don't forget our main mission \u2013 save the world!\"\n\n(Sound effects)\nPow! Crash! Boom! Zap!",
+      "context_texts": [
+        "WONDER ACTION! MY JULY NO.5",
+        "ACTION! MYSTERY! THRILLS! CORPORAL COLLINS INFANTRYMAN JULY NO.5 10\u00a2",
+        "",
+        "",
+        ""
+      ],
+      "inference_time_seconds": 8.138385772705078
+    },
+    {
+      "sample_idx": 1,
+      "comic_no": 524,
+      "page_no": 1,
+      "panel_no": 4,
+      "ground_truth": "",
+      "prediction": "Next Panel:\n\nCorporal Collins: \"Well, Sammy! It looks like your big break is finally here!\"\n\nSammy Kaye: \"Wow, Corporal! I never thought I'd make it onto Broadway!\"\n\nNarrator (off-panel): \"And so, the trio ventured into the city, their hearts filled with dreams and hopes for a successful performance.\"\n\n(Scene fades to the stage, where they set up their instruments under the watchful eyes of an excited audience.)\n\nNarrator (off-panel): \"As the curtain rose, Sammy Kaye strummed his guitar, his fingers dancing over the strings. The crowd was captivated by the new home recordings, and they sang along with every note.\"\n\nSammy Kaye: \"This is it! Our voices raised high, filling the air with melodies of love and friendship!\"\n\nCorporal Collins: \"It's just like back home, but better! This place feels like family!\"\n\nAudience Member: \"Sammy! Your voice sounds even more beautiful live than on our records!\"\n\nSammy Kaye: \"Thank you, friend! To think... this all started with a simple idea.\"\n\n(The trio shares a warm embrace as they finish their song, receiving thunderous applause from the grateful audience.)\n\nNarrator (off-panel): \" And thus began their journey, making music and sharing joy one tune at a time.\"",
+      "context_texts": [
+        "ACTION! MYSTERY! THRILLS! CORPORAL COLLINS INFANTRYMAN JULY NO.5 10\u00a2",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "inference_time_seconds": 9.371614694595337
+    },
+    {
+      "sample_idx": 2,
+      "comic_no": 524,
+      "page_no": 1,
+      "panel_no": 5,
+      "ground_truth": "",
+      "prediction": "As I look over my shoulder at Sammy Kane's recording studio, I can hear the needle drop down onto the vinyl record. Suddenly, out of nowhere, Sammy emerges with his signature grin. He pulls up a stool next to me, ready for some good ol' fashioned fun.\n\nSammy: \"Well, well! If it ain't Frank Haendle, arranger extraordinaire!\"\n\nMe: (laughing) \"And what brings you here, Sammy?\"\n\nSammy: \"Just the thing to make this easy method sing! How about you play some tunes while I record 'em? You never know when inspiration strikes!\"\n\nMe: (smiling) \"Alrighty then! Let's see how these newfangled phonographs work.\"\n\nAs I grab an old record player from one of the racks, Sammy reaches behind him and grabs a stack of records, his eyes gleaming with excitement. The anticipation is almost palpable as we prepare to create something truly unique and magical.",
+      "context_texts": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "inference_time_seconds": 6.74086332321167
+    },
+    {
+      "sample_idx": 3,
+      "comic_no": 524,
+      "page_no": 1,
+      "panel_no": 6,
+      "ground_truth": "",
+      "prediction": "(Next Panel)\n\n**Narrator:** \"Frank Haendle's love for music was unmatched!\"\n\n**Haendle:** \"Well, I just couldn't resist these tunes! They sound like they were made by angels!\"\n\n**Woman (excited):** \"Oh my goodness! I never heard anything quite so beautiful!\"\n\n**Mannequin Recording Machine Voiceover:** \"That's why we're here \u2013 to immortalize your voice forever!\"\n\n**Haendle:** \"Sounds about right. And how much do I owe you?\"\n\n**Recording Studio Attendant:** \"For recording an original arrangement like yours? Nothing at all! That's our specialty.\"\n\n**Haendle (smiling):** \"Incredible! Thanks, folks!\"\n\n(Haendle exits the studio with a smile.)\n\n**Woman (to herself):** \"He must have really enjoyed his time here!\"",
+      "context_texts": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "inference_time_seconds": 6.294955492019653
+    },
+    {
+      "sample_idx": 4,
+      "comic_no": 524,
+      "page_no": 2,
+      "panel_no": 0,
+      "ground_truth": "RANG-A-TA THE WONDER D BECAUSE OF HUMAN BRA KEEN EYES. AND UNERRIE SMELL, RAN HAS EARNE WIDE REPL \"THE WONE NOW, ACCOMPANIED BY HIS MASTER, HY SPEED, TECTIVE, RANG-A-TANG ARRIVES IN HOLYWOOD FERENCE WITH MAMMOTH PICTURES, INC.....",
+      "prediction": "Panel 1:\nNarrator (speaking of Sammy Kane): \"Everyone is included. Nothing else to buy and nothing else to sell.\"\nSammy Kane: \"It's just what I need!\"\nRecording Unit: \"And you get complete home recording! Make your own records, make your own music! It's wonderful!\"\n\nPanel 2:\nNarrator: \"Think of it! Just like your favorite radio programs. You can pay pennies for postage, too!\"\nSammy Kane: \"This is fantastic! I'm gonna start my own record label!\"\nMiss Lillian C. of New York: \"Send no money! Hurry coupon!\"\n\nPanel 3:\nSammy Kane (receiving the order with excitement): \"Wow, this is great news!\"\nNarrator: \"We have more blanks than we know what to do with!\"\nMiss Lillian C.: \"How much per dozen?\"\n\nPanel 4:\nSammy Kane: \"Just $2.98 per set\u2014it's a steal!\"\nMiss Lillian C.: \"What a deal! I'll take ten sets!\"\nSammy Kane: \"Thank you so much!\"\n\nPanel 5:\nNarrator: \"Additional blank records at 75 cents per dozen!\"\nMiss Lillian C.: \"Whew, I better place my order now!\"\nSammy Kane (packaging up orders): \"Your orders are well shipped!\"\n\nIn the next panel, the conversation between Sammy Kane and Miss Lillian C. might continue with her discussing her plans for her new record label or asking about shipping times and options. They could exchange friendly banter as they finalize their orders, and possibly discuss the potential artists or songs for their first releases",
+      "context_texts": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "inference_time_seconds": 11.103408098220825
+    },
+    {
+      "sample_idx": 5,
+      "comic_no": 524,
+      "page_no": 2,
+      "panel_no": 1,
+      "ground_truth": "BECAUSE OF HIS ALMOST- HUMAN BRAIN, HIS SUPER- KEEN EYES, SENSITIVE EARS AND UNERRING SENSE OF SMELL, RANG-A-TANG HAS EARNED A NATION- WIDE REPUTATION AS \"THE WONDER DOG.\"",
+      "prediction": "Panel 1:\n\"Hey there! What brings you to our recording studio?\" asks Sammy Kaye.\n\nPanel 2:\n\"Bob, what kind of music do you like?\" wonders Lillian C., before launching into her own musical tastes.\n\nPanel 3:\nLillian continues to excitedly share her favorite songs and artists with Bob, who listens attentively.\n\nPanel 4:\n\"Sounds great!\" says Bob, appreciating Lillian's enthusiasm for music. \"But have you ever tried rapping along to 'The Wonder Dog?'\" he teases.\n\nPanel 5:\nSammy Kaye rolls his eyes, chuckling at the mention of their canine companion's \"music.\" \"We'll have to see about that,\" he grins.\n\n[Next Panel Dialogue & Narration]:\n\nNarrator: \"Meanwhile, the Wonder Dog begins to sniff around the studio equipment...\"\n\nWonder Dog: (whining) \"Uh oh... I think I just found something interesting.\"\n\nSammy Kaye: \"Oh no! Not now, buddy!\"\n\nBob: \"Looks like we're going to have to take a break from recording.\"\n\nLillian: \"What's wrong? Is everything OK?\"\n\nSammy Kaye: \"It seems our furry friend has discovered a new source of entertainment.\"\n\nBob: \"Well, I guess we'll just have to wait until he settles down.\"\n\n(As they watch, the Wonder Dog becomes more intrigued by a particular sound or object.)\n\nSammy Kaye: \"I hope he doesn't knock over any of my precious instruments!\"\n\nBob: \"Or worse, start singing along to one of my tracks.\"\n\nL",
+      "context_texts": [
+        "",
+        "",
+        "",
+        "",
+        "RANG-A-TA THE WONDER D BECAUSE OF HUMAN BRA KEEN EYES. AND UNERRIE SMELL, RAN HAS EARNE WIDE REPL \"THE WONE NOW, ACCOMPANIED BY HIS MASTER, HY SPEED, TECTIVE, RANG-A-TANG ARRIVES IN HOLYWOOD FERENCE WITH MAMMOTH PICTURES, INC....."
+      ],
+      "inference_time_seconds": 11.24876093864441
+    },
+    {
+      "sample_idx": 6,
+      "comic_no": 524,
+      "page_no": 2,
+      "panel_no": 2,
+      "ground_truth": "I ASKED YOU TO COME HERE BECAUSE I WANTED TO SIGN THIS FAMOUS DOG FOR A PICTURE! BUT NOW...... WHAT'S THE TROUBLE, MR. WYNGOLD?",
+      "prediction": "In the next panel:\n\nCaptain: \"Now, accompany me out of this office.\"\nSecretary: \"I'm sorry, Captain. I don't think that's possible just now...\"\nCaptain: \"It appears your recording equipment is malfunctioning. Let's get it fixed before the meeting starts.\"\nSecretary: \"Of course, sir. I'll have someone take care of it right away.\"\n\n(In the background, Rango enters the room with his sidekick.)\n\nRango: \"Hey there! What seems to be the problem?\"\nNarrator: \"What do we do? The wonder dog to the rescue!\"\nRango: \"Don't worry about the recording equipment. It looks like my trusty sidekick has got this under control.\"\nNarrator: \"And so, our hero sets off to fix the recording equipment and ensure everything goes smoothly for their meeting.\"\n\n(Elsewhere, another scene unfolds involving a mysterious character plotting something sinister.)\n\nMysterious Character: \"Ah, the perfect moment to strike... but first, I need to make sure no one else notices or interferes with my plans.\"\n\nThe narrative continues, with Rango successfully fixing the equipment while the villain prepares for an enigmatic scheme. Meanwhile, the rest of the team discusses strategy over coffee break preparations.",
+      "context_texts": [
+        "",
+        "",
+        "",
+        "RANG-A-TA THE WONDER D BECAUSE OF HUMAN BRA KEEN EYES. AND UNERRIE SMELL, RAN HAS EARNE WIDE REPL \"THE WONE NOW, ACCOMPANIED BY HIS MASTER, HY SPEED, TECTIVE, RANG-A-TANG ARRIVES IN HOLYWOOD FERENCE WITH MAMMOTH PICTURES, INC.....",
+        "BECAUSE OF HIS ALMOST- HUMAN BRAIN, HIS SUPER- KEEN EYES, SENSITIVE EARS AND UNERRING SENSE OF SMELL, RANG-A-TANG HAS EARNED A NATION- WIDE REPUTATION AS \"THE WONDER DOG.\""
+      ],
+      "inference_time_seconds": 8.71825909614563
+    },
+    {
+      "sample_idx": 7,
+      "comic_no": 524,
+      "page_no": 2,
+      "panel_no": 3,
+      "ground_truth": "ONE THING AFTER ANOTHER IS DELAYING OUR PICTURES! WE'RE ABOUT TO GO BANKRUPT! I'VE HEARD RUMORS! SOMETHING TO DO WITH THAT \"BOY WONDER\" YOU HIRED?",
+      "prediction": "Next Panel:\n\n(Dog paws at desk) \"Now, I'm gonna do something REALLY smart! I'll sign this famous picture with mammoth prints!\"\n\n(Next page opens to reveal a giant dog paw print covering the entire image.)\n\n\"Because even though I'm only human...\"\n\n[Cut to the Wonder Dog sitting at a desk, surrounded by various pieces of equipment.]\n\n\"Now, I have to hurry before they notice!\"\n\nNarration: \"The rest of the town is frantic. But no one can figure out who took that infamous picture.\"",
+      "context_texts": [
+        "",
+        "",
+        "RANG-A-TA THE WONDER D BECAUSE OF HUMAN BRA KEEN EYES. AND UNERRIE SMELL, RAN HAS EARNE WIDE REPL \"THE WONE NOW, ACCOMPANIED BY HIS MASTER, HY SPEED, TECTIVE, RANG-A-TANG ARRIVES IN HOLYWOOD FERENCE WITH MAMMOTH PICTURES, INC.....",
+        "BECAUSE OF HIS ALMOST- HUMAN BRAIN, HIS SUPER- KEEN EYES, SENSITIVE EARS AND UNERRING SENSE OF SMELL, RANG-A-TANG HAS EARNED A NATION- WIDE REPUTATION AS \"THE WONDER DOG.\"",
+        "I ASKED YOU TO COME HERE BECAUSE I WANTED TO SIGN THIS FAMOUS DOG FOR A PICTURE! BUT NOW...... WHAT'S THE TROUBLE, MR. WYNGOLD?"
+      ],
+      "inference_time_seconds": 4.355293273925781
+    },
+    {
+      "sample_idx": 8,
+      "comic_no": 524,
+      "page_no": 2,
+      "panel_no": 4,
+      "ground_truth": "THAT'S RIGHT! NAWSON SWELLES, HIS NAME IS! EVER SINCE HE CAME HERE, AWFUL THINGS HAVE HAPPENED! HM! LET'S HAVE A TALK WITH HIM! C'MON RANG!",
+      "prediction": "\"But now, with our pictures/we're about to go bankrupt!\" - Mr. Wyngold \n\n[Next Panel: The phone rings. Lines of worry form around the characters.] \n\n\"Hello? Yes, this is Sammy Kaye.\" - Man at desk",
+      "context_texts": [
+        "",
+        "RANG-A-TA THE WONDER D BECAUSE OF HUMAN BRA KEEN EYES. AND UNERRIE SMELL, RAN HAS EARNE WIDE REPL \"THE WONE NOW, ACCOMPANIED BY HIS MASTER, HY SPEED, TECTIVE, RANG-A-TANG ARRIVES IN HOLYWOOD FERENCE WITH MAMMOTH PICTURES, INC.....",
+        "BECAUSE OF HIS ALMOST- HUMAN BRAIN, HIS SUPER- KEEN EYES, SENSITIVE EARS AND UNERRING SENSE OF SMELL, RANG-A-TANG HAS EARNED A NATION- WIDE REPUTATION AS \"THE WONDER DOG.\"",
+        "I ASKED YOU TO COME HERE BECAUSE I WANTED TO SIGN THIS FAMOUS DOG FOR A PICTURE! BUT NOW...... WHAT'S THE TROUBLE, MR. WYNGOLD?",
+        "ONE THING AFTER ANOTHER IS DELAYING OUR PICTURES! WE'RE ABOUT TO GO BANKRUPT! I'VE HEARD RUMORS! SOMETHING TO DO WITH THAT \"BOY WONDER\" YOU HIRED?"
+      ],
+      "inference_time_seconds": 2.6737403869628906
+    },
+    {
+      "sample_idx": 9,
+      "comic_no": 524,
+      "page_no": 2,
+      "panel_no": 5,
+      "ground_truth": "THE WONDER DOG MEETS THE BOY WONDER! IT'S FUNNY THAT THESE ACCIDENTS BEGAN TO HAPPEN WHEN YOU CAME HERE, SWELLES!",
+      "prediction": "Panel 1: (Narrator) \"Wonder Dog hears his master's worried call from Hollywood. He leaps into action!\"\nPanel 2: (Narrator) \"Now, accompanied by his master, Hy Speed, Wonder Dog rushes to Hollywood.\"\nPanel 3: (Narrator) \"Upon arriving at Mr. Wyngold's office, Wonder Dog is greeted by a sleekly dressed man and a mysterious figure.\"\nPanel 4: (Man) \"Hello there, I'm Hy Speed. This is my loyal friend, Wonder Dog.\"\nPanel 5: (Mysterious Figure) \"Ah, so this is our hero! I have some news for him...\"\nPanel 6: (Wonder Dog) \"It seems that Wyngold is in trouble! Something has happened about 'that boy wonder'!\"\nPanel 7: (Hy Speed) \"This is serious, Wonder Dog! We must find out what happened!\" (Wonder Dog looks determined.)\nPanel 8: (Man) \"Wait now... let me tell you the full story before we go any further.\" (He begins explaining the situation.)\n(Narrator) \"To be continued...\"",
+      "context_texts": [
+        "RANG-A-TA THE WONDER D BECAUSE OF HUMAN BRA KEEN EYES. AND UNERRIE SMELL, RAN HAS EARNE WIDE REPL \"THE WONE NOW, ACCOMPANIED BY HIS MASTER, HY SPEED, TECTIVE, RANG-A-TANG ARRIVES IN HOLYWOOD FERENCE WITH MAMMOTH PICTURES, INC.....",
+        "BECAUSE OF HIS ALMOST- HUMAN BRAIN, HIS SUPER- KEEN EYES, SENSITIVE EARS AND UNERRING SENSE OF SMELL, RANG-A-TANG HAS EARNED A NATION- WIDE REPUTATION AS \"THE WONDER DOG.\"",
+        "I ASKED YOU TO COME HERE BECAUSE I WANTED TO SIGN THIS FAMOUS DOG FOR A PICTURE! BUT NOW...... WHAT'S THE TROUBLE, MR. WYNGOLD?",
+        "ONE THING AFTER ANOTHER IS DELAYING OUR PICTURES! WE'RE ABOUT TO GO BANKRUPT! I'VE HEARD RUMORS! SOMETHING TO DO WITH THAT \"BOY WONDER\" YOU HIRED?",
+        "THAT'S RIGHT! NAWSON SWELLES, HIS NAME IS! EVER SINCE HE CAME HERE, AWFUL THINGS HAVE HAPPENED! HM! LET'S HAVE A TALK WITH HIM! C'MON RANG!"
+      ],
+      "inference_time_seconds": 7.758690118789673
+    }
+  ]
+}

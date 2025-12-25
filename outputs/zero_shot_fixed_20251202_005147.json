@@ -1,0 +1,192 @@
+{
+  "config": {
+    "test_mode": true,
+    "num_samples": 10,
+    "context_window": 5,
+    "model_id": "llava-hf/llava-1.5-7b-hf",
+    "prompt": "You are reading a comic book.\nI will show you the previous panels as images.\nBased on them, write the dialogue and narration that should appear in the NEXT panel of the story.\nKeep it concise and in a natural comic-book style."
+  },
+  "timing": {
+    "total_job_time_seconds": 49.598093032836914,
+    "model_load_time_seconds": 11.810620069503784,
+    "inference_time_seconds": 18.898370027542114,
+    "num_samples": 10,
+    "avg_time_per_sample_seconds": 1.8894046783447265,
+    "min_time_per_sample_seconds": 1.1201543807983398,
+    "max_time_per_sample_seconds": 3.1149652004241943,
+    "per_sample_times": [
+      3.1149652004241943,
+      2.0464327335357666,
+      1.1585965156555176,
+      3.1060032844543457,
+      1.454219102859497,
+      1.752936840057373,
+      2.0797832012176514,
+      1.4930839538574219,
+      1.5678715705871582,
+      1.1201543807983398
+    ]
+  },
+  "results": [
+    {
+      "sample_idx": 0,
+      "comic_no": 524,
+      "page_no": 1,
+      "panel_no": 3,
+      "ground_truth": "",
+      "prediction": "The man is standing next to an old record player. He has his arm around the machine, possibly showing off its features or enjoying some music from the past.",
+      "context_texts": [
+        "WONDER ACTION! MY JULY NO.5",
+        "ACTION! MYSTERY! THRILLS! CORPORAL COLLINS INFANTRYMAN JULY NO.5 10\u00a2",
+        "",
+        "",
+        ""
+      ],
+      "inference_time_seconds": 3.1149652004241943
+    },
+    {
+      "sample_idx": 1,
+      "comic_no": 524,
+      "page_no": 1,
+      "panel_no": 4,
+      "ground_truth": "",
+      "prediction": "In this scene, two people can be seen sitting close to each other with one man holding an album cover and smiling. The woman beside him seems intrigued by the record he's holding. \"What is that?\" she asks. This creates a lively atmosphere as they engage in conversation about music or records.",
+      "context_texts": [
+        "ACTION! MYSTERY! THRILLS! CORPORAL COLLINS INFANTRYMAN JULY NO.5 10\u00a2",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "inference_time_seconds": 2.0464327335357666
+    },
+    {
+      "sample_idx": 2,
+      "comic_no": 524,
+      "page_no": 1,
+      "panel_no": 5,
+      "ground_truth": "",
+      "prediction": "The man is sitting in front of an old record player with an old woman behind him. He has his hand on top of the machine while looking at her.",
+      "context_texts": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "inference_time_seconds": 1.1585965156555176
+    },
+    {
+      "sample_idx": 3,
+      "comic_no": 524,
+      "page_no": 1,
+      "panel_no": 6,
+      "ground_truth": "",
+      "prediction": "Panel 1:\nA man is standing near an old record player with his hand on its side. The room appears to be cluttered, but he seems focused on something other than the player. There's also a TV nearby.\n======================\n\nPanel 2 (next):\nThe man, still holding onto the record player or stereo, continues looking intently at whatever object he has chosen to focus upon, possibly trying to decide what to play next or even just daydreaming about music.",
+      "context_texts": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "inference_time_seconds": 3.1060032844543457
+    },
+    {
+      "sample_idx": 4,
+      "comic_no": 524,
+      "page_no": 2,
+      "panel_no": 0,
+      "ground_truth": "RANG-A-TA THE WONDER D BECAUSE OF HUMAN BRA KEEN EYES. AND UNERRIE SMELL, RAN HAS EARNE WIDE REPL \"THE WONE NOW, ACCOMPANIED BY HIS MASTER, HY SPEED, TECTIVE, RANG-A-TANG ARRIVES IN HOLYWOOD FERENCE WITH MAMMOTH PICTURES, INC.....",
+      "prediction": "In the next panel, Man is talking to someone about sending no money! hurry recording unit away from home. He might be explaining his situation or discussing an opportunity related to the record company's services.",
+      "context_texts": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "inference_time_seconds": 1.454219102859497
+    },
+    {
+      "sample_idx": 5,
+      "comic_no": 524,
+      "page_no": 2,
+      "panel_no": 1,
+      "ground_truth": "BECAUSE OF HIS ALMOST- HUMAN BRAIN, HIS SUPER- KEEN EYES, SENSITIVE EARS AND UNERRING SENSE OF SMELL, RANG-A-TANG HAS EARNED A NATION- WIDE REPUTATION AS \"THE WONDER DOG.\"",
+      "prediction": "The dog is showing its tongue out to one of the men with lighting equipment. In the next panel, the man might respond by saying something like \"Oh boy! That dog's crazy!\" or \"Whoa there, what's up with this dog?\".",
+      "context_texts": [
+        "",
+        "",
+        "",
+        "",
+        "RANG-A-TA THE WONDER D BECAUSE OF HUMAN BRA KEEN EYES. AND UNERRIE SMELL, RAN HAS EARNE WIDE REPL \"THE WONE NOW, ACCOMPANIED BY HIS MASTER, HY SPEED, TECTIVE, RANG-A-TANG ARRIVES IN HOLYWOOD FERENCE WITH MAMMOTH PICTURES, INC....."
+      ],
+      "inference_time_seconds": 1.752936840057373
+    },
+    {
+      "sample_idx": 6,
+      "comic_no": 524,
+      "page_no": 2,
+      "panel_no": 2,
+      "ground_truth": "I ASKED YOU TO COME HERE BECAUSE I WANTED TO SIGN THIS FAMOUS DOG FOR A PICTURE! BUT NOW...... WHAT'S THE TROUBLE, MR. WYNGOLD?",
+      "prediction": "I'm sorry, but without knowing which comic book or series this is from, I am unable to provide accurate dialogue and narration for each panel. However, I can assist with general advice regarding writing dialogue and narration for comics. Please consider providing information about the specific title or issue so I may better support your request.",
+      "context_texts": [
+        "",
+        "",
+        "",
+        "RANG-A-TA THE WONDER D BECAUSE OF HUMAN BRA KEEN EYES. AND UNERRIE SMELL, RAN HAS EARNE WIDE REPL \"THE WONE NOW, ACCOMPANIED BY HIS MASTER, HY SPEED, TECTIVE, RANG-A-TANG ARRIVES IN HOLYWOOD FERENCE WITH MAMMOTH PICTURES, INC.....",
+        "BECAUSE OF HIS ALMOST- HUMAN BRAIN, HIS SUPER- KEEN EYES, SENSITIVE EARS AND UNERRING SENSE OF SMELL, RANG-A-TANG HAS EARNED A NATION- WIDE REPUTATION AS \"THE WONDER DOG.\""
+      ],
+      "inference_time_seconds": 2.0797832012176514
+    },
+    {
+      "sample_idx": 7,
+      "comic_no": 524,
+      "page_no": 2,
+      "panel_no": 3,
+      "ground_truth": "ONE THING AFTER ANOTHER IS DELAYING OUR PICTURES! WE'RE ABOUT TO GO BANKRUPT! I'VE HEARD RUMORS! SOMETHING TO DO WITH THAT \"BOY WONDER\" YOU HIRED?",
+      "prediction": "Man (next to dog): What's he doing now?... Dog (to left of man): ...Doggie!\nNarrator (above men): Now, let me tell you what happened next...",
+      "context_texts": [
+        "",
+        "",
+        "RANG-A-TA THE WONDER D BECAUSE OF HUMAN BRA KEEN EYES. AND UNERRIE SMELL, RAN HAS EARNE WIDE REPL \"THE WONE NOW, ACCOMPANIED BY HIS MASTER, HY SPEED, TECTIVE, RANG-A-TANG ARRIVES IN HOLYWOOD FERENCE WITH MAMMOTH PICTURES, INC.....",
+        "BECAUSE OF HIS ALMOST- HUMAN BRAIN, HIS SUPER- KEEN EYES, SENSITIVE EARS AND UNERRING SENSE OF SMELL, RANG-A-TANG HAS EARNED A NATION- WIDE REPUTATION AS \"THE WONDER DOG.\"",
+        "I ASKED YOU TO COME HERE BECAUSE I WANTED TO SIGN THIS FAMOUS DOG FOR A PICTURE! BUT NOW...... WHAT'S THE TROUBLE, MR. WYNGOLD?"
+      ],
+      "inference_time_seconds": 1.4930839538574219
+    },
+    {
+      "sample_idx": 8,
+      "comic_no": 524,
+      "page_no": 2,
+      "panel_no": 4,
+      "ground_truth": "THAT'S RIGHT! NAWSON SWELLES, HIS NAME IS! EVER SINCE HE CAME HERE, AWFUL THINGS HAVE HAPPENED! HM! LET'S HAVE A TALK WITH HIM! C'MON RANG!",
+      "prediction": "The image shows an older man sitting at a desk talking to two people in a room with a dog presenting itself to one person while another looks on. In this scene, there is also a dog next to the group sitting down.",
+      "context_texts": [
+        "",
+        "RANG-A-TA THE WONDER D BECAUSE OF HUMAN BRA KEEN EYES. AND UNERRIE SMELL, RAN HAS EARNE WIDE REPL \"THE WONE NOW, ACCOMPANIED BY HIS MASTER, HY SPEED, TECTIVE, RANG-A-TANG ARRIVES IN HOLYWOOD FERENCE WITH MAMMOTH PICTURES, INC.....",
+        "BECAUSE OF HIS ALMOST- HUMAN BRAIN, HIS SUPER- KEEN EYES, SENSITIVE EARS AND UNERRING SENSE OF SMELL, RANG-A-TANG HAS EARNED A NATION- WIDE REPUTATION AS \"THE WONDER DOG.\"",
+        "I ASKED YOU TO COME HERE BECAUSE I WANTED TO SIGN THIS FAMOUS DOG FOR A PICTURE! BUT NOW...... WHAT'S THE TROUBLE, MR. WYNGOLD?",
+        "ONE THING AFTER ANOTHER IS DELAYING OUR PICTURES! WE'RE ABOUT TO GO BANKRUPT! I'VE HEARD RUMORS! SOMETHING TO DO WITH THAT \"BOY WONDER\" YOU HIRED?"
+      ],
+      "inference_time_seconds": 1.5678715705871582
+    },
+    {
+      "sample_idx": 9,
+      "comic_no": 524,
+      "page_no": 2,
+      "panel_no": 5,
+      "ground_truth": "THE WONDER DOG MEETS THE BOY WONDER! IT'S FUNNY THAT THESE ACCIDENTS BEGAN TO HAPPEN WHEN YOU CAME HERE, SWELLES!",
+      "prediction": "What's happening right now?! (Includes \"Let's get started\", \"Suddenly\", or any other relevant phrases.)",
+      "context_texts": [
+        "RANG-A-TA THE WONDER D BECAUSE OF HUMAN BRA KEEN EYES. AND UNERRIE SMELL, RAN HAS EARNE WIDE REPL \"THE WONE NOW, ACCOMPANIED BY HIS MASTER, HY SPEED, TECTIVE, RANG-A-TANG ARRIVES IN HOLYWOOD FERENCE WITH MAMMOTH PICTURES, INC.....",
+        "BECAUSE OF HIS ALMOST- HUMAN BRAIN, HIS SUPER- KEEN EYES, SENSITIVE EARS AND UNERRING SENSE OF SMELL, RANG-A-TANG HAS EARNED A NATION- WIDE REPUTATION AS \"THE WONDER DOG.\"",
+        "I ASKED YOU TO COME HERE BECAUSE I WANTED TO SIGN THIS FAMOUS DOG FOR A PICTURE! BUT NOW...... WHAT'S THE TROUBLE, MR. WYNGOLD?",
+        "ONE THING AFTER ANOTHER IS DELAYING OUR PICTURES! WE'RE ABOUT TO GO BANKRUPT! I'VE HEARD RUMORS! SOMETHING TO DO WITH THAT \"BOY WONDER\" YOU HIRED?",
+        "THAT'S RIGHT! NAWSON SWELLES, HIS NAME IS! EVER SINCE HE CAME HERE, AWFUL THINGS HAVE HAPPENED! HM! LET'S HAVE A TALK WITH HIM! C'MON RANG!"
+      ],
+      "inference_time_seconds": 1.1201543807983398
+    }
+  ]
+}

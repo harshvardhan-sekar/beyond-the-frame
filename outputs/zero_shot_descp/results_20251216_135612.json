@@ -1,0 +1,295 @@
+{
+  "metadata": {
+    "model": "llava-hf/llava-onevision-qwen2-7b-ov-hf",
+    "task": "zero_shot_cloze",
+    "approach": "free-form scene description",
+    "num_examples": 10,
+    "successful": 10,
+    "failed": 0,
+    "scenes_extracted": 10,
+    "total_time_seconds": 60.046446800231934,
+    "timestamp": "2025-12-16T13:56:12.965468"
+  },
+  "results": [
+    {
+      "id": 1,
+      "comic_no": 1227,
+      "story_idx": 0,
+      "context_image_paths": [
+        "/scratch/bftl/hsekar/comics_project/data/images/1227/7_0.jpg",
+        "/scratch/bftl/hsekar/comics_project/data/images/1227/7_1.jpg",
+        "/scratch/bftl/hsekar/comics_project/data/images/1227/7_2.jpg",
+        "/scratch/bftl/hsekar/comics_project/data/images/1227/7_3.jpg",
+        "/scratch/bftl/hsekar/comics_project/data/images/1227/7_4.jpg"
+      ],
+      "context_texts": [
+        "And deep in the jungle next day, a throbbing drum brought the golden goddess speeding to the Wazuli stockade.",
+        "GER GIRL-BUT SHE MES ALONE! LITTLE PRINCESS, HAVE ABDOLA D YOUR PETS FALLEN EY TO THE JACKAL PLAGUE? NO, THEY FOLLOW CLOSE BEHIND, CHIEF NYZAMBI, BUT- HO! THE MASAI, UGANDA AND BAMBUTI CHIEFTAINS ALL ASSEMBLED... WALLAH! THE WEALTH OF A SCORE OF TEMPLES! AYE, GOLDEN ONE-WE FEAR THAT I SHALL",
+        "ARE THESE NOT THE TREASURES OF ALL YOUR TRIBES, FRIENDS? AYE, GOLDEN ONE-WE FE. THE KILLER KING CALLED BARTON. AND FOR THAT REASON WE ASK YOUR AID- THAT YOU TAKE THEM DOWN RIVER TO SAFETY. A NATIVE WAR PARTY- THEY ATTACKED WITH FLAMING ARROWG! THEY'RE ON",
+        "THAT I SHALL GLADLY DO, HONORED CHIEFTAINS. WITH THE DISTRICT COMMISSIONER THEY SHALL BE SAFE UNTIL THIS JACKAL IS CAPTURED, BUT LISTEN- BEHOLD, THE WAGON OF A BWANA-SAN! HER BEASTS RUN WILD- AND HIDDEN BENEATH",
+        "A NATIVE WAR PARTY- THEY ATTACKED WITH FLAMING ARROWS! THEY'RE ON MY TRAIL. WAIT- DON'T CLOSE THOSE GATES! HELP ME- YOU MUST!"
+      ],
+      "target_image_path": "/scratch/bftl/hsekar/comics_project/data/images/1227/7_5.jpg",
+      "target_page_no": 7,
+      "target_panel_no": 5,
+      "ground_truth": "Panel 6 depicts a tense scene within the stockade, indicated by the dialogue \"WE'RE IN THE STOCKADE- LISTEN!\". Two men are prominently featured: an older man with a weathered face, wearing a hat and holding a rifle, and a younger man standing behind him. The older man appears determined and perhaps a little grim, while the younger man looks concerned. They are positioned in the foreground, suggesting they are central to the unfolding events. The dialogue reveals that they are preparing for an imminent threat, with the older man instructing, \"I TOLD YOU THAT WET TARPAULIN'D KEEP THE STUFF OFF US LONG ENOUGH. SHE'S REALLY PUTTING ON A SHOW. GET READY WITH THOSE SMOKE BOMBS.\" This suggests a plan involving deception or a diversionary tactic. The phrase \"AND HIDDEN BENEATH THE FIERY BRUSH...\" hints at something concealed or a dangerous element about to be revealed, adding to the suspense.",
+      "scene_description": "In the sixth panel of this comic strip sequence, we see a dramatic confrontation unfolding as the characters face off against an attacking native war party. The scene is set in a clearing with dense foliage and a backdrop of trees. The sky appears overcast, suggesting tension and foreboding.\n\nThe central figure, a woman dressed in a leopard print outfit, stands defiantly in front of a large wagon that has been attacked by flaming arrows. Her expression is one of determination and urgency. To her right, there's a man in traditional warrior attire wielding a spear, while another character, possibly a local guide or ally, is seen running towards them, carrying a shield.\n\nThe dialogue in this panel would likely include urgent calls for help and instructions to protect themselves and their belongings. The sound effects accompanying this scene could be the crackling of flames, the thud of arrows hitting the ground, and the shouting of the attackers.\n\nThe overall tone of the panel suggests a pivotal moment where the protagonists must either flee or fight back against the encroaching danger. The art style maintains its typical comic book aesthetic with bold lines and vibrant colors, emphasizing the action and drama of the situation.",
+      "predicted_text": "In the sixth panel of this comic strip sequence, we see a dramatic confrontation unfolding as the characters face off against an attacking native war party. The scene is set in a clearing with dense foliage and a backdrop of trees. The sky appears overcast, suggesting tension and foreboding.\n\nThe central figure, a woman dressed in a leopard print outfit, stands defiantly in front of a large wagon that has been attacked by flaming arrows. Her expression is one of determination and urgency. To her right, there's a man in traditional warrior attire wielding a spear, while another character, possibly a local guide or ally, is seen running towards them, carrying a shield.\n\nThe dialogue in this panel would likely include urgent calls for help and instructions to protect themselves and their belongings. The sound effects accompanying this scene could be the crackling of flames, the thud of arrows hitting the ground, and the shouting of the attackers.\n\nThe overall tone of the panel suggests a pivotal moment where the protagonists must either flee or fight back against the encroaching danger. The art style maintains its typical comic book aesthetic with bold lines and vibrant colors, emphasizing the action and drama of the situation.",
+      "raw_output": "In the sixth panel of this comic strip sequence, we see a dramatic confrontation unfolding as the characters face off against an attacking native war party. The scene is set in a clearing with dense foliage and a backdrop of trees. The sky appears overcast, suggesting tension and foreboding.\n\nThe central figure, a woman dressed in a leopard print outfit, stands defiantly in front of a large wagon that has been attacked by flaming arrows. Her expression is one of determination and urgency. To her right, there's a man in traditional warrior attire wielding a spear, while another character, possibly a local guide or ally, is seen running towards them, carrying a shield.\n\nThe dialogue in this panel would likely include urgent calls for help and instructions to protect themselves and their belongings. The sound effects accompanying this scene could be the crackling of flames, the thud of arrows hitting the ground, and the shouting of the attackers.\n\nThe overall tone of the panel suggests a pivotal moment where the protagonists must either flee or fight back against the encroaching danger. The art style maintains its typical comic book aesthetic with bold lines and vibrant colors, emphasizing the action and drama of the situation.",
+      "inference_time": 8.435717105865479,
+      "status": "success"
+    },
+    {
+      "id": 2,
+      "comic_no": 199,
+      "story_idx": 7,
+      "context_image_paths": [
+        "/scratch/bftl/hsekar/comics_project/data/images/199/24_0.jpg",
+        "/scratch/bftl/hsekar/comics_project/data/images/199/24_1.jpg",
+        "/scratch/bftl/hsekar/comics_project/data/images/199/24_2.jpg",
+        "/scratch/bftl/hsekar/comics_project/data/images/199/24_3.jpg",
+        "/scratch/bftl/hsekar/comics_project/data/images/199/25_0.jpg"
+      ],
+      "context_texts": [
+        "YES, I HAVE COME BACK, QUEEN -IT HAS A CERTAIN POWER, AFTER ALL-NOW WE WILL SEE WHAT IT WILL DO FOR YOU. \u03a4\u0391\u039d\u0399\u0391/-YOU HAVE COME BACK! --NO-NO-KEEP YOUR",
+        "SUDDENLY-BLINDING RAYS SHOOT FROM THE STONE AND SHE IS ENVELOPED IN A DAZZLING LIGHT. LOOK, LUGOFF/- LOOK/ -SHE'S GROWING YOUNG! INSTANTLY, BEFORE THEIR EYES THE EVIL. QUEEN SHRIVELS INTO A HIDEOUS OLD WOMAN...",
+        "AT THE COMMAND OF THE TRANSFORMED BOGVETCH, LUGOFF FORCES THE EVIL QUEEN'S FINGERS DOWN ONTO THE BLAZING STONE. BLAST YOU!-LET- LET ME GO-A-AH! NOT THIS, TANIA!- ANYTHING ELSE BUT",
+        "I HAVE WAITED MANY YEARS, DAGMAR, TO REPAY THE SUFFERING YOU HAVE CAUSED ME-NOW IT 15 YOUR TURN! WILL GO AWAY-BUT GIVE ME BACK MY YOUTH!",
+        "YOU STOLE MY KINGDOM AND THE MAN I LOVED-DOOMED ME TO YEARS OF MISERY--OUT OF MY SIGHT AND BE GRATEFUL THAT YOUR PUNISHMENT IS NO WORSE! DO NOT FEAR - THE CATS EYE WILL"
+      ],
+      "target_image_path": "/scratch/bftl/hsekar/comics_project/data/images/199/25_1.jpg",
+      "target_page_no": 25,
+      "target_panel_no": 1,
+      "ground_truth": "In Panel 6, the scene is set with a light blue background and radiating lines suggesting energy or a magical effect. Tania, restored to youth and beauty by her talisman, stands holding a glowing stone, her expression stern and unforgiving. The evil Marsh Queen, now a hideous old woman, is on her knees, pleading with Tania, \"Forgive me, Tania! Be merciful! I will do anything\u2014but do not leave me like this.\" Behind Tania, Lugoff, dressed in green, stands with his arms crossed, observing the scene. To the right, a woman in a red and blue costume, presumably a companion or ally, stands with her hands clasped, her expression one of concern or awe. The dialogue box above Tania's head reveals her response to the Queen's plea: \"You dare to ask mercy of me, Dagmar?\" There are no sound effects indicated in this panel.",
+      "scene_description": "In the next panel, we see the aftermath of the confrontation between the transformed queen and Dagmar/Lugoff. The scene is chaotic with bright flashes indicating the impact of the \"cats eye\" which has been used to transform the queen back into her original youth. The characters appear shocked and disoriented by the sudden change.\n\nThe transformed queen, now restored to her youthful appearance, stands in front of Dagmar/Lugoff who seems to be recoiling slightly under the force of the transformation. The queen's expression is one of triumph as she speaks to Dagmar/Lugoff, possibly expressing gratitude for their actions or reprimanding them for their role in her suffering.\n\nDagmar/Lugoff appears to be in a state of shock, his eyes wide and mouth agape, unsure how to react to the sudden reversal of events. His posture suggests he may be preparing to flee or is in the process of backing away.\n\nThere would likely be sound effects such as \"CRACK!\" or \"BAM!\" to emphasize the power of the cats eye and the speed of the transformation. Dialogue could include the queen thanking Dagmar/Lugoff and perhaps warning him about future consequences if he does not follow orders again.\n\nThe colors in this panel would be intense, with contrasting shades of light and dark to highlight the dramatic effect of the cats eye's power. The background remains indistinct due to the focus on the characters and the action unfolding before them.",
+      "predicted_text": "In the next panel, we see the aftermath of the confrontation between the transformed queen and Dagmar/Lugoff. The scene is chaotic with bright flashes indicating the impact of the \"cats eye\" which has been used to transform the queen back into her original youth. The characters appear shocked and disoriented by the sudden change.\n\nThe transformed queen, now restored to her youthful appearance, stands in front of Dagmar/Lugoff who seems to be recoiling slightly under the force of the transformation. The queen's expression is one of triumph as she speaks to Dagmar/Lugoff, possibly expressing gratitude for their actions or reprimanding them for their role in her suffering.\n\nDagmar/Lugoff appears to be in a state of shock, his eyes wide and mouth agape, unsure how to react to the sudden reversal of events. His posture suggests he may be preparing to flee or is in the process of backing away.\n\nThere would likely be sound effects such as \"CRACK!\" or \"BAM!\" to emphasize the power of the cats eye and the speed of the transformation. Dialogue could include the queen thanking Dagmar/Lugoff and perhaps warning him about future consequences if he does not follow orders again.\n\nThe colors in this panel would be intense, with contrasting shades of light and dark to highlight the dramatic effect of the cats eye's power. The background remains indistinct due to the focus on the characters and the action unfolding before them.",
+      "raw_output": "In the next panel, we see the aftermath of the confrontation between the transformed queen and Dagmar/Lugoff. The scene is chaotic with bright flashes indicating the impact of the \"cats eye\" which has been used to transform the queen back into her original youth. The characters appear shocked and disoriented by the sudden change.\n\nThe transformed queen, now restored to her youthful appearance, stands in front of Dagmar/Lugoff who seems to be recoiling slightly under the force of the transformation. The queen's expression is one of triumph as she speaks to Dagmar/Lugoff, possibly expressing gratitude for their actions or reprimanding them for their role in her suffering.\n\nDagmar/Lugoff appears to be in a state of shock, his eyes wide and mouth agape, unsure how to react to the sudden reversal of events. His posture suggests he may be preparing to flee or is in the process of backing away.\n\nThere would likely be sound effects such as \"CRACK!\" or \"BAM!\" to emphasize the power of the cats eye and the speed of the transformation. Dialogue could include the queen thanking Dagmar/Lugoff and perhaps warning him about future consequences if he does not follow orders again.\n\nThe colors in this panel would be intense, with contrasting shades of light and dark to highlight the dramatic effect of the cats eye's power. The background remains indistinct due to the focus on the characters and the action unfolding before them.",
+      "inference_time": 8.287397384643555,
+      "status": "success"
+    },
+    {
+      "id": 3,
+      "comic_no": 54,
+      "story_idx": 1,
+      "context_image_paths": [
+        "/scratch/bftl/hsekar/comics_project/data/images/54/12_2.jpg",
+        "/scratch/bftl/hsekar/comics_project/data/images/54/12_3.jpg",
+        "/scratch/bftl/hsekar/comics_project/data/images/54/12_4.jpg",
+        "/scratch/bftl/hsekar/comics_project/data/images/54/12_5.jpg",
+        "/scratch/bftl/hsekar/comics_project/data/images/54/13_0.jpg"
+      ],
+      "context_texts": [
+        "SOME STRATEGY, EH? IT SEEMS WE HAVE WON WHAT THEY CALL A \"BEACH HEAD\" YEP! NOW TO GET TO THAT COVE! THAT'S A OF ONE-M SHIPS W TORPED",
+        "KING UP JAP RIFLES, THE TWO LADS TRY SOME SHOOTING! THAT'S A WHOLE FLOTILLA OF ONE-MAN \"SUICIDE\" SHIPS WITH A BUILT-IN TORPEDO FORWARD! WELL, LET'S AIM AT THEIR NOSES, AND THEY'LL BLOW UP! THE LEFT ONE'S MINE!",
+        "AS IF DOOMED BY A GHOST HAND, THE SMALL SUBS BURST APART AT THEIR MOORINGS... SOME CREWS TRY TO ESCAPE... BUT-- AAH! \u81ea\u4e91 BLAM! BLAM!",
+        "BURST BUT-- AS THE JAPS FLEE INLAND, DICK AND SIMBA ATTEMPT A STRATEGIC MOVE - - RUN FOR THAT LAST FLOATING SUB, SIMBA! MAYBE WE CAN GET AWAY WITH IT! THAT'S THE ONE I PICKED OUT! LET'S GO!",
+        "QUICKLY, THEY OPEN THE HATCH ---- CLIMB DOWN, AND ---- NOT SO BAD, EH SIMBA? DOWN THE HATCH! MAYBE THIS IS LIKE A REGULAR SUBMARINE..."
+      ],
+      "target_image_path": "/scratch/bftl/hsekar/comics_project/data/images/54/13_1.jpg",
+      "target_page_no": 13,
+      "target_panel_no": 1,
+      "ground_truth": "In Panel 6, the scene shifts to the interior of a submarine, a cramped space filled with pipes and machinery. Dick, with his back to the viewer, stands at a console, his hand resting on a lever, ready to operate the periscope, as he tells Simba, \"YOU TAKE THE MOTOR, AND I'LL MAN THE PERISCOPE. WE CAN RUN THIS IF THE JAPS CAN!\" Simba, positioned to the right, is also at a control panel, his expression eager as he responds, \"O.K., SKIPPER! IT'S FULL SPEED AHE... LET'S GET TO SER QUICK!\" The dialogue suggests a sense of urgency and determination as they prepare to pilot the captured submarine.",
+      "scene_description": "In the next panel, we see Dick and Simba inside the small sub that they have managed to escape into. The hatch is open, revealing the interior of the submarine with its control panel and seating area. The ocean water is visible through the opening above them as they look up towards it. The sky appears clear, suggesting that they may be heading away from the chaos they left behind.\n\nThe dialogue between the two characters could include expressions of relief and excitement about their successful escape. They might discuss their next move or share thoughts about the events leading up to this moment.\n\nSound effects such as \"Dive down!\" or \"We're safe for now!\" would likely accompany the action, emphasizing the urgency and relief associated with their escape. The overall tone of the scene conveys a sense of adventure and survival against odds.",
+      "predicted_text": "In the next panel, we see Dick and Simba inside the small sub that they have managed to escape into. The hatch is open, revealing the interior of the submarine with its control panel and seating area. The ocean water is visible through the opening above them as they look up towards it. The sky appears clear, suggesting that they may be heading away from the chaos they left behind.\n\nThe dialogue between the two characters could include expressions of relief and excitement about their successful escape. They might discuss their next move or share thoughts about the events leading up to this moment.\n\nSound effects such as \"Dive down!\" or \"We're safe for now!\" would likely accompany the action, emphasizing the urgency and relief associated with their escape. The overall tone of the scene conveys a sense of adventure and survival against odds.",
+      "raw_output": "In the next panel, we see Dick and Simba inside the small sub that they have managed to escape into. The hatch is open, revealing the interior of the submarine with its control panel and seating area. The ocean water is visible through the opening above them as they look up towards it. The sky appears clear, suggesting that they may be heading away from the chaos they left behind.\n\nThe dialogue between the two characters could include expressions of relief and excitement about their successful escape. They might discuss their next move or share thoughts about the events leading up to this moment.\n\nSound effects such as \"Dive down!\" or \"We're safe for now!\" would likely accompany the action, emphasizing the urgency and relief associated with their escape. The overall tone of the scene conveys a sense of adventure and survival against odds.",
+      "inference_time": 5.587576627731323,
+      "status": "success"
+    },
+    {
+      "id": 4,
+      "comic_no": 1396,
+      "story_idx": 4,
+      "context_image_paths": [
+        "/scratch/bftl/hsekar/comics_project/data/images/1396/36_7.jpg",
+        "/scratch/bftl/hsekar/comics_project/data/images/1396/36_8.jpg",
+        "/scratch/bftl/hsekar/comics_project/data/images/1396/36_9.jpg",
+        "/scratch/bftl/hsekar/comics_project/data/images/1396/37_0.jpg",
+        "/scratch/bftl/hsekar/comics_project/data/images/1396/37_1.jpg"
+      ],
+      "context_texts": [
+        "WHOMP!",
+        "THEY'RE ALL DEAD... EVERY LAST ONE OF THE CREW! HANGMAN! LOOK, I FOUND THE LOG BOOK!",
+        "HIS CRIMES RECORDED HERE! CRIMES COMMITTED IN THE 15TH CENTURY! DO YOU REALLY THINK IT'S TRUE HANGMAN?",
+        "JOEY. IT ALL SOUNDS SO FANTAS- TIC, AND YET.... JOEY! WATCH OUT! THAT MAST! IT'S TOPPLING OUR WAY!",
+        "JUMP! THE WHOLE SHIP IS CRACKING UP. IT'LL SINK ANY MINUTE!"
+      ],
+      "target_image_path": "/scratch/bftl/hsekar/comics_project/data/images/1396/37_2.jpg",
+      "target_page_no": 37,
+      "target_panel_no": 2,
+      "ground_truth": "In Panel 6, the scene is set at sea with choppy, dark blue waves crashing around a sinking ship. The ship is tilting precariously, with its stern submerged in the water, indicating it is about to go under. In the foreground, partially submerged in the water, are two figures. One is a person in a green costume with a blue cape, presumably Hangman, who appears to be struggling or perhaps has just been thrown from the ship. Nearby, a smaller, golden object, possibly a treasure chest or a piece of debris, bobs on the surface of the water. There is no dialogue or sound effects in this panel, but the visual elements convey a sense of chaos and disaster as the ship succumbs to the sea.",
+      "scene_description": "In this next panel, we see the aftermath of the ship's mast toppling over. The character known as Hangman is seen holding onto the mast with one hand while his other arm is extended outwards for balance. He appears to be shouting or calling out to someone off-panel. The mast is bending and about to break, indicating that it has been severely damaged by the force of its fall. There is visible tension in Hangman's posture as he struggles to maintain his grip. The sky above them is clear, suggesting that the weather conditions were not contributing factors to the mast's collapse. The sea around the ship seems calm, which contrasts with the chaos happening on deck. The ship itself is shown listing heavily to one side due to the damage, and there are no signs of people actively trying to save themselves yet, implying that the situation is still unfolding.",
+      "predicted_text": "In this next panel, we see the aftermath of the ship's mast toppling over. The character known as Hangman is seen holding onto the mast with one hand while his other arm is extended outwards for balance. He appears to be shouting or calling out to someone off-panel. The mast is bending and about to break, indicating that it has been severely damaged by the force of its fall. There is visible tension in Hangman's posture as he struggles to maintain his grip. The sky above them is clear, suggesting that the weather conditions were not contributing factors to the mast's collapse. The sea around the ship seems calm, which contrasts with the chaos happening on deck. The ship itself is shown listing heavily to one side due to the damage, and there are no signs of people actively trying to save themselves yet, implying that the situation is still unfolding.",
+      "raw_output": "In this next panel, we see the aftermath of the ship's mast toppling over. The character known as Hangman is seen holding onto the mast with one hand while his other arm is extended outwards for balance. He appears to be shouting or calling out to someone off-panel. The mast is bending and about to break, indicating that it has been severely damaged by the force of its fall. There is visible tension in Hangman's posture as he struggles to maintain his grip. The sky above them is clear, suggesting that the weather conditions were not contributing factors to the mast's collapse. The sea around the ship seems calm, which contrasts with the chaos happening on deck. The ship itself is shown listing heavily to one side due to the damage, and there are no signs of people actively trying to save themselves yet, implying that the situation is still unfolding.",
+      "inference_time": 5.008636713027954,
+      "status": "success"
+    },
+    {
+      "id": 5,
+      "comic_no": 508,
+      "story_idx": 6,
+      "context_image_paths": [
+        "/scratch/bftl/hsekar/comics_project/data/images/508/40_5.jpg",
+        "/scratch/bftl/hsekar/comics_project/data/images/508/41_0.jpg",
+        "/scratch/bftl/hsekar/comics_project/data/images/508/41_1.jpg",
+        "/scratch/bftl/hsekar/comics_project/data/images/508/41_2.jpg",
+        "/scratch/bftl/hsekar/comics_project/data/images/508/41_3.jpg"
+      ],
+      "context_texts": [
+        "A FEW MINUTES LATER THE TANK IS CAMOFLAGED WITH SHRUBBERY.... YOU'D NEVER SUS- PECT A TANK WAS HIDDEN THERE! GOSH! THOSE JAPS ARE YELLING THEIR HEADS OFF, IN THAT TANK!",
+        "THE BOYS THEN RETURN TO THE KNOCKED OUT JAPS WHERE THEY GATHER UP ALL THE GUNS AND AMMUNITIONS WE MADE A WONDERFUL HAUL! WE CAN USE EVERYTHING - ESPECIALLY THE AMMUNITION!",
+        "I FEEL WONDERFUL, WING! YOU KNOW THERE'S NO- THING LIKE A GOOD SCRAP TO PEP YOU UP! TRUE, BUT OUR HARDEST FIGHT LIES AHEADI",
+        "SUNDOWN - FIND THE DYS ON LONELY ATEAU OKING OWN.. THERE'S THE JAP CAMPI",
+        "WING, HAVE YOU ANY IDEA HOW WE CAN RESCUE DAD?"
+      ],
+      "target_image_path": "/scratch/bftl/hsekar/comics_project/data/images/508/41_4.jpg",
+      "target_page_no": 41,
+      "target_panel_no": 4,
+      "ground_truth": "In Panel 6, the scene is set at night, with a dark background and a faint yellow circle behind the characters, suggesting a dim light source. Three figures are shown from behind, looking towards the right. The central figure, wearing a red jacket, is looking intently at something unseen. To his left, a man in a dark coat, presumably Wing, is speaking with urgency, his mouth open as he exclaims, \"WE CAN'T JUST WALK INTO THE CONCENTRATION CAMP AND TAKE MY FATHER!\" To Wing's right, another figure, whose face is partially visible, responds with a determined tone, \"THAT'S EXACTLY WHAT WE WILL DO!\" The overall mood is one of grim resolve and a daring plan being formulated.",
+      "scene_description": "In this next panel of the comic book sequence, we see a nighttime scene where the group of characters has gathered around a large, illuminated map spread out on a table. The map appears to be of a forested area with various paths and landmarks marked. The characters are huddled closely together, discussing their plan for the upcoming mission. One character, who seems to be leading the discussion, is pointing to specific areas on the map while explaining strategies or routes to take. There's a sense of urgency and determination in the atmosphere as they prepare for the challenge ahead.\n\nThe dialogue could involve strategic planning and reassurance among the team members. Sound effects might include whispers, the rustling of leaves, and perhaps some distant noises that hint at the presence of the enemy nearby. The overall tone suggests a moment of intense focus before embarking on a critical operation.",
+      "predicted_text": "In this next panel of the comic book sequence, we see a nighttime scene where the group of characters has gathered around a large, illuminated map spread out on a table. The map appears to be of a forested area with various paths and landmarks marked. The characters are huddled closely together, discussing their plan for the upcoming mission. One character, who seems to be leading the discussion, is pointing to specific areas on the map while explaining strategies or routes to take. There's a sense of urgency and determination in the atmosphere as they prepare for the challenge ahead.\n\nThe dialogue could involve strategic planning and reassurance among the team members. Sound effects might include whispers, the rustling of leaves, and perhaps some distant noises that hint at the presence of the enemy nearby. The overall tone suggests a moment of intense focus before embarking on a critical operation.",
+      "raw_output": "In this next panel of the comic book sequence, we see a nighttime scene where the group of characters has gathered around a large, illuminated map spread out on a table. The map appears to be of a forested area with various paths and landmarks marked. The characters are huddled closely together, discussing their plan for the upcoming mission. One character, who seems to be leading the discussion, is pointing to specific areas on the map while explaining strategies or routes to take. There's a sense of urgency and determination in the atmosphere as they prepare for the challenge ahead.\n\nThe dialogue could involve strategic planning and reassurance among the team members. Sound effects might include whispers, the rustling of leaves, and perhaps some distant noises that hint at the presence of the enemy nearby. The overall tone suggests a moment of intense focus before embarking on a critical operation.",
+      "inference_time": 5.949834823608398,
+      "status": "success"
+    },
+    {
+      "id": 6,
+      "comic_no": 471,
+      "story_idx": 0,
+      "context_image_paths": [
+        "/scratch/bftl/hsekar/comics_project/data/images/471/6_2.jpg",
+        "/scratch/bftl/hsekar/comics_project/data/images/471/6_3.jpg",
+        "/scratch/bftl/hsekar/comics_project/data/images/471/6_4.jpg",
+        "/scratch/bftl/hsekar/comics_project/data/images/471/6_5.jpg",
+        "/scratch/bftl/hsekar/comics_project/data/images/471/7_0.jpg"
+      ],
+      "context_texts": [
+        "C'MON, TIM-- I'M GOING TO SCOUT AROUND TOWN! MAYBE I CAN PICK UP A CLUE! SOMETHING TELLS ME I'M NOT GOING TO LIKE THAT CHIEF! YOU AND ME BOT ONLY HIS UNIFOR SAVED HIM FROM A PUNCH IN THE NOSE!",
+        "A SHORT TIME LATER... IN AN ABANDONED WAREHOUSE ON THE EDGE OF TOWN... EVERYTHING WORKED OUT JUST LIKE THE BOSS SAID! WE KNOCKED OUT THE BRAKEMAN, AND AS SOON AS THE TRAIN HIT THE TUNNEL WE UNCOUPLED THE CARS! YEAH... THEN THE FREIGHT AND CABOOSE ROLLED DOWN THE LITTLE GRADE A COUPLE OF MILES AND WE SHIFTED IT TO A SIDING! IT WAS A CINCH! HERE COMES THE BOSS!",
+        "AS SILK! WE HAVE TO WORK FAST NOW! THE BLACK TERROR IS GETTING NOSEY! BRING THE TRUCK DOWN AND GET THAT PENICILLIN OUT! WE'RE SELLING IT FOR PLENTY OF DOUGH! THE JAPS ARE ANXIOUS TO GET HOLD OF IT! WAIT A MINUTE---I WAS CALLED IN TO HELP WITH THIS JO BUT I WANT TO SE WHO THE BOSS IS HOW DO I KNOW WE AIN'T BEING PLAYED FOR SUCKERS",
+        "WAIT A MINUTE---I WAS CALLED IN TO HELP WITH THIS JOB! BUT I WANT TO SEE WHO THE BOSS IS! HOW DO I KNOW WE AIN'T BEING PLAYED FOR SUCKERS? WE WON'T NEED YOU ANY MORE! I DON'T LIKE PEOPLE WHO ASK QUESTIONS! BANG!",
+        "Meanwhile... I WONDER WHAT THE TROUBLE IS! ONLY ONE WAY TO FIND OUT! LET'S ASK! HER WENT THE C COMPL THE NE TAX, A THREL JA I SEE! C'MON TEE"
+      ],
+      "target_image_path": "/scratch/bftl/hsekar/comics_project/data/images/471/7_1.jpg",
+      "target_page_no": 7,
+      "target_panel_no": 1,
+      "ground_truth": "In Panel 6, the scene shifts to a street where three women are talking, with one of them, wearing a red hat, explaining that her husband went to complain to the chief about a new police tax and was thrown in jail, adding that they are helpless because the chief came to town a few months ago and managed to get himself elected by fraud, though they could never prove it. Another woman, with dark hair, looks concerned, while the woman in the red hat seems to be relaying this information to a man who is looking at them, his expression thoughtful as he says \"HMMMM... VERY INTEREST- ING!\". The dialogue suggests a growing awareness of the chief's corruption and the potential for trouble.",
+      "scene_description": "In this next panel, we see a close-up of the character who was just shot by the unseen person. The character's eyes are wide with shock and surprise as he realizes that his question has led to an unexpected outcome. There is a visible sound effect \"BANG!\" indicating the gunshot. The character's speech bubble reads something along the lines of \"Wait a minute...\" or \"What have I done?\" expressing regret for asking questions. The background is dark and shadowy, emphasizing the suddenness and danger of the situation. The character's body language suggests he is reeling from the consequences of his actions.",
+      "predicted_text": "In this next panel, we see a close-up of the character who was just shot by the unseen person. The character's eyes are wide with shock and surprise as he realizes that his question has led to an unexpected outcome. There is a visible sound effect \"BANG!\" indicating the gunshot. The character's speech bubble reads something along the lines of \"Wait a minute...\" or \"What have I done?\" expressing regret for asking questions. The background is dark and shadowy, emphasizing the suddenness and danger of the situation. The character's body language suggests he is reeling from the consequences of his actions.",
+      "raw_output": "In this next panel, we see a close-up of the character who was just shot by the unseen person. The character's eyes are wide with shock and surprise as he realizes that his question has led to an unexpected outcome. There is a visible sound effect \"BANG!\" indicating the gunshot. The character's speech bubble reads something along the lines of \"Wait a minute...\" or \"What have I done?\" expressing regret for asking questions. The background is dark and shadowy, emphasizing the suddenness and danger of the situation. The character's body language suggests he is reeling from the consequences of his actions.",
+      "inference_time": 4.350799798965454,
+      "status": "success"
+    },
+    {
+      "id": 7,
+      "comic_no": 449,
+      "story_idx": 10,
+      "context_image_paths": [
+        "/scratch/bftl/hsekar/comics_project/data/images/449/41_4.jpg",
+        "/scratch/bftl/hsekar/comics_project/data/images/449/41_5.jpg",
+        "/scratch/bftl/hsekar/comics_project/data/images/449/42_0.jpg",
+        "/scratch/bftl/hsekar/comics_project/data/images/449/42_1.jpg",
+        "/scratch/bftl/hsekar/comics_project/data/images/449/42_2.jpg"
+      ],
+      "context_texts": [
+        "THAT'S FUNNY-HE HARDLY HAD TIME TO DITCH IT!",
+        "LATER. BACK AT HEADQUARTERS! YEAH! SAY, WHAT WAS JOE UP FOR, SARGE? GREAT WORK, KIR, JUST HEARD ABOUT HOW YOU HELPED CATCH \"DENVER JOE\"!",
+        "I COVERED THAT STORY, RIP!! CARROLL HELD UP A PAYROLL TRUCK AND KILLED TH' DRIVER- HE NEVER DID TELL WHAT HE DID WITH THE $50,000 HE GOT AWAY WITH IT",
+        "SAY, I'VE GOT A HUNCH, BABS! NOW, WHAT KINDA BUG IS BITIN' YA, BUR- LAND? YA CAUGHT TH' CROOKS, B'GOBS AIN'T THAT ENOUGH?",
+        "I'M BEGINNING TO SEE WHY CAR- ROLL WANTED THAT BOOK SO BADLY, NOW, ALL WE HAVE TO DO-IS FIND IT! BUT HOW?"
+      ],
+      "target_image_path": "/scratch/bftl/hsekar/comics_project/data/images/449/42_3.jpg",
+      "target_page_no": 42,
+      "target_panel_no": 3,
+      "ground_truth": "In Panel 6, the scene is set outdoors, possibly at night, with a large, stylized street lamp casting a warm glow on the ground. Two silhouetted figures, one taller and one shorter, are engaged in conversation. The taller figure, presumably Rip, gestures emphatically as he tells Barbara, \"I'M PLAYING A CRAZY CHANCE, BARBARA, AND I'LL NEED YOUR HELP!\" Barbara, standing slightly behind and to the side of Rip, looks up at him, her expression unreadable in silhouette but her posture suggesting attentiveness. The dialogue bubble from the shorter figure, likely Barbara, asks, \"IF THERE'S A STORY IN IT, YOU'VE GOT IT!\" indicating her willingness to assist in whatever endeavor Rip is planning. There are no sound effects present in this panel.",
+      "scene_description": "In the next panel (Panel 6), we see a continuation of the conversation between the man and the woman, who appears to be Babs, as suggested by her name tag or caption. The man seems to be explaining something to Babs with an assertive gesture, possibly discussing their next steps regarding finding the missing book that Caroll was interested in. \n\nThe scene likely takes place indoors, perhaps within a police station or headquarters given the context provided by the previous panels. The man's posture suggests he is making a point or giving instructions, while Babs listens attentively, indicated by her focused gaze towards him.\n\nDialogue could include the man elaborating on his plan or strategy for locating the book, and Babs responding with questions or concerns about how they will proceed without further information. There may also be sound effects such as the rustling of papers if they are reviewing documents related to the case, or the sound of typing if they are using a typewriter to record details.\n\nOverall, Panel 6 sets up the tension and mystery surrounding the missing book and the determination of the characters to recover it.",
+      "predicted_text": "In the next panel (Panel 6), we see a continuation of the conversation between the man and the woman, who appears to be Babs, as suggested by her name tag or caption. The man seems to be explaining something to Babs with an assertive gesture, possibly discussing their next steps regarding finding the missing book that Caroll was interested in. \n\nThe scene likely takes place indoors, perhaps within a police station or headquarters given the context provided by the previous panels. The man's posture suggests he is making a point or giving instructions, while Babs listens attentively, indicated by her focused gaze towards him.\n\nDialogue could include the man elaborating on his plan or strategy for locating the book, and Babs responding with questions or concerns about how they will proceed without further information. There may also be sound effects such as the rustling of papers if they are reviewing documents related to the case, or the sound of typing if they are using a typewriter to record details.\n\nOverall, Panel 6 sets up the tension and mystery surrounding the missing book and the determination of the characters to recover it.",
+      "raw_output": "In the next panel (Panel 6), we see a continuation of the conversation between the man and the woman, who appears to be Babs, as suggested by her name tag or caption. The man seems to be explaining something to Babs with an assertive gesture, possibly discussing their next steps regarding finding the missing book that Caroll was interested in. \n\nThe scene likely takes place indoors, perhaps within a police station or headquarters given the context provided by the previous panels. The man's posture suggests he is making a point or giving instructions, while Babs listens attentively, indicated by her focused gaze towards him.\n\nDialogue could include the man elaborating on his plan or strategy for locating the book, and Babs responding with questions or concerns about how they will proceed without further information. There may also be sound effects such as the rustling of papers if they are reviewing documents related to the case, or the sound of typing if they are using a typewriter to record details.\n\nOverall, Panel 6 sets up the tension and mystery surrounding the missing book and the determination of the characters to recover it.",
+      "inference_time": 6.395689964294434,
+      "status": "success"
+    },
+    {
+      "id": 8,
+      "comic_no": 230,
+      "story_idx": 2,
+      "context_image_paths": [
+        "/scratch/bftl/hsekar/comics_project/data/images/230/26_0.jpg",
+        "/scratch/bftl/hsekar/comics_project/data/images/230/26_1.jpg",
+        "/scratch/bftl/hsekar/comics_project/data/images/230/26_2.jpg",
+        "/scratch/bftl/hsekar/comics_project/data/images/230/26_3.jpg",
+        "/scratch/bftl/hsekar/comics_project/data/images/230/26_4.jpg"
+      ],
+      "context_texts": [
+        "HOLDING HIS BREATH, TOMMY OWENS SWINGS HIS LOOP OF HEAVY ROPE.",
+        "THE THROW IS TOO SHORT",
+        "AT TOP SPEED STARLIGHT PLUNGES DOWN THE ROCKY, TREACHEROUS MOUNTAINSIDE.",
+        "THE THROW IS TOO SHORT. TOO LATE HE SEES THE BUSH-SCREENED PIT.",
+        "EIGHT FEET DOWN HE LANDS- MIRACULOUSLY UNHURT- ON A PILE OF DEAD LEAVES."
+      ],
+      "target_image_path": "/scratch/bftl/hsekar/comics_project/data/images/230/26_5.jpg",
+      "target_page_no": 26,
+      "target_panel_no": 5,
+      "ground_truth": "In Panel 6, the scene is set inside a pit, with the rough, earthy walls of the pit surrounding the trapped horse. The horse, Starlight, is depicted in a dynamic pose, its body contorted as it attempts to escape. Its legs are splayed, and its head is thrown back, suggesting a desperate struggle. The text indicates that Starlight, \"WITH A WILD THING'S TERROR OF TRAPS,\" is hurling himself at the pit's wall, a clear indication of his fear and frantic efforts to get out. There is no dialogue shown in this panel, nor are there any sound effects, but the visual and textual cues convey a strong sense of panic and a desperate bid for freedom.",
+      "scene_description": "In the next panel, we see Starlight, the horse, having just landed on a pile of dead leaves after plummeting down the treacherous mountainside. The scene is chaotic with dust and debris flying around due to the force of the fall. Starlight's body is slightly jostled but appears to be intact. There are no visible signs of injury or distress on the horse's face. The background shows a steep drop-off where Starlight was thrown off balance by the short rope swing. \n\nThe character Tommy Owens, who is not shown in this panel, would likely be nearby, possibly watching the aftermath of his failed attempt to catch Starlight. He may have been standing close enough to hear the impact and could now be assessing whether he needs to help Starlight or if the situation is under control.\n\nThere is no dialogue depicted in this panel, as it focuses solely on the action and reaction following the fall. However, one can imagine that there would be sounds such as \"Whoa!\" or \"Oh no!\" from someone witnessing the fall, followed by silence as the reality of the situation sets in. The sound effect for the fall itself might include a loud thud and some crunching noises from the leaves upon impact.",
+      "predicted_text": "In the next panel, we see Starlight, the horse, having just landed on a pile of dead leaves after plummeting down the treacherous mountainside. The scene is chaotic with dust and debris flying around due to the force of the fall. Starlight's body is slightly jostled but appears to be intact. There are no visible signs of injury or distress on the horse's face. The background shows a steep drop-off where Starlight was thrown off balance by the short rope swing. \n\nThe character Tommy Owens, who is not shown in this panel, would likely be nearby, possibly watching the aftermath of his failed attempt to catch Starlight. He may have been standing close enough to hear the impact and could now be assessing whether he needs to help Starlight or if the situation is under control.\n\nThere is no dialogue depicted in this panel, as it focuses solely on the action and reaction following the fall. However, one can imagine that there would be sounds such as \"Whoa!\" or \"Oh no!\" from someone witnessing the fall, followed by silence as the reality of the situation sets in. The sound effect for the fall itself might include a loud thud and some crunching noises from the leaves upon impact.",
+      "raw_output": "In the next panel, we see Starlight, the horse, having just landed on a pile of dead leaves after plummeting down the treacherous mountainside. The scene is chaotic with dust and debris flying around due to the force of the fall. Starlight's body is slightly jostled but appears to be intact. There are no visible signs of injury or distress on the horse's face. The background shows a steep drop-off where Starlight was thrown off balance by the short rope swing. \n\nThe character Tommy Owens, who is not shown in this panel, would likely be nearby, possibly watching the aftermath of his failed attempt to catch Starlight. He may have been standing close enough to hear the impact and could now be assessing whether he needs to help Starlight or if the situation is under control.\n\nThere is no dialogue depicted in this panel, as it focuses solely on the action and reaction following the fall. However, one can imagine that there would be sounds such as \"Whoa!\" or \"Oh no!\" from someone witnessing the fall, followed by silence as the reality of the situation sets in. The sound effect for the fall itself might include a loud thud and some crunching noises from the leaves upon impact.",
+      "inference_time": 6.71808648109436,
+      "status": "success"
+    },
+    {
+      "id": 9,
+      "comic_no": 1394,
+      "story_idx": 3,
+      "context_image_paths": [
+        "/scratch/bftl/hsekar/comics_project/data/images/1394/42_7.jpg",
+        "/scratch/bftl/hsekar/comics_project/data/images/1394/43_0.jpg",
+        "/scratch/bftl/hsekar/comics_project/data/images/1394/43_1.jpg",
+        "/scratch/bftl/hsekar/comics_project/data/images/1394/43_2.jpg",
+        "/scratch/bftl/hsekar/comics_project/data/images/1394/44_0.jpg"
+      ],
+      "context_texts": [
+        "CATFISH CREEK Archie COMICS MLJ FEAT AR THE M A NA",
+        "SPECIAL CASE N\u00ba12 Roy and Dusty BIFF BAM E DAY FIND YAND STY SIT- GIN THEIR OM WHEN DDENLY----- ANY SMILARITY BETWEEN THAT CERTAIN CHARACTER IN THIS STORY IS PURELY NONFICTIOUS AND DE-- LIBERATELY INTENTION- AL! WHAT'S GOING TO HAP- PEN TO HIM SHOULD HAPPEN TO A DOG---- ANYWAY OUR BOY BUD- DIES WERE CONFRONTED BY THEIR MOST FAN- TASTIC ADVENTURES",
+        "BETWEEN ARACTER PURELY DE- NTION- TO HAP- D G---- BUD- ONTED FAN- RES NED AND BUT WE T WE? E'S A PIECE OF R WRAPPED IND THE ROCK! IT \"GO TO THE OLD HOUSE ON THE ER OF CHESTNUT VINE STREETS YOU'LL FIND GREATEST SUR- OF YOUR LIFE\"!",
+        "",
+        "LOOKS LIKE SOME- BODY'S PLAYING A JOKE ON US! AW, COME ON, ROY, AND LETS FIND OUT!"
+      ],
+      "target_image_path": "/scratch/bftl/hsekar/comics_project/data/images/1394/44_1.jpg",
+      "target_page_no": 44,
+      "target_panel_no": 1,
+      "ground_truth": "In Panel 6, the scene is set outside a dilapidated, orange warehouse with a red roof, surrounded by a broken wooden fence. Two silhouetted figures, presumably Roy and Dusty, are entering the warehouse through an open doorway. One of the figures is speaking, saying \"WELL THERE IS THE WAREHOUSE! PERFECT SETTING FOR A MURDER, EH?\". The overall mood is suspenseful and ominous, hinting at a dangerous situation unfolding within the warehouse.",
+      "scene_description": "In the next panel, we see two superheroes standing in front of an old house. The superhero with red hair and a blue costume is speaking to the other character who has blonde hair and wears a red mask over their eyes. They both appear to be in a tense conversation as they look towards the house. There's a sense of anticipation about what lies inside the house that they're about to investigate. The background shows a cloudy sky, suggesting it might be late afternoon or early evening. Sound effects could include footsteps approaching the house, indicating they are ready to enter and start their investigation.",
+      "predicted_text": "In the next panel, we see two superheroes standing in front of an old house. The superhero with red hair and a blue costume is speaking to the other character who has blonde hair and wears a red mask over their eyes. They both appear to be in a tense conversation as they look towards the house. There's a sense of anticipation about what lies inside the house that they're about to investigate. The background shows a cloudy sky, suggesting it might be late afternoon or early evening. Sound effects could include footsteps approaching the house, indicating they are ready to enter and start their investigation.",
+      "raw_output": "In the next panel, we see two superheroes standing in front of an old house. The superhero with red hair and a blue costume is speaking to the other character who has blonde hair and wears a red mask over their eyes. They both appear to be in a tense conversation as they look towards the house. There's a sense of anticipation about what lies inside the house that they're about to investigate. The background shows a cloudy sky, suggesting it might be late afternoon or early evening. Sound effects could include footsteps approaching the house, indicating they are ready to enter and start their investigation.",
+      "inference_time": 3.9416844844818115,
+      "status": "success"
+    },
+    {
+      "id": 10,
+      "comic_no": 190,
+      "story_idx": 7,
+      "context_image_paths": [
+        "/scratch/bftl/hsekar/comics_project/data/images/190/46_5.jpg",
+        "/scratch/bftl/hsekar/comics_project/data/images/190/46_6.jpg",
+        "/scratch/bftl/hsekar/comics_project/data/images/190/46_7.jpg",
+        "/scratch/bftl/hsekar/comics_project/data/images/190/46_8.jpg",
+        "/scratch/bftl/hsekar/comics_project/data/images/190/46_9.jpg"
+      ],
+      "context_texts": [
+        "RUN FOR A TREE JERRY!!",
+        "LOOK!-THAT POOR DEVIL FELL! -HIS FOOT'S CAUGHT IN A VINE!",
+        "",
+        "CHUCK!",
+        "SURPRISED BY CHUCK'S SUDDEN APPEARANCE, THE SALAMANDRON HESITATES AND EYES HIS NEW FOE...."
+      ],
+      "target_image_path": "/scratch/bftl/hsekar/comics_project/data/images/190/46_10.jpg",
+      "target_page_no": 46,
+      "target_panel_no": 10,
+      "ground_truth": "In Panel 6, the scene is set against a vibrant red background, suggesting intense action or a dramatic moment. Chuck is shown in mid-air, leaping onto the back of the large, green, reptilian creature known as the Salamandron. His expression is determined, and his arms are wrapped around the creature's spiky back, indicating he is actively engaging with it. The Salamandron appears to be recoiling or reacting to Chuck's sudden attack. The sound effect \"WHOMP!\" is prominently displayed, signifying a forceful impact, likely Chuck landing on the creature or the beginning of their struggle. There is no dialogue spoken by the characters in this panel, but the sound effect conveys the raw physicality of the confrontation.",
+      "scene_description": "In the next panel, we see the Salamandron, now standing upright and facing the man who has just appeared. The Salamandron's eyes are wide with surprise as it takes in the sight of its new foe. The man, appearing to be in a defensive stance, raises his fists and speaks assertively to the Salamandron. The background shows a dense jungle environment, indicating that this confrontation is taking place outdoors. There is no visible text in this panel, but the dialogue could include the man challenging the Salamandron or preparing for battle. Sound effects such as \"ROAR!\" or \"GET BACK!\" might accompany the Salamandron's reaction, while the man could have a more commanding tone, possibly shouting something like \"Don't move, creature!\" or \"I'm not afraid of you!\"",
+      "predicted_text": "In the next panel, we see the Salamandron, now standing upright and facing the man who has just appeared. The Salamandron's eyes are wide with surprise as it takes in the sight of its new foe. The man, appearing to be in a defensive stance, raises his fists and speaks assertively to the Salamandron. The background shows a dense jungle environment, indicating that this confrontation is taking place outdoors. There is no visible text in this panel, but the dialogue could include the man challenging the Salamandron or preparing for battle. Sound effects such as \"ROAR!\" or \"GET BACK!\" might accompany the Salamandron's reaction, while the man could have a more commanding tone, possibly shouting something like \"Don't move, creature!\" or \"I'm not afraid of you!\"",
+      "raw_output": "In the next panel, we see the Salamandron, now standing upright and facing the man who has just appeared. The Salamandron's eyes are wide with surprise as it takes in the sight of its new foe. The man, appearing to be in a defensive stance, raises his fists and speaks assertively to the Salamandron. The background shows a dense jungle environment, indicating that this confrontation is taking place outdoors. There is no visible text in this panel, but the dialogue could include the man challenging the Salamandron or preparing for battle. Sound effects such as \"ROAR!\" or \"GET BACK!\" might accompany the Salamandron's reaction, while the man could have a more commanding tone, possibly shouting something like \"Don't move, creature!\" or \"I'm not afraid of you!\"",
+      "inference_time": 5.350912809371948,
+      "status": "success"
+    }
+  ]
+}

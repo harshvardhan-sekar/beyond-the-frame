@@ -1,0 +1,130 @@
+{
+  "config": {
+    "test_mode": true,
+    "num_samples": 10,
+    "context_window": 5,
+    "target_shown": false,
+    "model_id": "llava-hf/llava-1.5-7b-hf",
+    "prompt": "You are reading a comic book.\nI will show you the previous panels as images.\nBased on them, write the dialogue and narration that should appear in the NEXT panel of the story.\nKeep it concise and in a natural comic-book style.",
+    "generation_params": {
+      "max_new_tokens": 300,
+      "min_new_tokens": 30,
+      "do_sample": true,
+      "temperature": 0.7,
+      "repetition_penalty": 1.15
+    }
+  },
+  "timing": {
+    "total_job_time_seconds": 32.50991463661194,
+    "model_load_time_seconds": 11.934546709060669,
+    "inference_time_seconds": 19.811139345169067,
+    "num_samples": 10,
+    "avg_time_per_sample_seconds": 1.9806812286376954,
+    "min_time_per_sample_seconds": 1.1907227039337158,
+    "max_time_per_sample_seconds": 4.201202392578125,
+    "per_sample_times": [
+      4.201202392578125,
+      1.2896559238433838,
+      1.6674509048461914,
+      1.3648548126220703,
+      1.794818639755249,
+      2.176788806915283,
+      2.140129566192627,
+      1.8761425018310547,
+      1.1907227039337158,
+      2.105046033859253
+    ]
+  },
+  "results": [
+    {
+      "sample_idx": 0,
+      "comic_no": "0",
+      "page_no": 1,
+      "panel_no": 3,
+      "ground_truth": "",
+      "prediction": "The girl is holding an open package with her hands visible. It appears she has been giving or receiving something valuable.\n\n---\n\nGirl (looking at boy): \"Oh, thanks for the nice gift, I appreciate it.\"\nBoy (smiling): \"No problem; it's great to have friends who enjoy thoughtful presents!\"",
+      "inference_time_seconds": 4.201202392578125
+    },
+    {
+      "sample_idx": 1,
+      "comic_no": "0",
+      "page_no": 1,
+      "panel_no": 4,
+      "ground_truth": "",
+      "prediction": "The young girl wears her watch over her wrist while sitting beside an older lady who reads to her. In the image before this one, they are both looking at photos together.",
+      "inference_time_seconds": 1.2896559238433838
+    },
+    {
+      "sample_idx": 2,
+      "comic_no": "0",
+      "page_no": 1,
+      "panel_no": 5,
+      "ground_truth": "",
+      "prediction": "The girl is giving her friend some new watch pictures to sell at his store. The boy is looking surprised with an engaging expression. In the next cell, he'll likely be asking for more information or discussing potential sales strategies using these pictures.",
+      "inference_time_seconds": 1.6674509048461914
+    },
+    {
+      "sample_idx": 3,
+      "comic_no": "0",
+      "page_no": 1,
+      "panel_no": 6,
+      "ground_truth": "",
+      "prediction": "The girl is holding up her new watch to the boy, who is looking intently at the timepiece. She asks excitedly, \"What's your favorite time for watching movies?\"",
+      "inference_time_seconds": 1.3648548126220703
+    },
+    {
+      "sample_idx": 4,
+      "comic_no": "0",
+      "page_no": 2,
+      "panel_no": 0,
+      "ground_truth": "",
+      "prediction": "In your next panel, the woman is standing in front of her mailbox wearing an apron while she looks at something inside. The man beside her is holding his pocket watch with an interested expression. They seem to be receiving some important mail or discussing their plans for the day.",
+      "inference_time_seconds": 1.794818639755249
+    },
+    {
+      "sample_idx": 5,
+      "comic_no": "0",
+      "page_no": 2,
+      "panel_no": 1,
+      "ground_truth": "",
+      "prediction": "Panel 1 - Wilson Chemical Company advertisement with man's head being blown up by plastic explosives.\n```vbnet\nMan 1: \"Oh my gosh! My head just exploded!\"  \nExplosive object: \"Yeah, we knew you needed more than just lip service...\"\n```",
+      "inference_time_seconds": 2.176788806915283
+    },
+    {
+      "sample_idx": 6,
+      "comic_no": "0",
+      "page_no": 3,
+      "panel_no": 0,
+      "ground_truth": "",
+      "prediction": "Panel 1 - The man is jumping with his hands above him during an action scene, while other people watch or engage in different activities such as talking to each other, walking around, and making calls. This scene could be from a comic book or graphic novel involving superheroes or crime-fighters.",
+      "inference_time_seconds": 2.140129566192627
+    },
+    {
+      "sample_idx": 7,
+      "comic_no": "0",
+      "page_no": 3,
+      "panel_no": 1,
+      "ground_truth": "",
+      "prediction": "The man is holding metal tools while working with an object inside his workshop. He has two guns nearby, one towards the right side of the room and another closer to the center. There are also several books scattered around the floor and desk, likely containing instructions or reference material for his projects.",
+      "inference_time_seconds": 1.8761425018310547
+    },
+    {
+      "sample_idx": 8,
+      "comic_no": "0",
+      "page_no": 3,
+      "panel_no": 2,
+      "ground_truth": "",
+      "prediction": "And adjust this here...spring! *knock on wood* (Panel 2) [Insert speech bubble with man's conversation with Plastic Man]",
+      "inference_time_seconds": 1.1907227039337158
+    },
+    {
+      "sample_idx": 9,
+      "comic_no": "0",
+      "page_no": 3,
+      "panel_no": 3,
+      "ground_truth": "",
+      "prediction": "In the next panel, Plastic Man is seen preparing himself for his final test with an amusing expression on his face. He might say something like, \"Now I put this down...and get ready!\" or perhaps express excitement about the challenge ahead by stating something such as, \"And finally we're ready for The Final Test!\"",
+      "inference_time_seconds": 2.105046033859253
+    }
+  ]
+}

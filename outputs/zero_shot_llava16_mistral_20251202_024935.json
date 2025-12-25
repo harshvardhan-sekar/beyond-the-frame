@@ -1,0 +1,181 @@
+{
+  "config": {
+    "test_mode": true,
+    "num_samples": 10,
+    "context_window": 5,
+    "model_id": "llava-hf/llava-v1.6-mistral-7b-hf",
+    "prompt": "You are reading a comic book.\nI will show you the previous panels as images.\nBased on them, write the dialogue and narration that should appear in the NEXT panel of the story.\nKeep it concise and in a natural comic-book style.",
+    "ad_filtering": "enabled - only panels in OCR CSV are used"
+  },
+  "timing": {
+    "total_job_time_seconds": 100.40224361419678,
+    "model_load_time_seconds": 16.118236541748047,
+    "inference_time_seconds": 56.73774456977844,
+    "num_samples": 10,
+    "avg_time_per_sample_seconds": 5.6733551025390625,
+    "min_time_per_sample_seconds": 2.233064651489258,
+    "max_time_per_sample_seconds": 11.536619186401367
+  },
+  "results": [
+    {
+      "sample_idx": 0,
+      "comic_no": 524,
+      "page_no": 2,
+      "panel_no": 3,
+      "ground_truth": "ONE THING AFTER ANOTHER IS DELAYING OUR PICTURES! WE'RE ABOUT TO GO BANKRUPT! I'VE HEARD RUMORS! SOMETHING TO DO WITH THAT \"BOY WONDER\" YOU HIRED?",
+      "prediction": "Next Panel:\n\nNarration: \"The Wonder Dog's senses were heightened! It picked up something unusual...\"\n\nCharacter A: \"What's the matter, boy? Why do you look so serious?\"\n\nWonder Dog (thought bubble): \"Something is not right... I smell smoke coming from the building ahead!\"\n\nNarration: \"The dog's instincts kicked into overdrive!\"\n\nCharacters A & B: (in surprise) \"Smoke?! Should we call for help?\"\n\nWonder Dog: \"No time! Let me take care of this situation.\"\n\n(Wonder Dog leaps forward, barking ferociously.)\n\nNarration: \"Determined to save anyone trapped inside, the Wonder Dog rushes towards the danger!\"\n\nAs the smoke becomes thicker and more alarming, the characters prepare to follow the dog's lead. The tension mounts as they decide their next move. Will they find someone in need or face an unexpected challenge?",
+      "context_texts": [
+        "WONDER ACTION! MY JULY NO.5",
+        "ACTION! MYSTERY! THRILLS! CORPORAL COLLINS INFANTRYMAN JULY NO.5 10\u00a2",
+        "RANG-A-TA THE WONDER D BECAUSE OF HUMAN BRA KEEN EYES. AND UNERRIE SMELL, RAN HAS EARNE WIDE REPL \"THE WONE NOW, ACCOMPANIED BY HIS MASTER, HY SPEED, TECTIVE, RANG-A-TANG ARRIVES IN HOLYWOOD FERENCE WITH MAMMOTH PICTURES, INC.....",
+        "BECAUSE OF HIS ALMOST- HUMAN BRAIN, HIS SUPER- KEEN EYES, SENSITIVE EARS AND UNERRING SENSE OF SMELL, RANG-A-TANG HAS EARNED A NATION- WIDE REPUTATION AS \"THE WONDER DOG.\"",
+        "I ASKED YOU TO COME HERE BECAUSE I WANTED TO SIGN THIS FAMOUS DOG FOR A PICTURE! BUT NOW...... WHAT'S THE TROUBLE, MR. WYNGOLD?"
+      ],
+      "inference_time_seconds": 8.903174877166748
+    },
+    {
+      "sample_idx": 1,
+      "comic_no": 524,
+      "page_no": 2,
+      "panel_no": 4,
+      "ground_truth": "THAT'S RIGHT! NAWSON SWELLES, HIS NAME IS! EVER SINCE HE CAME HERE, AWFUL THINGS HAVE HAPPENED! HM! LET'S HAVE A TALK WITH HIM! C'MON RANG!",
+      "prediction": "The dog wags its tail excitedly. \"Bark! Bark! Bark!\"\nNarration:\n\"The Wonder Dog's super senses were on high alert as he caught wind of an impending danger in Mammoth City.\"\nNext Panel:\nDog (whispers): \"Woof! Woof! Woof! That sounds like trouble, Mr. Wyngold!\"\nMr. Wyngold looks at his watch nervously. \"Uh oh... I have to sign this famous picture about to go bankrupt!\"\nDog: \"Bark! Bark! Bark! Mr. Wyngold, hurry up! We have a mission to save the city from disaster!\"",
+      "context_texts": [
+        "ACTION! MYSTERY! THRILLS! CORPORAL COLLINS INFANTRYMAN JULY NO.5 10\u00a2",
+        "RANG-A-TA THE WONDER D BECAUSE OF HUMAN BRA KEEN EYES. AND UNERRIE SMELL, RAN HAS EARNE WIDE REPL \"THE WONE NOW, ACCOMPANIED BY HIS MASTER, HY SPEED, TECTIVE, RANG-A-TANG ARRIVES IN HOLYWOOD FERENCE WITH MAMMOTH PICTURES, INC.....",
+        "BECAUSE OF HIS ALMOST- HUMAN BRAIN, HIS SUPER- KEEN EYES, SENSITIVE EARS AND UNERRING SENSE OF SMELL, RANG-A-TANG HAS EARNED A NATION- WIDE REPUTATION AS \"THE WONDER DOG.\"",
+        "I ASKED YOU TO COME HERE BECAUSE I WANTED TO SIGN THIS FAMOUS DOG FOR A PICTURE! BUT NOW...... WHAT'S THE TROUBLE, MR. WYNGOLD?",
+        "ONE THING AFTER ANOTHER IS DELAYING OUR PICTURES! WE'RE ABOUT TO GO BANKRUPT! I'VE HEARD RUMORS! SOMETHING TO DO WITH THAT \"BOY WONDER\" YOU HIRED?"
+      ],
+      "inference_time_seconds": 5.0785441398620605
+    },
+    {
+      "sample_idx": 2,
+      "comic_no": 524,
+      "page_no": 2,
+      "panel_no": 5,
+      "ground_truth": "THE WONDER DOG MEETS THE BOY WONDER! IT'S FUNNY THAT THESE ACCIDENTS BEGAN TO HAPPEN WHEN YOU CAME HERE, SWELLES!",
+      "prediction": "**Narrator:** \"The tension mounts as Mr. Swelles leans over to discuss the 'Wonder Dog' situation with an air of skepticism.\"\n\n**Mr. Swelles:** \"Now, I asked you to come here because I wanted to sign this famous picture!\"\n\n**Narrator:** \"He gestures towards a photograph of a dog seemingly caught mid-wondershow act.\"\n\n**Boy Ranger:** \"Yes, sir! It's quite a sight, isn't it?\"\n\n**Mr. Swelles:** \"Well, what do you think, Mr. Wyngold? That dog has earned a nationwide reputation as 'the Wonder Dog,' but now...what happened?\"\n\n**Narrator:** \"As Mr. Wyngold peers into the image, he appears intrigued by the peculiar circumstances surrounding the snapshot.\"\n\n**Mr. Wyngold:** \"Hmmm...let me take a look...\"\n\n**Narrator:** \"[Whispering] \"It seems the boy is up to something!\"\n\n**Boy Ranger:** \"C'mon, Mr. Wyngold! You hired me for my detective skills!\"\n\n**Mr. Wyngold:** (laughs) \"Ah yes, your detective skills! Let's see if they can unravel this mystery!\"\n\n*[Next Panel]*\n\n**Narrator:** \"The detectives investigate further, uncovering more about the mysterious Wonder Dog.\"\n\n**Mr. Swelles:** \"Now, Swell, I need to know everything about this dog, his name, what he does, where did he come from, and especially why he's doing all these tricks!\"\n\n**Boy Ranger:** \"Don't worry, sir! We won't rest until we get answers!\"",
+      "context_texts": [
+        "RANG-A-TA THE WONDER D BECAUSE OF HUMAN BRA KEEN EYES. AND UNERRIE SMELL, RAN HAS EARNE WIDE REPL \"THE WONE NOW, ACCOMPANIED BY HIS MASTER, HY SPEED, TECTIVE, RANG-A-TANG ARRIVES IN HOLYWOOD FERENCE WITH MAMMOTH PICTURES, INC.....",
+        "BECAUSE OF HIS ALMOST- HUMAN BRAIN, HIS SUPER- KEEN EYES, SENSITIVE EARS AND UNERRING SENSE OF SMELL, RANG-A-TANG HAS EARNED A NATION- WIDE REPUTATION AS \"THE WONDER DOG.\"",
+        "I ASKED YOU TO COME HERE BECAUSE I WANTED TO SIGN THIS FAMOUS DOG FOR A PICTURE! BUT NOW...... WHAT'S THE TROUBLE, MR. WYNGOLD?",
+        "ONE THING AFTER ANOTHER IS DELAYING OUR PICTURES! WE'RE ABOUT TO GO BANKRUPT! I'VE HEARD RUMORS! SOMETHING TO DO WITH THAT \"BOY WONDER\" YOU HIRED?",
+        "THAT'S RIGHT! NAWSON SWELLES, HIS NAME IS! EVER SINCE HE CAME HERE, AWFUL THINGS HAVE HAPPENED! HM! LET'S HAVE A TALK WITH HIM! C'MON RANG!"
+      ],
+      "inference_time_seconds": 11.536619186401367
+    },
+    {
+      "sample_idx": 3,
+      "comic_no": 524,
+      "page_no": 2,
+      "panel_no": 6,
+      "ground_truth": "LOTS OF PEOPLE ARE JEALOUS. THEY'D LIKE TO GET RID OF ME!",
+      "prediction": "PANEL 1:\n(The conversation continues)\n\nNarrator: \"Because of this,\" he almost choked up! He couldn't come out with his name.\"\n\nPANEL 2:\n(They all look at each other uneasily)\n\nNarrator: \"But then, what boy wonder isn't funny?\"\n\nPANEL 3:\n(Detective Dog looks surprised)\n\nNarrator: \"He looked at the dog, who had a troubled expression!\"\n\nPANEL 4:\n(The dog growls slightly)\n\nNarrator: \"Why did the Wonder Dog meet 'the boy wonder?'\"\n\nPANEL 5:\n(The detectives look puzzled)\n\nNarrator: \"To find out if the rumors were true!\"\n\nPANEL 6:\n(Wonder Dog barks angrily)\n\nNarrator: \"That's when things got really hairy!\"\n\n(BAM)",
+      "context_texts": [
+        "BECAUSE OF HIS ALMOST- HUMAN BRAIN, HIS SUPER- KEEN EYES, SENSITIVE EARS AND UNERRING SENSE OF SMELL, RANG-A-TANG HAS EARNED A NATION- WIDE REPUTATION AS \"THE WONDER DOG.\"",
+        "I ASKED YOU TO COME HERE BECAUSE I WANTED TO SIGN THIS FAMOUS DOG FOR A PICTURE! BUT NOW...... WHAT'S THE TROUBLE, MR. WYNGOLD?",
+        "ONE THING AFTER ANOTHER IS DELAYING OUR PICTURES! WE'RE ABOUT TO GO BANKRUPT! I'VE HEARD RUMORS! SOMETHING TO DO WITH THAT \"BOY WONDER\" YOU HIRED?",
+        "THAT'S RIGHT! NAWSON SWELLES, HIS NAME IS! EVER SINCE HE CAME HERE, AWFUL THINGS HAVE HAPPENED! HM! LET'S HAVE A TALK WITH HIM! C'MON RANG!",
+        "THE WONDER DOG MEETS THE BOY WONDER! IT'S FUNNY THAT THESE ACCIDENTS BEGAN TO HAPPEN WHEN YOU CAME HERE, SWELLES!"
+      ],
+      "inference_time_seconds": 6.853830575942993
+    },
+    {
+      "sample_idx": 4,
+      "comic_no": 524,
+      "page_no": 3,
+      "panel_no": 0,
+      "ground_truth": "SWELLES LEAVES TO DIRECT A PICTURE! HE'S SHOOTING A WESTERN SEQUENCE ON SET 21! LET'S DROP AROUND AND TAKE A LOOK!",
+      "prediction": "Panel 1:\nNarration: \"Wonder dog tries to warn sveles about the jealous husband's plan!\"\n\nPanel 2:\nDog (to man): \"It\u2019s funny that these accidents began to happen when you came here, Svelles!\"\n\nPanel 3:\nMan: \"Oh, you're just being paranoid.\"\n\nIn the next panel, Wonder Dog would likely continue its investigation or warning, while Sveles might respond with denial or skepticism.",
+      "context_texts": [
+        "I ASKED YOU TO COME HERE BECAUSE I WANTED TO SIGN THIS FAMOUS DOG FOR A PICTURE! BUT NOW...... WHAT'S THE TROUBLE, MR. WYNGOLD?",
+        "ONE THING AFTER ANOTHER IS DELAYING OUR PICTURES! WE'RE ABOUT TO GO BANKRUPT! I'VE HEARD RUMORS! SOMETHING TO DO WITH THAT \"BOY WONDER\" YOU HIRED?",
+        "THAT'S RIGHT! NAWSON SWELLES, HIS NAME IS! EVER SINCE HE CAME HERE, AWFUL THINGS HAVE HAPPENED! HM! LET'S HAVE A TALK WITH HIM! C'MON RANG!",
+        "THE WONDER DOG MEETS THE BOY WONDER! IT'S FUNNY THAT THESE ACCIDENTS BEGAN TO HAPPEN WHEN YOU CAME HERE, SWELLES!",
+        "LOTS OF PEOPLE ARE JEALOUS. THEY'D LIKE TO GET RID OF ME!"
+      ],
+      "inference_time_seconds": 3.881819248199463
+    },
+    {
+      "sample_idx": 5,
+      "comic_no": 524,
+      "page_no": 3,
+      "panel_no": 1,
+      "ground_truth": "ON SET 21, BEAUTIFUL TANA LURNER AWAITS HER GUE..... SALOON",
+      "prediction": "NEXT PANEL:\n\nNarration:\n\"The SWELLES leave, their laughter fading...\nBut I'm not done yet.\nI've got one more surprise!\"\n\nDialogue:\nMan: \"Oh, look! That's my dog meets the boy wonder!\"\nDog: *barking excitedly* \"WONDER RANG...\"\nBoy Wonder: \"Well, hello there... you seem to have misheard my name.\"",
+      "context_texts": [
+        "ONE THING AFTER ANOTHER IS DELAYING OUR PICTURES! WE'RE ABOUT TO GO BANKRUPT! I'VE HEARD RUMORS! SOMETHING TO DO WITH THAT \"BOY WONDER\" YOU HIRED?",
+        "THAT'S RIGHT! NAWSON SWELLES, HIS NAME IS! EVER SINCE HE CAME HERE, AWFUL THINGS HAVE HAPPENED! HM! LET'S HAVE A TALK WITH HIM! C'MON RANG!",
+        "THE WONDER DOG MEETS THE BOY WONDER! IT'S FUNNY THAT THESE ACCIDENTS BEGAN TO HAPPEN WHEN YOU CAME HERE, SWELLES!",
+        "LOTS OF PEOPLE ARE JEALOUS. THEY'D LIKE TO GET RID OF ME!",
+        "SWELLES LEAVES TO DIRECT A PICTURE! HE'S SHOOTING A WESTERN SEQUENCE ON SET 21! LET'S DROP AROUND AND TAKE A LOOK!"
+      ],
+      "inference_time_seconds": 3.8069674968719482
+    },
+    {
+      "sample_idx": 6,
+      "comic_no": 524,
+      "page_no": 3,
+      "panel_no": 2,
+      "ground_truth": "SHE'S OUR HIGH- EST PAID ACT- RESS, SPEED! AN LOY GENERAL MERCHANT WHEW! SHE'S CERTAINLY PRETTY! EH, RANG? SUDDENLY, A SHOT RINGS OUT AND.... THE HORSE BREAKS AWAY!",
+      "prediction": "Next Panel:\n(SWELLLES LEAVES ON SET 21!)\n\nNarration:\n\"Wonder Dog meets the boy wonder!\"\n\nCharacters:\n\nGus (excited):\n\"Hey buddy! What's up? You look like you just came from a big adventure!\"\n\nBoy Wonder:\n\"Yeah, I heard something strange about the Western Sequence.\"\n\nWonder Dog:\n\"Swelles! That sounds exciting. Can you tell me more?\"\n\nGus:\n\"Well, there was some talk about a new set directed by Saloon Sam...\"\n\nWonder Boy (intrigued):\n\"Saloon Sam? The legendary director?! Wow, this could be amazing!\"\n\nWonder Dog (brightening eyes):\n\"Let's not miss our chance to see what he has planned!\"\n\nNext Panel:\n\nWonder Dog:\n\"C'mon Gus, let's go check it out!\"\n\nGus' response is cut off as they exit panel with their backs turned to each other, looking forward eagerly.",
+      "context_texts": [
+        "THAT'S RIGHT! NAWSON SWELLES, HIS NAME IS! EVER SINCE HE CAME HERE, AWFUL THINGS HAVE HAPPENED! HM! LET'S HAVE A TALK WITH HIM! C'MON RANG!",
+        "THE WONDER DOG MEETS THE BOY WONDER! IT'S FUNNY THAT THESE ACCIDENTS BEGAN TO HAPPEN WHEN YOU CAME HERE, SWELLES!",
+        "LOTS OF PEOPLE ARE JEALOUS. THEY'D LIKE TO GET RID OF ME!",
+        "SWELLES LEAVES TO DIRECT A PICTURE! HE'S SHOOTING A WESTERN SEQUENCE ON SET 21! LET'S DROP AROUND AND TAKE A LOOK!",
+        "ON SET 21, BEAUTIFUL TANA LURNER AWAITS HER GUE..... SALOON"
+      ],
+      "inference_time_seconds": 7.192698955535889
+    },
+    {
+      "sample_idx": 7,
+      "comic_no": 524,
+      "page_no": 3,
+      "panel_no": 3,
+      "ground_truth": "STOP 'EM! SHE'LL BE KILLED! HELP! HELP!",
+      "prediction": "SHE'S LEAVING HER GUESS... AND THE BODY BAG ON SET 21! BUT IS THAT ALL? STAY TUNED FOR MORE DRAMA AND ENTERTAINMENT!",
+      "context_texts": [
+        "THE WONDER DOG MEETS THE BOY WONDER! IT'S FUNNY THAT THESE ACCIDENTS BEGAN TO HAPPEN WHEN YOU CAME HERE, SWELLES!",
+        "LOTS OF PEOPLE ARE JEALOUS. THEY'D LIKE TO GET RID OF ME!",
+        "SWELLES LEAVES TO DIRECT A PICTURE! HE'S SHOOTING A WESTERN SEQUENCE ON SET 21! LET'S DROP AROUND AND TAKE A LOOK!",
+        "ON SET 21, BEAUTIFUL TANA LURNER AWAITS HER GUE..... SALOON",
+        "SHE'S OUR HIGH- EST PAID ACT- RESS, SPEED! AN LOY GENERAL MERCHANT WHEW! SHE'S CERTAINLY PRETTY! EH, RANG? SUDDENLY, A SHOT RINGS OUT AND.... THE HORSE BREAKS AWAY!"
+      ],
+      "inference_time_seconds": 2.233064651489258
+    },
+    {
+      "sample_idx": 8,
+      "comic_no": 524,
+      "page_no": 3,
+      "panel_no": 4,
+      "ground_truth": "THE HORSE WILL CRASH INTO THE PAINTED BACKDROP ON THE WALL! GET 'EM, RANG!",
+      "prediction": "PANEL TEXT:\n\n[Woman's face appears, showing shock or fear.]\n\nNarrator: \"She looked up! Her eyes widened!\"\n\nDialogue:\n\"Oh my heavens... THE HORSE BREAKS LOOKE!!!!\" (This is said with an exclamation mark to indicate surprise.)\n\n[The horse starts to panic and reacts to something off-panel.]",
+      "context_texts": [
+        "LOTS OF PEOPLE ARE JEALOUS. THEY'D LIKE TO GET RID OF ME!",
+        "SWELLES LEAVES TO DIRECT A PICTURE! HE'S SHOOTING A WESTERN SEQUENCE ON SET 21! LET'S DROP AROUND AND TAKE A LOOK!",
+        "ON SET 21, BEAUTIFUL TANA LURNER AWAITS HER GUE..... SALOON",
+        "SHE'S OUR HIGH- EST PAID ACT- RESS, SPEED! AN LOY GENERAL MERCHANT WHEW! SHE'S CERTAINLY PRETTY! EH, RANG? SUDDENLY, A SHOT RINGS OUT AND.... THE HORSE BREAKS AWAY!",
+        "STOP 'EM! SHE'LL BE KILLED! HELP! HELP!"
+      ],
+      "inference_time_seconds": 3.43198823928833
+    },
+    {
+      "sample_idx": 9,
+      "comic_no": 524,
+      "page_no": 3,
+      "panel_no": 5,
+      "ground_truth": "BUT RANG-A-TANG IS ALREADY ON HIS WAY!",
+      "prediction": "In the next panel:\n\nShe's surprised, \"Whew! She's definitely not what I expected!\"\n\nHe looks at her skeptically, \"Stop 'em... help?\" \n\nNarration: \"It seems our guest has been mistaken for someone else.\"\n\nShe tries to explain, \"No, I'm just an old west saloon girl from Dodge...\"\n\nThey all look at each other with confusion. The horse, standing nearby, appears curious about the situation.",
+      "context_texts": [
+        "SWELLES LEAVES TO DIRECT A PICTURE! HE'S SHOOTING A WESTERN SEQUENCE ON SET 21! LET'S DROP AROUND AND TAKE A LOOK!",
+        "ON SET 21, BEAUTIFUL TANA LURNER AWAITS HER GUE..... SALOON",
+        "SHE'S OUR HIGH- EST PAID ACT- RESS, SPEED! AN LOY GENERAL MERCHANT WHEW! SHE'S CERTAINLY PRETTY! EH, RANG? SUDDENLY, A SHOT RINGS OUT AND.... THE HORSE BREAKS AWAY!",
+        "STOP 'EM! SHE'LL BE KILLED! HELP! HELP!",
+        "THE HORSE WILL CRASH INTO THE PAINTED BACKDROP ON THE WALL! GET 'EM, RANG!"
+      ],
+      "inference_time_seconds": 3.8148436546325684
+    }
+  ]
+}

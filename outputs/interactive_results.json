@@ -1,0 +1,32 @@
+[
+  {
+    "example": 1,
+    "comic": 524,
+    "ground_truth": "ONE THING AFTER ANOTHER IS DELAYING OUR PICTURES! WE'RE ABOUT TO GO BANKRUPT! I'VE HEARD RUMORS! SOMETHING TO DO WITH THAT \"BOY WONDER\" YOU HIRED?",
+    "prediction": "NARRATION: (In bold letters) Meanwhile, back at their secret hideout, Corporal Collins receives an urgent message from Mr. Wyngold! The nation is in danger! It's time for the Wonder Dog to spring into action!\n\nCORPORAL COLLINS: (Alertly, with emphasis) \"Good grief! Something odd is going down!\"\n\nMR. WYNGOLD: (Serious) \"Corporal Collins, we need Rex's super sense of smell and keen eyesight for this mission.\"\n\nCORPORAL COLLINS: (Determined) \"Understood! I won't let you down, sir. Let's get started right away!\"\n\nNarration: (As Rex leaps off his perch) \"The Wonder Dog is ready to sniff out any trouble and bring it to heel!\"\n\n(Next Panel:) CORPORAL COLLINS: \"Now, Corporal Collins, what's the plan?\"\n\nMR. WYNGOLD: \"First things first. We must sign this famous picture to gain access to the top-secret information. Then, we'll find out where the mastermind behind all this is hiding and bring him to justice!\"\n\nCORPORAL COLLINS: \"Understood, sir. Rex and I are on it!\""
+  },
+  {
+    "example": 2,
+    "comic": 524,
+    "ground_truth": "THAT'S RIGHT! NAWSON SWELLES, HIS NAME IS! EVER SINCE HE CAME HERE, AWFUL THINGS HAVE HAPPENED! HM! LET'S HAVE A TALK WITH HIM! C'MON RANG!",
+    "prediction": "(In the background)\n\"Wonder Dog! You're looking good!\" -Man at desk\n\"That's because I had my annual checkup with Doc Mammoth.\" -Wonder Dog\n(In the foreground)\n\"Well, there's something new about this place... 'The Wonder Dog!' What's going on here?\" -Corporal Collins\n\"Quiet, Corporal. It's just the mascot for our publicity campaign.\" -Man in suit\n(Narrative panel)\n\"CORPORAL COLLINS: The dog is smarter than we expected and has earned a nationwide reputation as \u2018THE WONDER DOG\u2019.\"\nNEXT PANEL:\n\"Now, one thing after another is delayed...\" -Corporal Collins\n\"Because of his almost human brain, eyes, senses, and underworld connections...\" -Wonder Dog\n\"Something about that boy Wonder...\" -Man in suit, smiling nervously"
+  },
+  {
+    "example": 3,
+    "comic": 524,
+    "ground_truth": "THE WONDER DOG MEETS THE BOY WONDER! IT'S FUNNY THAT THESE ACCIDENTS BEGAN TO HAPPEN WHEN YOU CAME HERE, SWELLES!",
+    "prediction": "Narration: \"The meeting concluded with an unexpected twist.\"\n\nDialogue: \"Um... I'll get right on those.\" (Nosey man looking at his watch)\n\"Wow! That's quite out of the ordinary!\" (Surprised look from the other character)\n\"Indeed, this was no routine appointment...\" (A pause for dramatic effect)\n\"It seems our dog has earned himself a nationwide reputation...\" (Smirking man gesturing towards the dog)\n\"Now, what's next?\" (Man leaning back with a smirk)\n\"And how did we end up here?!\" (Dog looking intrigued by the conversation)"
+  },
+  {
+    "example": 4,
+    "comic": 524,
+    "ground_truth": "LOTS OF PEOPLE ARE JEALOUS. THEY'D LIKE TO GET RID OF ME!",
+    "prediction": "Panel description:\nIn this next panel, we see our hero, Swell's, face with shock or surprise. The speech bubble reads: \"Look out, Swell's! Here comes trouble!\" Meanwhile, the two men at the desk look up, startled by the sudden appearance of Swell's. One of the men reaches for his tie, adjusting it nervously. Swell's, still in motion from running into the room, looks determined and ready to confront whatever threat has just appeared."
+  },
+  {
+    "example": 5,
+    "comic": 524,
+    "ground_truth": "SWELLES LEAVES TO DIRECT A PICTURE! HE'S SHOOTING A WESTERN SEQUENCE ON SET 21! LET'S DROP AROUND AND TAKE A LOOK!",
+    "prediction": "Next Panel:\n\nNarration: \"The men exchange puzzled glances, unsure what to make of this unexpected encounter.\"\n\nDialogue:\nMan (swelling): \"Well... I suppose we should do something about this?\"\nMan (wondering dog): \"But what? It's not like they can just go back to where they came from!\"\nMan (confused): \"Indeed! Perhaps we should call someone...\"\n\n(Both men look at each other nervously)"
+  }
+]

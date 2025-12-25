@@ -1,0 +1,129 @@
+{
+  "metadata": {
+    "model": "llava-hf/llama3-llava-next-8b-hf",
+    "prompt_mode": "images_with_text",
+    "num_examples": 5,
+    "successful": 5,
+    "failed": 0,
+    "timestamp": "2025-12-04T02:47:16.793796",
+    "generation_config": {
+      "max_new_tokens": 450,
+      "temperature": 0.4,
+      "do_sample": true,
+      "top_p": 0.9,
+      "repetition_penalty": 1.15
+    }
+  },
+  "results": [
+    {
+      "id": 1,
+      "comic_no": 1227,
+      "ground_truth": "AND HIDDEN BENEATH THE FIERY BRUSH... I TOLD YOU THAT WET TARPAULIN'D KEEP THE STUFF OFF US LONG ENOUGH. SHE'S REALLY PUTTING ON A SHOW. GET READY WITH THOSE SMOKE BOMBS. WE'RE IN THE STOCKADE- LISTEN!",
+      "prediction": "deep",
+      "inference_time": 3.1922905445098877,
+      "context_texts": [
+        "And deep in the jungle next day, a throbbing drum brought the golden goddess speeding to the Wazuli stockade.",
+        "GER GIRL-BUT SHE MES ALONE! LITTLE PRINCESS, HAVE ABDOLA D YOUR PETS FALLEN EY TO THE JACKAL PLAGUE? NO, THEY FOLLOW CLOSE BEHIND, CHIEF NYZAMBI, BUT- HO! THE MASAI, UGANDA AND BAMBUTI CHIEFTAINS ALL ASSEMBLED... WALLAH! THE WEALTH OF A SCORE OF TEMPLES! AYE, GOLDEN ONE-WE FEAR THAT I SHALL",
+        "ARE THESE NOT THE TREASURES OF ALL YOUR TRIBES, FRIENDS? AYE, GOLDEN ONE-WE FE. THE KILLER KING CALLED BARTON. AND FOR THAT REASON WE ASK YOUR AID- THAT YOU TAKE THEM DOWN RIVER TO SAFETY. A NATIVE WAR PARTY- THEY ATTACKED WITH FLAMING ARROWG! THEY'RE ON",
+        "THAT I SHALL GLADLY DO, HONORED CHIEFTAINS. WITH THE DISTRICT COMMISSIONER THEY SHALL BE SAFE UNTIL THIS JACKAL IS CAPTURED, BUT LISTEN- BEHOLD, THE WAGON OF A BWANA-SAN! HER BEASTS RUN WILD- AND HIDDEN BENEATH",
+        "A NATIVE WAR PARTY- THEY ATTACKED WITH FLAMING ARROWS! THEY'RE ON MY TRAIL. WAIT- DON'T CLOSE THOSE GATES! HELP ME- YOU MUST!"
+      ],
+      "target_image_path": "/scratch/bftl/hsekar/comics_project/data/images/1227/7_5.jpg",
+      "context_image_paths": [
+        "/scratch/bftl/hsekar/comics_project/data/images/1227/7_0.jpg",
+        "/scratch/bftl/hsekar/comics_project/data/images/1227/7_1.jpg",
+        "/scratch/bftl/hsekar/comics_project/data/images/1227/7_2.jpg",
+        "/scratch/bftl/hsekar/comics_project/data/images/1227/7_3.jpg",
+        "/scratch/bftl/hsekar/comics_project/data/images/1227/7_4.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "comic_no": 199,
+      "ground_truth": "THE BOGVETCH HAS BEEN RESTORED BY HER TALISMAN TO YOUTH AND BEAUTY, BUT A TOUCH OF THE STONE HAS HAD AN OPPOSITE EFFECT ON THE EVIL MARSH QUEEN. FORGIVE ME, \u03a4\u0391\u039d\u0399\u0391! \u2014 BE MERCIFUL! \u2014 I WILL DO ANYTHING \u2014 BUT DO NOT LEAVE ME LIKE THIS. YOU DARE TO ASK MERCY OF ME, DAGMAR?",
+      "prediction": "You\nYou\nAfter\nafter\nYou\nYou\nYou\nYou\nT\nYou\nYou\nYou\nYou\nYou\nAfter\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nB\nYou\nThe\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nQueen\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nF\nYou\nYou\nYou\nyou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nWhat\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nT\nYou\nYou\nYou\nYou\nTHE\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nA\nYou\nYou\nYou\nYou\nYou\nYou\nT\nYou\nYou\nYou\nYou\nYou\nR\nA\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nY\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nU\nYou\nYou\nYou\nA\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nYou\nWoman\nYou\nYou\nYou",
+      "inference_time": 13.523013830184937,
+      "context_texts": [
+        "YES, I HAVE COME BACK, QUEEN -IT HAS A CERTAIN POWER, AFTER ALL-NOW WE WILL SEE WHAT IT WILL DO FOR YOU. \u03a4\u0391\u039d\u0399\u0391/-YOU HAVE COME BACK! --NO-NO-KEEP YOUR",
+        "SUDDENLY-BLINDING RAYS SHOOT FROM THE STONE AND SHE IS ENVELOPED IN A DAZZLING LIGHT. LOOK, LUGOFF/- LOOK/ -SHE'S GROWING YOUNG! INSTANTLY, BEFORE THEIR EYES THE EVIL. QUEEN SHRIVELS INTO A HIDEOUS OLD WOMAN...",
+        "AT THE COMMAND OF THE TRANSFORMED BOGVETCH, LUGOFF FORCES THE EVIL QUEEN'S FINGERS DOWN ONTO THE BLAZING STONE. BLAST YOU!-LET- LET ME GO-A-AH! NOT THIS, TANIA!- ANYTHING ELSE BUT",
+        "I HAVE WAITED MANY YEARS, DAGMAR, TO REPAY THE SUFFERING YOU HAVE CAUSED ME-NOW IT 15 YOUR TURN! WILL GO AWAY-BUT GIVE ME BACK MY YOUTH!",
+        "YOU STOLE MY KINGDOM AND THE MAN I LOVED-DOOMED ME TO YEARS OF MISERY--OUT OF MY SIGHT AND BE GRATEFUL THAT YOUR PUNISHMENT IS NO WORSE! DO NOT FEAR - THE CATS EYE WILL"
+      ],
+      "target_image_path": "/scratch/bftl/hsekar/comics_project/data/images/199/25_1.jpg",
+      "context_image_paths": [
+        "/scratch/bftl/hsekar/comics_project/data/images/199/24_0.jpg",
+        "/scratch/bftl/hsekar/comics_project/data/images/199/24_1.jpg",
+        "/scratch/bftl/hsekar/comics_project/data/images/199/24_2.jpg",
+        "/scratch/bftl/hsekar/comics_project/data/images/199/24_3.jpg",
+        "/scratch/bftl/hsekar/comics_project/data/images/199/25_0.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "comic_no": 54,
+      "ground_truth": "--- AT ONCE, THEY ASSUME THEIR OWN DUTIE YOU TAKE THE MOTOR, AND I'LL MAN THE PERISCOPE. WE CAN RUN THIS IF THE JAPS CAN! O.K., SKIPPER! IT'S FULL SPEED AHE ... LET'S GET TO SER QUICK!",
+      "prediction": "well\nwell\nWell\n C\n Well\nC\nY\nC\nF\nFE\n F\nCO\n well\nC\nwell\nHEAD\n A\nc well\n A\n Well\nC\n C\nC\nT\nC\nC\nC\nwell\neh\nthe\nF\nC\n C\nC\na",
+      "inference_time": 3.6756539344787598,
+      "context_texts": [
+        "SOME STRATEGY, EH? IT SEEMS WE HAVE WON WHAT THEY CALL A \"BEACH HEAD\" YEP! NOW TO GET TO THAT COVE! THAT'S A OF ONE-M SHIPS W TORPED",
+        "KING UP JAP RIFLES, THE TWO LADS TRY SOME SHOOTING! THAT'S A WHOLE FLOTILLA OF ONE-MAN \"SUICIDE\" SHIPS WITH A BUILT-IN TORPEDO FORWARD! WELL, LET'S AIM AT THEIR NOSES, AND THEY'LL BLOW UP! THE LEFT ONE'S MINE!",
+        "AS IF DOOMED BY A GHOST HAND, THE SMALL SUBS BURST APART AT THEIR MOORINGS... SOME CREWS TRY TO ESCAPE... BUT-- AAH! \u81ea\u4e91 BLAM! BLAM!",
+        "BURST BUT-- AS THE JAPS FLEE INLAND, DICK AND SIMBA ATTEMPT A STRATEGIC MOVE - - RUN FOR THAT LAST FLOATING SUB, SIMBA! MAYBE WE CAN GET AWAY WITH IT! THAT'S THE ONE I PICKED OUT! LET'S GO!",
+        "QUICKLY, THEY OPEN THE HATCH ---- CLIMB DOWN, AND ---- NOT SO BAD, EH SIMBA? DOWN THE HATCH! MAYBE THIS IS LIKE A REGULAR SUBMARINE..."
+      ],
+      "target_image_path": "/scratch/bftl/hsekar/comics_project/data/images/54/13_1.jpg",
+      "context_image_paths": [
+        "/scratch/bftl/hsekar/comics_project/data/images/54/12_2.jpg",
+        "/scratch/bftl/hsekar/comics_project/data/images/54/12_3.jpg",
+        "/scratch/bftl/hsekar/comics_project/data/images/54/12_4.jpg",
+        "/scratch/bftl/hsekar/comics_project/data/images/54/12_5.jpg",
+        "/scratch/bftl/hsekar/comics_project/data/images/54/13_0.jpg"
+      ]
+    },
+    {
+      "id": 4,
+      "comic_no": 1396,
+      "ground_truth": "",
+      "prediction": "T\nC\nL\nV\nB\nC\nF\nM\nC\nH\nK\nB\nH\nC\nB\nFlood: \"I\nL\nT\nE\nR\nF\nL\nL\nC\nC\nM\nT\nB\nT\nC\nH: \"G\nP\nC\nR\nC\nC\nF\nC\nB: \"H\nC: \"F: \"H: \"U\nC\nF: \"H: \"A\nC: \"H: \"H: \"A\nC\nC\nC\nH: \"H: \"H: \"H: \"A\nC\nF: \"C: \"H: \"H: \"H: \"H: \"A\nC: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"H: \"",
+      "inference_time": 12.845601558685303,
+      "context_texts": [
+        "WHOMP!",
+        "THEY'RE ALL DEAD... EVERY LAST ONE OF THE CREW! HANGMAN! LOOK, I FOUND THE LOG BOOK!",
+        "HIS CRIMES RECORDED HERE! CRIMES COMMITTED IN THE 15TH CENTURY! DO YOU REALLY THINK IT'S TRUE HANGMAN?",
+        "JOEY. IT ALL SOUNDS SO FANTAS- TIC, AND YET.... JOEY! WATCH OUT! THAT MAST! IT'S TOPPLING OUR WAY!",
+        "JUMP! THE WHOLE SHIP IS CRACKING UP. IT'LL SINK ANY MINUTE!"
+      ],
+      "target_image_path": "/scratch/bftl/hsekar/comics_project/data/images/1396/37_2.jpg",
+      "context_image_paths": [
+        "/scratch/bftl/hsekar/comics_project/data/images/1396/36_7.jpg",
+        "/scratch/bftl/hsekar/comics_project/data/images/1396/36_8.jpg",
+        "/scratch/bftl/hsekar/comics_project/data/images/1396/36_9.jpg",
+        "/scratch/bftl/hsekar/comics_project/data/images/1396/37_0.jpg",
+        "/scratch/bftl/hsekar/comics_project/data/images/1396/37_1.jpg"
+      ]
+    },
+    {
+      "id": 5,
+      "comic_no": 508,
+      "ground_truth": "WE CAN'T JUST WALK INTO THE CONCENTRA TION CAMP AND TAKE MY FATHER' THAT'S EXACTLY WHAT WE WILL DO'",
+      "prediction": "The\na\nthe\nyou\nsh",
+      "inference_time": 2.029726028442383,
+      "context_texts": [
+        "A FEW MINUTES LATER THE TANK IS CAMOFLAGED WITH SHRUBBERY.... YOU'D NEVER SUS- PECT A TANK WAS HIDDEN THERE! GOSH! THOSE JAPS ARE YELLING THEIR HEADS OFF, IN THAT TANK!",
+        "THE BOYS THEN RETURN TO THE KNOCKED OUT JAPS WHERE THEY GATHER UP ALL THE GUNS AND AMMUNITIONS WE MADE A WONDERFUL HAUL! WE CAN USE EVERYTHING - ESPECIALLY THE AMMUNITION!",
+        "I FEEL WONDERFUL, WING! YOU KNOW THERE'S NO- THING LIKE A GOOD SCRAP TO PEP YOU UP! TRUE, BUT OUR HARDEST FIGHT LIES AHEADI",
+        "SUNDOWN - FIND THE DYS ON LONELY ATEAU OKING OWN.. THERE'S THE JAP CAMPI",
+        "WING, HAVE YOU ANY IDEA HOW WE CAN RESCUE DAD?"
+      ],
+      "target_image_path": "/scratch/bftl/hsekar/comics_project/data/images/508/41_4.jpg",
+      "context_image_paths": [
+        "/scratch/bftl/hsekar/comics_project/data/images/508/40_5.jpg",
+        "/scratch/bftl/hsekar/comics_project/data/images/508/41_0.jpg",
+        "/scratch/bftl/hsekar/comics_project/data/images/508/41_1.jpg",
+        "/scratch/bftl/hsekar/comics_project/data/images/508/41_2.jpg",
+        "/scratch/bftl/hsekar/comics_project/data/images/508/41_3.jpg"
+      ]
+    }
+  ]
+}
