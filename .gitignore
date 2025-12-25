@@ -8,7 +8,6 @@
 # checkpoints/ - allowing LoRA adapters
 checkpoints/**/checkpoint-*/
 model_cache/
-*.safetensors
 *.bin
 *.pt
 *.pth
