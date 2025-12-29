@@ -422,7 +422,7 @@ comics-cloze-vlm/
 ├── 📁 envs/                              # Environment files
 │   └── environment.yml                       # Conda environment
 │
-├── 📁 data/                              # Data Preparation and Pickle Files (Actual Panel Images in Google Drive)
+├── 📁 data/                              # Data Preparation and Pickle Files
 ├── 📁 checkpoints/                       # Model checkpoints 
 ├── 📁 outputs/                           # Results 
 └── 📁 logs/                              # Training logs 
